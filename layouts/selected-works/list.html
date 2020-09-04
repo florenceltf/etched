@@ -1,19 +1,33 @@
+{{ define "header" }}
+<header>
+  <nav>
+    <a href="/selected-works/">Selected Works</a>
+    <a href="/info/">Info & Contact</a>
+  </nav>
+
+  <div class="logo">
+    <a href="/">
+      <img src="/images/etched-logo.svg" alt="Etched Projects" />
+    </a>
+  </div>
+</header>
+{{ end }}
+
 {{ define "main" }}
 <main>
+  <section class="selected">
 
-  <h2>Template: /layouts/selected-works/list.html</h2>
+    {{ range .Pages.GroupByParam "category" }}
 
-  {{ range .Pages.GroupByParam "category" }}
+    <h3>{{ .Key }}</h3>
 
-  <h3>{{ .Key }}</h3>
+    <ul>
+      {{ range .Pages }}
+      <li><a href="{{.Permalink}}">{{.Title}}</a></li>
+      {{ end }}
+    </ul>
 
-  <ul>
-  {{ range .Pages }}
-    <li><a href="{{.Permalink}}">{{.Title}}</a></li>
-  {{ end }}
-  </ul>
-
-  {{ end }}
-
+    {{ end }}
+  </section>
 </main>
 {{ end }}
