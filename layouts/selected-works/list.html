@@ -1,0 +1,19 @@
+{{ define "main" }}
+<main>
+
+  <h2>Template: /layouts/selected-works/list.html</h2>
+
+  {{ range .Pages.GroupByParam "category" }}
+
+  <h3>{{ .Key }}</h3>
+
+  <ul>
+  {{ range .Pages }}
+    <li><a href="{{.Permalink}}">{{.Title}}</a></li>
+  {{ end }}
+  </ul>
+
+  {{ end }}
+
+</main>
+{{ end }}

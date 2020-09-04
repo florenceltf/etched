@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="{{ .Site.Language.Lang }}">
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>
+    {{ block "title" . }}
+      {{ .Site.Title }}
+    {{ end }}
+  </title>
+  <link rel="stylesheet" href="{{ "css/style.css" | relURL }}">
+  <link rel="icon" href="{{ "img/favicon.png" | relURL }}" type="image/png" sizes="16x16">
+</head>
+
+<body>
+  {{ block "header" . }}
+  <header>
+    <div class="title">
+      <a href="/">
+        <h1>{{ .Site.Title }}</h1>
+      </a>
+    </div>
+    <nav>
+      <ul>
+      <li><a href="/selected-works">Selected Works</a></li>
+      <li><a href="/info">Info & Contact</a></li>
+    </nav>
+  </header>
+  {{ end }}
+
+  {{ block "main" . }}
+    {{ .Content }}
+  {{ end }}
+
+  {{ block "footer" . }}{{ end }}
+</body>
+
+</html>

@@ -1,0 +1,10 @@
+{{ define "main" }}
+<h2>Template: /layouts/_default/list.html</h2>
+<main>
+  <ul>
+  {{ range .Pages }}
+    <li><a href="{{.Permalink}}">{{.Title}}</a></li>
+  {{ end }}
+  </ul>
+</main>
+{{ end }}
