@@ -1,5 +1,19 @@
+{{ define "header" }}
+<header class="project">
+  <nav>
+    <a href="/selected-works/">Selected Works</a>
+    <a href="/info/">Info & Contact</a>
+  </nav>
+
+  <div class="logo">
+    <a href="">
+      <img src="/images/etched-logo.svg" alt="Etched Projects" />
+    </a>
+  </div>
+</header>
+{{ end }}
+
 {{ define "main" }}
-<h2>Template: /layouts/selected-works/single.html</h2>
 <main>
   {{ .Content }}
 </main>
