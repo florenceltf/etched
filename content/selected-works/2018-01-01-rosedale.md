@@ -1,11 +1,7 @@
 ---
 title: Rosedale
-year:
+date:
 client:
 collaborators:
 category: Residential
 ---
-
-- Residential
-- Multi-Residential
-- Commercial

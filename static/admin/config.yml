@@ -1,0 +1,63 @@
+backend:
+  # TODO: name: git-gateway
+  name: github
+  repo: florenceltf/etched
+  branch: master
+
+media_folder: /static/images/uploads/
+public_folder: /images/uploads/
+
+# https://www.netlifycms.org/docs/add-to-your-site/#editorial-workflow
+publish_mode: editorial_workflow
+
+collections:
+  - label: Pages
+    name: pages
+    files:
+      - label: Home
+        name: home
+        file: content/_index.md
+        fields:
+          - label: Title
+            name: title
+            widget: string
+      - label: Info & Contact
+        name: info
+        file: content/info/index.md
+        fields:
+          - label: Title
+            name: title
+            widget: string
+          - label: Body
+            name: body
+            widget: markdown
+
+  - label: Selected Works
+    name: selected-works
+    folder: /content/selected-works/
+    create: true
+    slug: "{{year}}-{{month}}-{{day}}-{{slug}}"
+    fields:
+      - label: Title
+        name: title
+        widget: string
+      - label: Date
+        name: date
+        widget: date
+      - label: Client
+        name: client
+        widget: string
+      - label: Collaborators
+        name: collaborators
+        widget: string
+      - label: Category
+        name: category
+        widget: select
+        multiple: false
+        options:
+          - Residential
+          - Multi-Residential
+          - Commercial
+      - label: Body
+        name: body
+        widget: markdown
