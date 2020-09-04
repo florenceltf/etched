@@ -36,7 +36,7 @@ collections:
     name: selected-works
     folder: /content/selected-works/
     create: true
-    slug: "{{slug}}/index.md"
+    slug: "{{year}}-{{month}}-{{day}}-{{slug}}"
     fields:
       - label: Title
         name: title
