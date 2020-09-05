@@ -1,5 +1,14 @@
 ---
 title: Info & Contact
+services:
+  - Hello
+  - world!
+collaborators:
+  - What
+  - is going on
+contact:
+  - Tonight
+  - tonight
 ---
 Etched creates responsive, enduring works of landscape architecture, that cultivate connections between people and their environments.
 
