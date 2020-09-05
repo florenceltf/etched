@@ -17,6 +17,27 @@ contact:
   - Neometro
   - Builders name
   - Architect
+details:
+  - heading: Services
+    contents: |-
+      Landscape Design\
+      VCAT\
+      Planning
+  - heading: Contact
+    contents: |-
+      7/6 Bromham Place,\
+      Richmond,\
+      Victoria, 3121\
+      @etched_projects\
+      info@etchedprojects.com
+  - heading: Collaborators
+    contents: |-
+      Architect name\
+      Millieue Group\
+      The Block\
+      Neometro\
+      Builders name\
+      Architect
 ---
 Etched creates responsive, enduring works of landscape architecture, that cultivate connections between people and their environments.
 
