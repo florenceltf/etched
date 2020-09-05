@@ -27,7 +27,3 @@ They surprise us— shifting and evolving with the seasons. They evoke the imagi
 We understand that outcomes like this are the result of a shared and collaborative journey between our team, and our network of designers and makers. They care as much as we do. And for that reason, our places feel different.
 
 With every detail a binding thread in a larger story, our places are etched in time.
-
-| Services        | Collaborators  | Contact       |
-| :-------------: | :----------:   | :-----------: |
-| Cell Contents   | More Stuff     | And Again     |
