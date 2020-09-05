@@ -7,7 +7,8 @@ services:
 collaborators:
   - 7/6 Bromham Place
   - Richmond
-  - Victoria 3121
+  - '"Victoria'
+  - 3121"
   - "@etched_projects"
   - info@etchedprojects.com
 contact:
