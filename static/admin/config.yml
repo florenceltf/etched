@@ -18,9 +18,24 @@ collections:
         name: home
         file: content/_index.md
         fields:
-          - label: Title
-            name: title
-            widget: string
+          - label: Gallery
+            name: gallery
+            widget: list
+            fields:
+              - label: Image
+                name: image
+                widget: image
+              - label: Title
+                name: title
+                widget: string
+              - label: Layout
+                name: layout
+                widget: select
+                multiple: false
+                default: Portrait
+                options:
+                  - Landscape
+                  - Portrait
       - label: Info & Contact
         name: info
         file: content/info/index.md
@@ -50,6 +65,7 @@ collections:
       - label: Collaborators
         name: collaborators
         widget: string
+        required: false
       - label: Category
         name: category
         widget: select
@@ -61,3 +77,21 @@ collections:
       - label: Body
         name: body
         widget: markdown
+      - label: Gallery
+        name: gallery
+        widget: list
+        fields:
+          - label: Image
+            name: image
+            widget: image
+          - label: Title
+            name: title
+            widget: string
+          - label: Layout
+            name: layout
+            widget: select
+            multiple: false
+            default: Portrait
+            options:
+              - Landscape
+              - Portrait
