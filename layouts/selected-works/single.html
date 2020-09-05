@@ -16,5 +16,20 @@
 {{ define "main" }}
 <main>
   {{ .Content }}
+
+  <div class="details">
+    <p>Year: {{ .Date.Format "2006" }}</p>
+    <p>Client: {{ .Params.client }}</p>
+
+    {{ if (isset .Params "collaborators") }}
+      <p>Collaborators: {{ .Params.collaborators }}</p>
+    {{ end }}
+  </div>
+
+  <div class="gallery">
+    {{ range .Params.gallery }}
+      <img style="width: 300px" src="{{ .image }}" alt="{{ .title }}" class="{{ .layout }}">
+    {{ end }}
+  </div>
 </main>
 {{ end }}
