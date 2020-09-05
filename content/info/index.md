@@ -1,14 +1,22 @@
 ---
 title: Info & Contact
 services:
-  - Hello
-  - world!
+  - Landscape Design
+  - VCAT
+  - Planning
 collaborators:
-  - What
-  - is going on
+  - 7/6 Bromham Place
+  - Richmond
+  - Victoria 3121
+  - "@etched_projects"
+  - info@etchedprojects.com
 contact:
-  - Tonight
-  - tonight
+  - Architect name
+  - Miliue Group
+  - The Block
+  - Neometro
+  - Builders name
+  - Architect
 ---
 Etched creates responsive, enduring works of landscape architecture, that cultivate connections between people and their environments.
 
