@@ -18,14 +18,24 @@ collections:
         name: home
         file: content/_index.md
         fields:
-          - label: Images
-            name: images
-            widget: image
-            required: false
-            allow_multiple: true
-            media_library:
-              config:
-                multiple: true
+          - label: Gallery
+            name: gallery
+            widget: list
+            fields:
+              - label: Image
+                name: image
+                widget: image
+              - label: Title
+                name: title
+                widget: string
+              - label: Layout
+                name: layout
+                widget: select
+                multiple: false
+                default: Portrait
+                options:
+                  - Landscape
+                  - Portrait
       - label: Info & Contact
         name: info
         file: content/info/index.md
