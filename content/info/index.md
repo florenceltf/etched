@@ -11,6 +11,15 @@ We understand that outcomes like this are the result of a shared and collaborati
 
 With every detail a binding thread in a larger story, our places are etched in time.
 
-| Services      | Collaborators | Contact   |
-| ------------- | ------------- | --------- |
-| Cell Contents | More Stuff    | And Again |
+| Services                         | Collaborators                               | Contact                                                                              |
+| -------------------------------- | ------------------------------------------- | ------------------------------------------------------------------------------------ |
+| Landscape Design\
+VCAT\
+Planning | Architect\
+Builder\
+Milieu Group\
+The Block | 7/6 Bromham Place\
+Richmond\
+Victoria 3121\
+@etchedprojects\
+info@etchedprojects.com |
