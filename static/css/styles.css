@@ -81,6 +81,9 @@ div.logo {
   padding: 34px 44px 0 ;
 }
 
+main {
+  padding: 0 44px 44px 44px
+}
 /* info */
 
 .info-bg {
