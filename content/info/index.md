@@ -1,5 +1,5 @@
 ---
-title: Info & Contact
+title: Information
 ---
 Etched creates responsive, enduring works of landscape architecture, that cultivate connections between people and their environments.
 
@@ -11,6 +11,20 @@ We understand that outcomes like this are the result of a shared and collaborati
 
 With every detail a binding thread in a larger story, our places are etched in time.
 
-| Services        | Collaborators  | Contact       |
-| :-------------: | :----------:   | :-----------: |
-| Cell Contents   | More Stuff     | And Again     |
+| Services                           | Collaborators                                                                                                  | Contact                                                                                                                      |
+| ---------------------------------- | -------------------------------------------------------------------------------------------------------------- | ---------------------------------------------------------------------------------------------------------------------------- |
+| Landscape Design \
+VCAT \
+Planning | Architect\
+Millieu Group\
+The Block\
+Neometro\
+Builder\
+Architect\
+Millieu Group\
+The Block\
+Neometro\
+Builder | 7/6 Bromham Place, \
+Richmond, Victoria, 3121 \
+@etched_projects \
+[info@etchedprojects.com](mailto:info@etchedprojects.com) |
