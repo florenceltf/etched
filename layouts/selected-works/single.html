@@ -2,7 +2,7 @@
 <header class="project">
   <nav>
     <a href="/selected-works/">Selected Works</a>
-    <a href="/info/">Info & Contact</a>
+    <a href="/info/">Information</a>
   </nav>
 
   <div class="logo">
@@ -22,13 +22,13 @@
     <p>Client: {{ .Params.client }}</p>
 
     {{ if (isset .Params "collaborators") }}
-      <p>Collaborators: {{ .Params.collaborators }}</p>
+    <p>Collaborators: {{ .Params.collaborators }}</p>
     {{ end }}
   </div>
 
   <div class="gallery">
     {{ range .Params.gallery }}
-      <img style="width: 300px" src="{{ .image }}" alt="{{ .title }}" class="{{ .layout }}">
+    <img style="width: 300px" src="{{ .image }}" alt="{{ .title }}" class="{{ .layout }}">
     {{ end }}
   </div>
 </main>

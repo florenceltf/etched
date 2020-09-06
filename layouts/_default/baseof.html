@@ -10,16 +10,18 @@
     {{ end }}
   </title>
   <link rel="stylesheet" href="{{ "css/styles.css" | relURL }}">
+  <link rel="stylesheet" href="https://www.jsdelivr.com/package/npm/bulma">
   <link rel="icon" href="{{ "img/favicon.png" | relURL }}" type="image/png" sizes="16x16">
 </head>
 
-<body>
+<body class="{{ block "body-class" . }}{{ end }}">
+
   {{ block "header" . }}
   <header class="fadein">
 
     <nav>
       <a href="/selected-works/">Selected Works</a>
-      <a href="/info/">Info & Contact</a>
+      <a href="/info/">Information</a>
     </nav>
 
   </header>

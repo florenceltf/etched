@@ -1,8 +1,10 @@
+{{ define "body-class" }}info-bg{{ end  }}
+
 {{ define "header" }}
 <header>
   <nav>
     <a href="/selected-works/">Selected Works</a>
-    <a href="/info/">Info & Contact</a>
+    <a href="/info/">Information</a>
   </nav>
 
   <div class="logo">
@@ -14,6 +16,9 @@
 {{ end }}
 {{ define "main" }}
 <main>
+  <div class="info-line-container">
+    <div class="info-line"></div>
+  </div>
   <section class="information">
     {{ .Content }}
   </section>

@@ -1,8 +1,10 @@
+{{ define "body-class" }}selected-bg{{ end  }}
+
 {{ define "header" }}
 <header>
   <nav>
     <a href="/selected-works/">Selected Works</a>
-    <a href="/info/">Info & Contact</a>
+    <a href="/info/">Information</a>
   </nav>
 
   <div class="logo">
@@ -15,6 +17,10 @@
 
 {{ define "main" }}
 <main>
+  <div class="selected-line-container">
+    <div class="selected-line"></div>
+  </div>
+
   <section class="selected">
 
     {{ range .Pages.GroupByParam "category" }}
@@ -29,5 +35,8 @@
 
     {{ end }}
   </section>
+  <div class="description">
+    <p>Insert a beautiful little description here about Raglan.</p>
+  </div>
 </main>
 {{ end }}
