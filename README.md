@@ -2,8 +2,8 @@
 
 - [ ] update CMS for the table on the Information page
 
-- [ ] add project titles to project pages eg. Rosedale to appear on top of paragraph
+- [ ] set up CSS grids
 
 - [ ] create variable for project description on Selected Works page
 
-- [ ] order categories as 'Residential', 'Multi-Residential', 'Commercial'
+- [ ] order categories as 1. 'Residential', 2. 'Multi-Residential', 3. 'Commercial'
