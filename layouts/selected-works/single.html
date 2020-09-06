@@ -15,21 +15,26 @@
 
 {{ define "main" }}
 <main>
-  {{ .Content }}
+  <section class="container">
+    <h2 class="title">{{ .Title }}</h2>
+    {{ .Content }}
 
-  <div class="details">
-    <p>Year: {{ .Date.Format "2006" }}</p>
-    <p>Client: {{ .Params.client }}</p>
+    <div class="details">
+      <p>Year: {{ .Date.Format "2006" }}</p>
+      <p>Client: {{ .Params.client }}</p>
 
-    {{ if (isset .Params "collaborators") }}
-    <p>Collaborators: {{ .Params.collaborators }}</p>
-    {{ end }}
-  </div>
+      {{ if (isset .Params "collaborators") }}
+      <p>Collaborators: {{ .Params.collaborators }}</p>
+      {{ end }}
+    </div>
 
-  <div class="gallery">
-    {{ range .Params.gallery }}
-    <img style="width: 300px" src="{{ .image }}" alt="{{ .title }}" class="{{ .layout }}">
-    {{ end }}
-  </div>
+    <div class="gallery">
+      {{ range .Params.gallery }}
+      <img style="width: 300px" src="{{ .image }}" alt="{{ .title }}" class="{{ .layout }}">
+      {{ end }}
+    </div>
+  </section>
 </main>
+<script src="/js/project.js"></script>
+
 {{ end }}

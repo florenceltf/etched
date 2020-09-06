@@ -56,6 +56,10 @@ collections:
       - label: Title
         name: title
         widget: string
+      - label: URL
+        name: slug
+        widget: string
+        required: false
       - label: Date
         name: date
         widget: date

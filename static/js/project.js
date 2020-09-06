@@ -1,3 +1,24 @@
+const headerTag = document.querySelector("header.project");
+const titleTag = document.querySelector("h2.title");
+
+const toggleHeader = function () {
+  const pixels = window.pageYOffset;
+
+  if (pixels > 85) {
+    headerTag.classList.add("scrolled");
+    titleTag.classList.add("scrolled");
+  } else {
+    headerTag.classList.remove("scrolled");
+    titleTag.classList.remove("scrolled");
+  }
+}
+
+toggleHeader();
+
+document.addEventListener("scroll", function () {
+  toggleHeader();
+})
+
 // const animatedTags = document.querySelectorAll("header nav, .home img")
 
 // animatedTags.forEach(tag => {

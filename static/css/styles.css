@@ -45,7 +45,7 @@ header {
 }
 
 header nav{
-  padding: 44px;
+  padding: 40px 0 20px 40px;
   display: flex;
   font-size: 20px;
 }
@@ -53,6 +53,8 @@ header nav{
 header nav a {
   margin-right: 80px;
   align-items: center;
+  border-bottom: 1px solid transparent;
+  transition: border-bottom .5s;
 }
 
 header nav a:hover{
@@ -80,12 +82,18 @@ div.home {
 div.logo {
   height: 30px;
   width: 140px;
-  padding: 34px 44px 0 ;
+  padding: 34px 40px 0 0;
 }
 
-main {
-  padding: 0 44px 44px 44px
+.logo img {
+  width: 140px;
 }
+
+.container {
+  margin: 150px auto 0 auto;
+  max-width: 650px;
+}
+
 /* info */
 
 .info-bg {
@@ -115,30 +123,23 @@ main {
 table {
   width: 100%;
   margin-top: 80px;
-  font-size: 18px;
+  font-size: 20px;
 }
 
 table th {
   font-weight: normal;
+  padding-bottom: 20px;
 }
 
-table td {
-  padding-top: 20px;
-}
-
-section.information {
-  max-width: 600px;
-  margin: 150px auto auto auto;
-}
-
-section.information p {
-  font-size: 18px;
-}
 
 /* selected works */
 
 .selected-bg {
   background: #8a7244;
+}
+
+header.bg {
+  background: red;
 }
 
 .selected-line-container {
@@ -162,8 +163,6 @@ section.information p {
 }
 
 section.selected {
-  max-width: 600px;
-  margin: 150px auto auto auto;
   text-align: center;
 }
 
@@ -189,6 +188,11 @@ section.selected li:last-child {
   margin-bottom: 20px;
 }
 
+section.selected a{
+  border-bottom: 1px solid transparent;
+  transition: border-bottom .5s;
+}
+
 section.selected a:hover {
   border-bottom: 1px solid black;
 }
@@ -207,7 +211,62 @@ div.description p {
 
 /* projects */
 
-header.project {
-  background: white;
+h2 {
+  font-weight: normal;
+  font-size: 24px;
+  text-align: center;
+  margin: -20px 0 80px 0;
+  position: sticky;
+  top: 40px;
+  transition: font-size 0.25s;
 }
 
+p {
+  margin: 0 0 20px 0;
+  font-size: 20px;
+}
+
+.project {
+  z-index: 0;
+  background: #f2f1e6;
+}
+
+.scrolled h2 {
+  font-size: 20px;
+}
+
+.scrolled {
+  font-size: 20px;
+}
+
+.details {
+  margin: 80px 0 80px 0;
+  text-align: center;
+}
+
+.details p {
+  margin-bottom: 0;
+}
+
+
+
+.cursor:before, .cursor:after {
+  position: absolute;
+  left: 15px;
+  content: ' ';
+  height: 28px;
+  width: 1px;
+  background-color: black;
+}
+
+.cursor:before {
+  transform: rotate(90deg);
+}
+
+.cursor {
+  position: absolute;
+  right: 32px;
+  top: 32px;
+  width: 32px;
+  height: 32px;
+}
