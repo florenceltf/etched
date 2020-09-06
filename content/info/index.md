@@ -11,11 +11,13 @@ We understand that outcomes like this are the result of a shared and collaborati
 
 With every detail a binding thread in a larger story, our places are etched in time.
 
-| Services                           | Collaborators                                                                                                  | Contact                                                                                                                      |
-| ---------------------------------- | -------------------------------------------------------------------------------------------------------------- | ---------------------------------------------------------------------------------------------------------------------------- |
-| Landscape Design \
+| Services\
+Landscape Design \
 VCAT \
-Planning | Architect\
+Planning  | Collaborators | Contact |
+| --------------------------------------------- | ------------- | ------- |
+
+\| | Architect\
 Millieu Group\
 The Block\
 Neometro\
