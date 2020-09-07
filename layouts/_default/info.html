@@ -22,5 +22,11 @@
   <section class="container">
     {{ .Content }}
   </section>
+
+  <div class="details">
+    <p>Services: <div>{{ .Params.services | markdownify }}</div></p>
+    <p>Contact: <div>{{ .Params.contact | markdownify }}</div></p>
+    <p>Collaborators: <div>{{ .Params.collaborators | markdownify }}</div></p>
+  </div>
 </main>
 {{ end }}

@@ -36,15 +36,21 @@ collections:
                 options:
                   - Landscape
                   - Portrait
-      - label: Info & Contact
+      - label: Information
         name: info
         file: content/info/index.md
         fields:
-          - label: Title
-            name: title
-            widget: string
           - label: Body
             name: body
+            widget: markdown
+          - label: services
+            name: services
+            widget: markdown
+          - label: Contact
+            name: contact
+            widget: markdown
+          - label: Collaborators
+            name: collaborators
             widget: markdown
 
   - label: Selected Works
