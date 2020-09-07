@@ -51,7 +51,6 @@ collections:
     name: selected-works
     folder: /content/selected-works/
     create: true
-    slug: "{{year}}-{{month}}-{{day}}-{{slug}}"
     fields:
       - label: Title
         name: title
