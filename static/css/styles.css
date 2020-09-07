@@ -260,6 +260,9 @@ p {
 }
 
 .cursor {
+  position: absolute;
+  top: 0;
+  left: 0;
   background: rgb(53, 51, 51);
   height: 40px;
   position: relative;
