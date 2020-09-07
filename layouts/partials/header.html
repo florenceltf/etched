@@ -1,0 +1,19 @@
+<header class="{{ .class }}">
+  <nav>
+    {{ $currentPage := .context }}
+    {{ range .context.Site.Menus.main }}
+    <a class="nav-item{{if or ($currentPage.IsMenuCurrent "main" .) ($currentPage.HasMenuCurrent "main" .) }} active{{end}}" href="{{ .URL }}" title="{{ .Title }}">{{ .Name }}</a>
+    {{ end }}
+  </nav>
+
+  {{ .Parent }}
+
+
+  {{ if (not .context.IsHome) }}
+  <div class="logo">
+    <a href="/">
+      <img src="/images/etched-logo.svg" alt="Etched Projects" />
+    </a>
+  </div>
+  {{ end }}
+</header>

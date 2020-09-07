@@ -1,5 +1,10 @@
 ---
+title: Information
 layout: info
+menu:
+  main:
+    name: Information
+    weight: 20
 services: |-
   Landscape Design\
   VCAT\

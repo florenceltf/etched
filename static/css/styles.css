@@ -67,7 +67,8 @@ header nav a {
   transition: border-bottom .5s;
 }
 
-header nav a:hover{
+
+header nav a:hover, .nav-item.active {
   border-bottom: 1px solid black;
 }
 

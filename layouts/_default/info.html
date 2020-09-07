@@ -1,19 +1,9 @@
 {{ define "body-class" }}info-bg{{ end  }}
 
 {{ define "header" }}
-<header>
-  <nav>
-    <a href="/selected-works/">Selected Works</a>
-    <a href="/info/">Information</a>
-  </nav>
-
-  <div class="logo">
-    <a href="/">
-      <img src="/images/etched-logo.svg" alt="Etched Projects" />
-    </a>
-  </div>
-</header>
+{{ partial "header" (dict "context" . ) }}
 {{ end }}
+
 {{ define "main" }}
 <main>
   <div class="info-line-container">

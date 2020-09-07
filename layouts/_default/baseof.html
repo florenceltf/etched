@@ -18,14 +18,7 @@
 <body class="{{ block "body-class" . }}{{ end }}">
   <div class="cursor"></div>
   {{ block "header" . }}
-  <header class="fadein">
-
-    <nav>
-      <a href="/selected-works/">Selected Works</a>
-      <a href="/info/">Information</a>
-    </nav>
-
-  </header>
+  {{ partial "header" (dict "context" . ) }}
   {{ end }}
 
   {{ block "main" . }}
