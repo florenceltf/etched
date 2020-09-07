@@ -21,16 +21,22 @@
   animation-duration: 2s;
 }
 
+html {
+  /* cursor: none; */
+}
+
 body {
   font-family: "Untitled Sans", Arial, Helvetica, sans-serif;
   margin: 0;
   max-width: 1440px;
   background: #f2f1e6;
+  /* cursor: none; */
 }
 
 a {
   color: black;
   text-decoration: none;
+  /* cursor: none; */
 }
 
 header {
@@ -215,7 +221,7 @@ h2 {
   font-weight: normal;
   font-size: 24px;
   text-align: center;
-  margin: -20px 0 80px 0;
+  margin: -20px 0 60px 0;
   position: sticky;
   top: 40px;
   transition: font-size 0.25s;
@@ -240,7 +246,7 @@ p {
 }
 
 .details {
-  margin: 80px 0 80px 0;
+  margin: 60px 0 100px 0;
   text-align: center;
 }
 
@@ -248,25 +254,18 @@ p {
   margin-bottom: 0;
 }
 
-
-
-.cursor:before, .cursor:after {
-  position: absolute;
-  left: 15px;
-  content: ' ';
-  height: 28px;
-  width: 1px;
-  background-color: black;
-}
-
-.cursor:before {
-  transform: rotate(90deg);
-}
-
 .cursor {
+  background: black;
+  height: 40px;
+  position: relative;
+  width: 1px;
+}
+.cursor:after {
+  background: black;
+  content: "";
+  height: 1px;
+  left: -20px;
   position: absolute;
-  right: 32px;
-  top: 32px;
-  width: 32px;
-  height: 32px;
+  top: 20px;
+  width: 40px;
 }
