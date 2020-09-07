@@ -21,22 +21,27 @@
     <div class="selected-line"></div>
   </div>
 
-  <section class="container selected">
-
+  <section class="container selected selected-work-list">
     {{ range .Pages.GroupByParam "category" }}
 
     <h3>{{ .Key }}</h3>
 
     <ul>
       {{ range .Pages }}
-      <li><a href="{{.Permalink}}">{{.Title}}</a></li>
+      <li><a class="selected-work" data-selected-work="{{ .File.UniqueID }}" href="{{.Permalink}}">{{.Title}}</a></li>
       {{ end }}
     </ul>
 
     {{ end }}
   </section>
-  <div class="description">
-    <p>Insert a beautiful little description here about Raglan.</p>
+
+  <div class="description-list">
+    {{ range .Pages }}
+    <p style="display:none" class="description fadein" data-selected-work="{{ .File.UniqueID }}">{{ .Description }}</p>
+    {{ end }}
   </div>
+
+  <script src="/js/selected-work-list.js"></script>
+
 </main>
 {{ end }}

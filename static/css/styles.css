@@ -207,7 +207,7 @@ section.selected a:hover {
   border-bottom: 1px solid black;
 }
 
-div.description {
+div.description-list {
   position : fixed;
   bottom: 0;
   left: 50%;
@@ -215,7 +215,7 @@ div.description {
   z-index: -2;
 }
 
-div.description p {
+div.description-list p {
   margin: 20px 20px 20px 30px;
   font-size: 18px;
 }
