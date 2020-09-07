@@ -265,7 +265,6 @@ p {
   left: 0;
   background: rgb(53, 51, 51);
   height: 40px;
-  position: relative;
   width: 1px;
   pointer-events: none;
   z-index: 100;
