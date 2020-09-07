@@ -23,10 +23,19 @@
     {{ .Content }}
   </section>
 
-  <div class="details">
-    <p>Services: <div>{{ .Params.services | markdownify }}</div></p>
-    <p>Contact: <div>{{ .Params.contact | markdownify }}</div></p>
-    <p>Collaborators: <div>{{ .Params.collaborators | markdownify }}</div></p>
+  <div class="container info-details columns is-tablet">
+    <div class="column">
+      <h4>Services</h4>
+      {{ .Params.services | markdownify }}
+    </div>
+    <div class="column">
+      <h4>Contact</h4>
+      {{ .Params.contact | markdownify }}
+    </div>
+    <div class="column">
+      <h4>Collaborators</h4>
+      {{ .Params.collaborators | markdownify }}
+    </div>
   </div>
 </main>
 {{ end }}
