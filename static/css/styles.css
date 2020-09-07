@@ -21,8 +21,12 @@
   animation-duration: 2s;
 }
 
+::selection {
+  background: transparent;
+}
+
 html {
-  /* cursor: none; */
+  cursor: none;
 }
 
 body {
@@ -30,13 +34,13 @@ body {
   margin: 0;
   max-width: 1440px;
   background: #f2f1e6;
-  /* cursor: none; */
+  cursor: none;
 }
 
 a {
   color: black;
   text-decoration: none;
-  /* cursor: none; */
+  cursor: none;
 }
 
 header {
@@ -213,6 +217,7 @@ div.description {
 
 div.description p {
   margin: 20px 20px 20px 30px;
+  font-size: 18px;
 }
 
 /* projects */
@@ -259,7 +264,9 @@ p {
   height: 40px;
   position: relative;
   width: 1px;
+  pointer-events: none;
 }
+
 .cursor:after {
   background: black;
   content: "";
