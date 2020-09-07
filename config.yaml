@@ -5,7 +5,7 @@ taxonomies: {}
 
 menu:
   main:
-    - name: Selected Works!
+    - name: Selected Works
       url: /selected-works/
       identifier: selected-works
       weight: 10

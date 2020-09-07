@@ -1,19 +1,21 @@
-<header class="{{ .class }}">
-  <nav>
-    {{ $currentPage := .context }}
-    {{ range .context.Site.Menus.main }}
-    <a class="nav-item{{if or ($currentPage.IsMenuCurrent "main" .) ($currentPage.HasMenuCurrent "main" .) }} active{{end}}" href="{{ .URL }}" title="{{ .Title }}">{{ .Name }}</a>
-    {{ end }}
-  </nav>
-
-  {{ .Parent }}
-
-
-  {{ if (not .context.IsHome) }}
-  <div class="logo">
-    <a href="/">
-      <img src="/images/etched-logo.svg" alt="Etched Projects" />
-    </a>
+<header class="{{ .class }} columns">
+  {{ $currentPage := .context }}
+  {{ range .context.Site.Menus.main }}
+  <div class="column is-2">
+    <div class="nav-item{{if or ($currentPage.IsMenuCurrent "main" .) ($currentPage.HasMenuCurrent "main" .) }} active{{end}}">
+    <a href="{{ .URL }}" title="{{ .Title }}">{{ .Name }}</a>
+    </div>
   </div>
   {{ end }}
+
+
+  <div class="column is-offset-6 is-2">
+    {{ if (not .context.IsHome) }}
+    <a href="/">
+    <div>
+      <img src="/images/etched-logo.svg" alt="Etched Projects" />
+    </div>
+    </a>
+    {{ end }}
+  </div>
 </header>
