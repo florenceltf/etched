@@ -31,7 +31,7 @@ html {
 
 body {
   font-family: "Untitled Sans", Arial, Helvetica, sans-serif;
-  margin: 0;
+  margin: 0 auto 0 auto;
   max-width: 1440px;
   background: #f2f1e6;
   cursor: none;
@@ -260,11 +260,12 @@ p {
 }
 
 .cursor {
-  background: black;
+  background: rgb(53, 51, 51);
   height: 40px;
   position: relative;
   width: 1px;
   pointer-events: none;
+  z-index: 100;
 }
 
 .cursor:after {
