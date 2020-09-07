@@ -6,8 +6,8 @@
 <main>
   <section class="container">
     <h2 class="title">{{ .Title }}</h2>
-    {{ .Content }}
 
+    {{ .Content }}
     <div class="details">
       <p>Year: {{ .Params.year }}</p>
       <p>Client: {{ .Params.client }}</p>
@@ -17,11 +17,13 @@
       {{ end }}
     </div>
 
-    <div class="gallery">
-      {{ range .Params.gallery }}
-      <img style="width: 300px" src="{{ .image }}" alt="{{ .title }}" class="{{ .layout }}">
-      {{ end }}
+    <div class="gallery columns">
+      <div class="column is-6 is-offset-3">
+        {{ range .Params.gallery }}
+        <img src="{{ .image }}" alt="{{ .title }}" class="{{ .layout }}">
+      </div>
     </div>
+    {{ end }}
   </section>
 </main>
 <script src="/js/project.js"></script>
