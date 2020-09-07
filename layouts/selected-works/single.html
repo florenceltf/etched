@@ -9,7 +9,7 @@
     {{ .Content }}
 
     <div class="details">
-      <p>Year: {{ .Date.Format "2006" }}</p>
+      <p>Year: {{ .Params.year }}</p>
       <p>Client: {{ .Params.client }}</p>
 
       {{ if (isset .Params "collaborators") }}
