@@ -8,6 +8,9 @@ gallery:
   - layout: Landscape
     image: /images/uploads/example1.jpg
     title: Example
+  - layout: Landscape
+    image: /images/uploads/example2.jpg
+    title: Example 2
 ---
 Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc vehicula cursus gravida. Vivamus ut eros sodales, posuere lacus nec, interdum libero. Aenean eleifend tincidunt aliquam. Suspendisse arcu metus, convallis vel rutrum sed, maximus quis felis. Nulla vel tellus sit amet ligula feugiat elementum vel et lacus. Donec nec faucibus leo. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Nulla facilisi. In tortor ipsum, consectetur vel congue et, ornare at ante. Etiam elementum sed diam sit amet dignissim. Phasellus non bibendum turpis.
 
