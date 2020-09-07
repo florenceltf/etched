@@ -1,6 +1,6 @@
 ---
 title: Kew Gardens Apartments
-date: 2020-08-31T14:00:00.000Z
+year: 1999
 client: Private
 collaborators: Millieu Property, Sandy Builders
 category: Multi-Residential

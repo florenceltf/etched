@@ -59,9 +59,9 @@ collections:
         name: slug
         widget: string
         required: false
-      - label: Date
-        name: date
-        widget: date
+      - label: Year
+        name: year
+        widget: string
       - label: Client
         name: client
         widget: string

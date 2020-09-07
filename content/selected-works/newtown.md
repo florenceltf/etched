@@ -1,6 +1,6 @@
 ---
 title: Newtown
-date: 2020-09-04T11:17:34.739Z
+year: 1855
 client: Bill Gates
 collaborators: Elon Musk
 category: Residential
