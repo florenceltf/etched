@@ -130,8 +130,9 @@ div.logo {
   text-align: center;
 }
 
-.info-details {
+div.info-details {
   text-align: center;
+  margin-top: 50px;
 }
 
 table {
