@@ -33,16 +33,16 @@ fields:
     - Commercial
     source:
       type: simple
-      section: 
-      file: 
-      path: 
+      section:
+      file:
+      path:
   label: Category
 - name: description
   type: text
   config:
     required: false
   label: Description
-  description: Description is show on the selected works list page.
+  description: Description is shown on the selected works list page.
 - name: body
   type: textarea
   default: ''
@@ -61,7 +61,7 @@ fields:
   - portrait-image
   - landscape-image
   config:
-    min: 
-    max: 
+    min:
+    max:
 pages:
 - content/selected-works/brighton.md
