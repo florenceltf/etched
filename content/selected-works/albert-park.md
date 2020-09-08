@@ -4,7 +4,6 @@ category = "Residential"
 client = "Keanu Reeves"
 collaborators = "Florence"
 description = "Insert a beautiful description about Koo Wee Rup."
-draft = true
 title = "Albert Park"
 year = "2005"
 [[gallery]]
