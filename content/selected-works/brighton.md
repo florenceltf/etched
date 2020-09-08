@@ -28,5 +28,9 @@ gallery:
   layout: landscape
   image: "/images/uploads/afasdfasdfa.jpeg"
   title: House
+- template: portrait-image
+  layout: portrait
+  title: Title
+  image: "/images/uploads/example6.jpg"
 
 ---
