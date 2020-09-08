@@ -3,7 +3,7 @@ title: Kew Gardens Apartments
 year: "1999"
 client: Private
 collaborators: Millieu Property, Sandy Builders
-category: Multi-Residential
+category: []
 gallery:
 - image: "/images/uploads/img_0024.gif"
   title: Excellent
