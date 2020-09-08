@@ -43,3 +43,11 @@ fields:
     required: false
   label: Description
   description: Description is show on the selected works list page.
+- name: gallery
+  type: blocks
+  label: Gallery
+  template_types:
+  - gallery-item
+  config:
+    min: 
+    max: 
