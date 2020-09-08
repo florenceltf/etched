@@ -1,4 +1,21 @@
 ---
 label: Home
 hide_body: true
-fields: []
+fields:
+- name: title
+  type: text
+  config:
+    required: true
+  label: Title
+  default: Home
+- name: gallery
+  type: blocks
+  label: Gallery
+  template_types:
+  - landscape-image-with-description
+  - portrait-image-with-description
+  - portrait-image
+  - landscape-image
+  config:
+    min: 1
+    max: 
