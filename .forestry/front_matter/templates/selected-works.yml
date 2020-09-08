@@ -1,4 +1,45 @@
 ---
 label: Selected Works
 hide_body: false
-fields: []
+fields:
+- name: title
+  type: text
+  config:
+    required: true
+  label: Title
+- name: year
+  type: text
+  config:
+    required: true
+  label: Year
+- name: client
+  type: text
+  config:
+    required: true
+  label: Client
+- name: collaborators
+  type: text
+  config:
+    required: false
+  label: Collaborators
+- name: category
+  type: select
+  default: []
+  config:
+    required: false
+    options:
+    - Residential
+    - Multi-Residential
+    - Commercial
+    source:
+      type: simple
+      section: 
+      file: 
+      path: 
+  label: Category
+- name: description
+  type: text
+  config:
+    required: false
+  label: Description
+  description: Description is show on the selected works list page.
