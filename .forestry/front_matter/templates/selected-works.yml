@@ -47,7 +47,10 @@ fields:
   type: blocks
   label: Gallery
   template_types:
-  - gallery-item
+  - landscape-image-with-description
+  - portrait-image-with-description
+  - portrait-image
+  - landscape-image
   config:
     min: 
     max: 
