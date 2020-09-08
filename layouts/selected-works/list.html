@@ -10,7 +10,7 @@
     <div class="selected-line"></div>
   </div>
 
-  <section class="container selected">
+  <section class="container selected fadein">
     {{ range .Pages.GroupByParam "category" }}
 
     <h3>{{ .Key }}</h3>
@@ -25,7 +25,7 @@
     {{ end }}
   </section>
 
-  <div class="description-list columns is-mobile">
+  <div class="description-list columns is-mobile fadein">
     <!-- {{ range .Pages }}
     <p style="display:none" class="description fadein" data-selected-work="{{ .File.UniqueID }}">{{ .Description }}
     </p>
