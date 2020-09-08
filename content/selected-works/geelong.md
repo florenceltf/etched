@@ -3,7 +3,6 @@ category = "Multi-Residential"
 client = "AFL"
 collaborators = ""
 description = "Geelong football stadium"
-draft = true
 title = "Geelong"
 year = "2019"
 [[gallery]]
