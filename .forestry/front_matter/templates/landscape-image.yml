@@ -5,7 +5,7 @@ fields:
 - name: title
   type: text
   config:
-    required: false
+    required: true
   label: Title
   description: Title of the image is used in the alternate text.
 - name: image
@@ -16,7 +16,7 @@ fields:
 - name: layout
   type: text
   config:
-    required: false
+    required: true
   label: Layout
   hidden: true
   default: Landscape
