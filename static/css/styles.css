@@ -15,10 +15,14 @@
 }
 
 .fadein{
-  -webkit-animation-name: fadein;
-  -webkit-animation-duration: 2s;
-  animation-name: fadein;
-  animation-duration: 2s;
+  animation: fadein 1s forwards;
+  -webkit-animation: fadein 1s forwards;
+}
+
+.fadeload{
+  animation: fadein 1s .5s forwards;
+  -webkit-animation: fadein 1s .5s forwards;
+  opacity: 0;
 }
 
 ::selection {
@@ -89,6 +93,9 @@ div.home {
 .home img {
   max-width: 520px;
   height: 130px;
+  animation: fadein 1s .5s forwards;
+  -webkit-animation: fadein 1s .5s forwards;
+  opacity: 0;
 }
 
 .logo {
@@ -144,10 +151,11 @@ div.info-details {
 
 .info-details {
   font-size: 20px;
+  margin-bottom: 50px;
 }
 
 .info-details p {
-  margin-top: 20px;
+  margin: 20px 0 40px 0;
 }
 
 
@@ -280,13 +288,19 @@ p {
 }
 
 .project-image {
-  margin-bottom: 100px;
+  margin-bottom: 80px;
 }
 
 .project-image img {
-  -webkit-animation: fadein 1s 1s forwards;
-  animation: fadein 1s 1s forwards;
+  -webkit-animation: fadein .5s 1.5s forwards;
+  animation: fadein .5s 1.5s forwards;
   opacity: 0;
+}
+
+.next {
+  margin: 20px 0 40px 0;
+  text-align: center;
+  font-size: 16px;
 }
 
 .cursor {

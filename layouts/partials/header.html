@@ -1,7 +1,7 @@
 <header class="{{ .class }} columns">
   {{ $currentPage := .context }}
   {{ range .context.Site.Menus.main }}
-  <div class="column is-2 {{ if $currentPage.IsHome }} fadein {{ end }}">
+  <div class="column is-2 {{ if $currentPage.IsHome }} fadeload {{ end }}">
 
     <div
       class="nav-item{{if or ($currentPage.IsMenuCurrent "main" .) ($currentPage.HasMenuCurrent "main" .) }} active{{end}}">

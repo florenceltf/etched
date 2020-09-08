@@ -1,14 +1,12 @@
 {{ define "main" }}
-  <main>
-    {{ .Content }}
-  </main>
+<main>
+  {{ .Content }}
+</main>
 
-  <div class="home fadein">
-    <a href="">
-      <img src="images/etched-logo.svg" alt="Etched Projects" />
-    </a>
-  </div>
+<div class="home">
+  <img src="images/etched-logo.svg" alt="Etched Projects" />
+</div>
 
-  {{ partial "gallery" .Params.gallery }}
+{{ partial "gallery" .Params.gallery }}
 
 {{ end }}

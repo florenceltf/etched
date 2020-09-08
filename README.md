@@ -19,4 +19,5 @@
 - [ ] Add gap in side by side image layouts (Kew Gardens post)
 - [ ] Set up quote entry in portrait-quote layout style
 - [ ] On index, have captions appear on image hover
-- [ ] 
+- [ ] On selected works, hide footer until project hover
+- [ ] Link next button to next project

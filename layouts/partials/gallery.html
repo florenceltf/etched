@@ -4,21 +4,21 @@
   {{ if eq .layout "portrait" }}
 
   <div class="column is-4 is-offset-4 project-image portrait">
-    <img style="width: 100%" src="{{ .image }}" alt="{{ .title }}" class="{{ .layout }}">
+    <img style="width: 100%" src="{{ .image }}" alt="{{ .title }}" class="lazyload {{ .layout }}">
     {{ with .caption }}<span class="caption">{{ . }}</span>{{ end }}
   </div>
 
   {{ else if eq .layout "landscape" }}
 
   <div class="column is-6 is-offset-3 project-image landscape">
-    <img style="width: 100%" src="{{ .image }}" alt="{{ .title }}" class="{{ .layout }}">
+    <img style="width: 100%" src="{{ .image }}" alt="{{ .title }}" class="lazyload {{ .layout }}">
     {{ with .caption }}<span class="caption">{{ . }}</span>{{ end }}
   </div>
 
   {{ else if eq .layout "landscape-full" }}
 
   <div class="column is-8 is-offset-2 project-image landscape-full">
-    <img style="width: 100%" src="{{ .image }}" alt="{{ .title }}" class="{{ .layout }}">
+    <img style="width: 100%" src="lazyload {{ .image }}" alt="{{ .title }}" class="{{ .layout }}">
     {{ with .caption }}<span class="caption">{{ . }}</span>{{ end }}
   </div>
 
@@ -29,12 +29,12 @@
       <div class="columns is-mobile">
         <div class="column">
           <div class="bd-notification is-info">
-            <img style="width: 100%" src="{{ .image }}" alt="{{ .title }}" class="{{ .layout }}">
+            <img style="width: 100%" src="{{ .image }}" alt="{{ .title }}" class="lazyload {{ .layout }}">
           </div>
         </div>
         <div class="column">
           <div class="bd-notification is-info">
-            <img style="width: 100%" src="{{ .image }}" alt="{{ .title }}" class="{{ .layout }}">
+            <img style="width: 100%" src="{{ .image }}" alt="{{ .title }}" class="lazyload {{ .layout }}">
           </div>
         </div>
       </div>
@@ -48,12 +48,12 @@
       <div class="columns is-mobile">
         <div class="column">
           <div class="bd-notification is-info">
-            <img style="width: 100%" src="{{ .image }}" alt="{{ .title }}" class="{{ .layout }}">
+            <img style="width: 100%" src="{{ .image }}" alt="{{ .title }}" class="lazyload {{ .layout }}">
           </div>
         </div>
         <div class="column">
           <div class="bd-notification is-info">
-            <img style="width: 100%" src="{{ .image }}" alt="{{ .title }}" class="{{ .layout }}">
+            <img style="width: 100%" src="{{ .image }}" alt="{{ .title }}" class="lazyload {{ .layout }}">
           </div>
         </div>
       </div>
@@ -67,12 +67,12 @@
       <div class="columns is-mobile">
         <div class="column">
           <div class="bd-notification is-info">
-            <img style="width: 100%" src="{{ .image }}" alt="{{ .title }}" class="{{ .layout }}">
+            <img style="width: 100%" src="{{ .image }}" alt="{{ .title }}" class="lazyload {{ .layout }}">
           </div>
         </div>
         <div class="column">
           <div class="bd-notification is-info">
-            <img style="width: 100%" src="{{ .image }}" alt="{{ .title }}" class="{{ .layout }}">
+            <img style="width: 100%" src="{{ .image }}" alt="{{ .title }}" class="lazyload {{ .layout }}">
           </div>
         </div>
       </div>
