@@ -33,9 +33,9 @@ fields:
     - Commercial
     source:
       type: simple
-      section:
-      file:
-      path:
+      section: 
+      file: 
+      path: 
   label: Category
 - name: description
   type: text
@@ -61,7 +61,7 @@ fields:
   - portrait-image
   - landscape-image
   config:
-    min:
-    max:
+    min: 
+    max: 
 pages:
 - content/selected-works/brighton.md

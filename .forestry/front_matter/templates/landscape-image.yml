@@ -20,4 +20,4 @@ fields:
     required: true
   label: Layout
   hidden: true
-  default: Landscape
+  default: landscape
