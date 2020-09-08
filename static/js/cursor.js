@@ -1,6 +1,8 @@
 const cursorTag = document.querySelector("div.cursor")
 
 document.addEventListener("mousemove", function (event) {
+  cursorTag.style.display = "block";
+
   const x = event.clientX;
   const y = event.clientY + window.pageYOffset;
 

@@ -225,7 +225,10 @@ section.selected a:hover {
 
 /* projects */
 
+
+
 h2 {
+  pointer-events: none;
   font-weight: normal;
   font-size: 24px;
   text-align: center;
@@ -271,6 +274,7 @@ p {
 }
 
 .cursor {
+  display: none;
   position: absolute;
   top: 0;
   left: 0;

@@ -9,8 +9,8 @@
 - [x] links not working on selected works page
 - [x] Swap dates for year
 - [x] Remove date from default slug/filename
-- [ ] Hide cursor from top left corner when clicking on new page 
+- [x] Hide cursor from top left corner when clicking on new page
 - [ ] On scroll mouse move thing
 - [x] selected works columns
-- [ ] layout images
-- [ ] project page links don't click
+- [x] layout images
+- [x] project page links don't click
