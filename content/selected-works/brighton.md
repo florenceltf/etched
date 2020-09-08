@@ -24,5 +24,9 @@ gallery:
   layout: portrait
   title: House
   image: "/images/uploads/external-content-duckduckgo-com.jpeg"
+- template: landscape-image
+  layout: landscape
+  image: "/images/uploads/afasdfasdfa.jpeg"
+  title: House
 
 ---
