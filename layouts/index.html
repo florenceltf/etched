@@ -1,17 +1,14 @@
 {{ define "main" }}
-<main>
-  {{ .Content }}
-</main>
-<div class="home fadein">
-  <a href="">
-    <img src="images/etched-logo.svg" alt="Etched Projects" />
-  </a>
-</div>
-{{ range .Params.gallery }}
+  <main>
+    {{ .Content }}
+  </main>
 
-<div class="gallery">
-  <img style="width: 300px" src="{{ .image }}" alt="{{ .title }}" class="{{ .layout }}">
-</div>
+  <div class="home fadein">
+    <a href="">
+      <img src="images/etched-logo.svg" alt="Etched Projects" />
+    </a>
+  </div>
 
-{{ end }}
+  {{ partial "gallery" .Params.gallery }}
+
 {{ end }}

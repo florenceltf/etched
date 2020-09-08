@@ -20,13 +20,7 @@
       </div>
     </div>
 
-    <div class="gallery columns is-multiline">
-      {{ range .Params.gallery }}
-      <div class="column is-4 is-offset-4 project-image">
-        <img src="{{ .image }}" alt="{{ .title }}" class="{{ .layout }}">
-      </div>
-      {{ end }}
-    </div>
+    {{ partial "gallery" .Params.gallery }}
 
   </section>
 

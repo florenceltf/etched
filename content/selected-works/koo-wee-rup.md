@@ -5,10 +5,10 @@ client: Keanu Reeves
 category: Commercial
 description: Insert a beautiful description about Koo Wee Rup.
 gallery:
-  - layout: Landscape
+  - layout: landscape
     image: /images/uploads/example1.jpg
     title: Example
-  - layout: Landscape
+  - layout: landscape
     image: /images/uploads/example2.jpg
     title: Example 2
 ---
