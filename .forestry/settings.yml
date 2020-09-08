@@ -10,7 +10,6 @@ sections:
 - type: document
   path: content/info/index.md
   label: Information
-  match: "**/*"
 - type: directory
   path: content/selected-works
   label: Selected works
