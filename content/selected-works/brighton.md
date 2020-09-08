@@ -2,7 +2,7 @@
 category: Commercial
 title: Brighton
 year: "2011"
-client: John Smith
+client: John Smith Name
 collaborators: Paul White
 description: House in Brighton
 body: |-
