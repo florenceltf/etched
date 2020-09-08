@@ -14,11 +14,15 @@ sections:
   label: Selected works
   create: all
   match: "**/*"
+  templates:
+  - selected-works
 - type: directory
   path: content/info
-  label: Info
+  label: Information
   create: all
   match: "**/*"
+  templates:
+  - information
 upload_dir: static/images/uploads
 public_path: "/images/uploads"
 front_matter_path: ''
