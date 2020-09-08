@@ -15,6 +15,5 @@ gallery:
   image: "/images/uploads/img_0024.gif"
   title: Excellent
   description: Bill and Ted go on an **excellent** adventure.
-draft: true
 
 ---
