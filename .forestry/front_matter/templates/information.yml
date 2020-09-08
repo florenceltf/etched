@@ -29,5 +29,12 @@ fields:
     schema:
       format: markdown
   label: Collaborators
+- name: layout
+  type: text
+  config:
+    required: true
+  label: layout
+  hidden: true
+  default: info
 pages:
 - content/info/index.md
