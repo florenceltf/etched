@@ -13,6 +13,7 @@ gallery:
   title: Okinomiyaki
   layout: Portrait
 description: Insert a beautiful description about Kew Garden Apartments.
+draft: true
 
 ---
 When a site is zoned mixed use, the response is to build residences
