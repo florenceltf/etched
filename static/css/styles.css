@@ -106,7 +106,7 @@ div.home {
   margin: 150px auto 0 auto;
   max-width: 800px;
   padding: 0 40px 0 40px;
-  -webkit-animation: fadein 1s 3s forwards;
+  -webkit-animation: fadein 1s .5s forwards;
   animation: fadein 1s .5s forwards;
   opacity: 0;
 }
@@ -238,10 +238,10 @@ h2 {
   position: sticky;
   top: 40px;
   transition: font-size 0.25s;
-  -webkit-animation: fadein 1s 3s forwards;
-  animation: fadein 1s forwards;
-  opacity: 0;
   z-index: 100;
+  -webkit-animation: fadein 1s .5s forwards;
+  animation: fadein 1s .5s forwards;
+  opacity: 0;
 }
 
 .project-container {
@@ -284,8 +284,8 @@ p {
 }
 
 .project-image img {
-  -webkit-animation: fadein 1s 3s forwards;
-  animation: fadein 1s 1.5s forwards;
+  -webkit-animation: fadein 1s 1s forwards;
+  animation: fadein 1s 1s forwards;
   opacity: 0;
 }
 

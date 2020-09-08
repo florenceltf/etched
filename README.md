@@ -10,7 +10,13 @@
 - [x] Swap dates for year
 - [x] Remove date from default slug/filename
 - [x] Hide cursor from top left corner when clicking on new page
-- [ ] On scroll mouse move thing
 - [x] selected works columns
 - [x] layout images
 - [x] project page links don't click
+
+## To do
+- [ ] Mouse does not move when page is scrolled
+- [ ] Add gap in side by side image layouts (Kew Gardens post)
+- [ ] Set up quote entry in portrait-quote layout style
+- [ ] On index, have captions appear on image hover
+- [ ] 
