@@ -1,10 +1,6 @@
 ---
 title: Information
 layout: info
-menu:
-  main:
-    name: Information
-    weight: 20
 services: |-
   Landscape Design\
   VCAT\
@@ -22,6 +18,10 @@ collaborators: |-
   Neometro\
   Builders name\
   Architect
+menu:
+  main:
+    weight: 20
+
 ---
 Etched creates responsive, enduring works of landscape architecture, that cultivate connections between people and their environments.
 

@@ -29,3 +29,5 @@ fields:
     schema:
       format: markdown
   label: Collaborators
+pages:
+- content/info/index.md
