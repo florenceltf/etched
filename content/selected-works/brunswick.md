@@ -4,7 +4,6 @@ category = "Commercial"
 client = "Keanu Reeves"
 collaborators = "Florence"
 description = "Insert a beautiful description about Koo Wee Rup."
-draft = true
 title = "Brunswick"
 year = "2005"
 [[gallery]]
