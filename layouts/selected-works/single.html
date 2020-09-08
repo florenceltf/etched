@@ -4,27 +4,32 @@
 
 {{ define "main" }}
 <main>
-  <section class="container">
+
+  <section>
+    <div></div>
     <h2 class="title">{{ .Title }}</h2>
+    <div class="container">
+      {{ .Content }}
+      <div class="details">
+        <p>Year: {{ .Params.year }}</p>
+        <p>Client: {{ .Params.client }}</p>
 
-    {{ .Content }}
-    <div class="details">
-      <p>Year: {{ .Params.year }}</p>
-      <p>Client: {{ .Params.client }}</p>
+        {{ if (isset .Params "collaborators") }}
+        <p>Collaborators: {{ .Params.collaborators }}</p>
+        {{ end }}
+      </div>
+    </div>
 
-      {{ if (isset .Params "collaborators") }}
-      <p>Collaborators: {{ .Params.collaborators }}</p>
+    <div class="gallery columns is-multiline">
+      {{ range .Params.gallery }}
+      <div class="column is-4 is-offset-4 project-image">
+        <img src="{{ .image }}" alt="{{ .title }}" class="{{ .layout }}">
+      </div>
       {{ end }}
     </div>
 
-    <div class="gallery columns">
-      <div class="column is-6 is-offset-3">
-        {{ range .Params.gallery }}
-        <img src="{{ .image }}" alt="{{ .title }}" class="{{ .layout }}">
-      </div>
-    </div>
-    {{ end }}
   </section>
+
 </main>
 <script src="/js/project.js"></script>
 
