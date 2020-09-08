@@ -7,6 +7,10 @@ sections:
 - type: document
   path: content/_index.md
   label: Home
+- type: document
+  path: content/info/index.md
+  label: Information
+  match: "**/*"
 - type: directory
   path: content/selected-works
   label: Selected works
@@ -14,13 +18,6 @@ sections:
   match: "**/*"
   templates:
   - selected-works
-- type: directory
-  path: content/info
-  label: Information
-  create: all
-  match: "**/*"
-  templates:
-  - information
 upload_dir: static/images/uploads
 public_path: "/images/uploads"
 front_matter_path: ''
