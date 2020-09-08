@@ -262,6 +262,14 @@ p {
   margin-bottom: 0;
 }
 
+.gallery {
+  padding: 0 20px 0 20px;
+}
+
+.project-image {
+  margin-bottom: 100px;
+}
+
 .cursor {
   position: absolute;
   top: 0;
