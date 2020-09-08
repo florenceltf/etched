@@ -1,5 +1,5 @@
 +++
-category = "Multi-Residential"
+category = "Residential"
 client = "AFL"
 collaborators = ""
 description = "Geelong football stadium"
