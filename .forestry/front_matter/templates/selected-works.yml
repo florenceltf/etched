@@ -1,0 +1,35 @@
+---
+label: Selected works
+hide_body: false
+fields:
+- type: text
+  name: title
+  label: title
+- type: number
+  name: year
+  label: year
+- type: text
+  name: client
+  label: client
+- type: text
+  name: collaborators
+  label: collaborators
+- type: text
+  name: category
+  label: category
+- type: field_group_list
+  name: gallery
+  label: gallery
+  fields:
+  - type: file
+    name: image
+    label: image
+  - type: text
+    name: title
+    label: title
+  - type: text
+    name: layout
+    label: layout
+- type: text
+  name: description
+  label: description
