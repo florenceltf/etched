@@ -4,7 +4,7 @@ backend:
   repo: florenceltf/etched
   branch: master
 
-media_folder: /static/images/uploads/
+media_folder: /assets/images/uploads/
 public_folder: /images/uploads/
 
 # https://www.netlifycms.org/docs/add-to-your-site/#editorial-workflow
