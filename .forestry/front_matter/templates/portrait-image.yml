@@ -8,6 +8,11 @@ fields:
     required: true
   label: Title
   description: Title as used in the alternate text for the image
+- name: image
+  type: file
+  config:
+    maxSize: 64
+  label: Image
 - name: layout
   type: text
   config:
@@ -15,8 +20,3 @@ fields:
   label: Layout
   hidden: true
   default: portrait
-- name: image
-  type: file
-  config:
-    maxSize: 64
-  label: Image
