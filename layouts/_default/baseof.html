@@ -1,39 +1,39 @@
 <!DOCTYPE html>
 <html lang="{{ .Site.Language.Lang }}">
 
-<head>
-  <meta charset="utf-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>
-    {{ block "title" . }}
-    {{ .Site.Title }}
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>
+      {{ block "title" . }}
+      {{ .Site.Title }}
+      {{ end }}
+    </title>
+    {{ $style := resources.Get "scss/main.scss" | resources.ToCSS (dict "outputStyle" "compressed") | fingerprint }}
+    <link rel="stylesheet" href="{{ $style.RelPermalink }}">
+    <link rel="stylesheet" href="{{ "css/styles.css" | relURL }}">
+    <link rel="icon" href="{{ "img/favicon.png" | relURL }}" type="image/png" sizes="16x16">
+    <script src="https://identity.netlify.com/v1/netlify-identity-widget.js"></script>
+  </head>
+
+  <body class="{{ block "body-class" . }}{{ end }}">
+    <div class="cursor"></div>
+    {{ block "header" . }}
+    {{ partial "header" (dict "context" . ) }}
     {{ end }}
-  </title>
-  {{ $style := resources.Get "scss/main.scss" | resources.ToCSS (dict "outputStyle" "compressed") | fingerprint }}
-  <link rel="stylesheet" href="{{ $style.Permalink }}">
-  <link rel="stylesheet" href="{{ "css/styles.css" | relURL }}">
-  <link rel="icon" href="{{ "img/favicon.png" | relURL }}" type="image/png" sizes="16x16">
-  <script src="https://identity.netlify.com/v1/netlify-identity-widget.js"></script>
-</head>
 
-<body class="{{ block "body-class" . }}{{ end }}">
-  <div class="cursor"></div>
-  {{ block "header" . }}
-  {{ partial "header" (dict "context" . ) }}
-  {{ end }}
+    {{ block "main" . }}
+    {{ .Content }}
+    {{ end }}
 
-  {{ block "main" . }}
-  {{ .Content }}
-  {{ end }}
-
-  {{ block "footer" . }}{{ end }}
-  <!-- <div class="index-gallery">
-    <img src="images/index/example1.jpg">
-    <img src="images/index/example2.jpg">
-    <img src="images/index/example3.jpg">
-  </div> -->
-  <script src="/js/cursor.js"></script>
-  <script src="/js/index.js"></script>
-</body>
+    {{ block "footer" . }}{{ end }}
+    <!-- <div class="index-gallery">
+         <img src="images/index/example1.jpg">
+         <img src="images/index/example2.jpg">
+         <img src="images/index/example3.jpg">
+    </div> -->
+    <script src="/js/cursor.js"></script>
+    <script src="/js/index.js"></script>
+  </body>
 
 </html>
