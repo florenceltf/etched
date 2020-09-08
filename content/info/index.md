@@ -16,7 +16,8 @@ collaborators: |-
   The Block\
   Neometro\
   Builders name\
-  Architect
+  Architect\
+  Millieu Group
 ---
 Etched creates responsive, enduring works of landscape architecture, that cultivate connections between people and their environments.
 
