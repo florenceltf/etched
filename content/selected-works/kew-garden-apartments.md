@@ -4,7 +4,7 @@ year: "1999"
 client: Private
 collaborators: Millieu Property, Sandy Builders
 category:
-- Multi-residential
+- Residential
 gallery:
 - image: "/images/uploads/img_0024.gif"
   title: Excellent
