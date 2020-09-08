@@ -10,7 +10,7 @@
     <div class="selected-line"></div>
   </div>
 
-  <section class="container selected selected-work-list">
+  <section class="container selected">
     {{ range .Pages.GroupByParam "category" }}
 
     <h3>{{ .Key }}</h3>
@@ -24,11 +24,19 @@
     {{ end }}
   </section>
 
-  <div class="description-list">
-    {{ range .Pages }}
-    <p style="display:none" class="description fadein" data-selected-work="{{ .File.UniqueID }}">{{ .Description }}</p>
-    {{ end }}
+  <div class="description-list columns is-mobile">
+    <!-- {{ range .Pages }}
+    <p style="display:none" class="description fadein" data-selected-work="{{ .File.UniqueID }}">{{ .Description }}
+    </p>
+    {{ end }} -->
+    <div class="column is-6 is-offset-6" style="border-left: solid 1px rgb(206, 163, 136)">
+      {{- range .Pages -}}<span style="display:none" class="description fadein"
+        data-selected-work="{{ .File.UniqueID }}">{{ .Description }}</span>{{- end -}}
+    </div>
   </div>
+
+
+
 
   <script src="/js/selected-work-list.js"></script>
 

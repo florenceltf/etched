@@ -16,15 +16,15 @@
   <div class="container info-details columns is-tablet">
     <div class="column">
       <h4>Services</h4>
-      {{ .Params.services | markdownify }}
-    </div>
-    <div class="column">
-      <h4>Contact</h4>
-      {{ .Params.contact | markdownify }}
+      <p>{{ .Params.services | markdownify }}</p>
     </div>
     <div class="column">
       <h4>Collaborators</h4>
-      {{ .Params.collaborators | markdownify }}
+      <p>{{ .Params.collaborators | markdownify }}</p>
+    </div>
+    <div class="column">
+      <h4>Contact</h4>
+      <p>{{ .Params.contact | markdownify }}</p>
     </div>
   </div>
 </main>

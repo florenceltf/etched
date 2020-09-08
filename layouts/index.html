@@ -7,9 +7,11 @@
     <img src="images/etched-logo.svg" alt="Etched Projects" />
   </a>
 </div>
+{{ range .Params.gallery }}
+
 <div class="gallery">
-  {{ range .Params.gallery }}
   <img style="width: 300px" src="{{ .image }}" alt="{{ .title }}" class="{{ .layout }}">
-  {{ end }}
 </div>
+
+{{ end }}
 {{ end }}
