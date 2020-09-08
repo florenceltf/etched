@@ -1,4 +1,31 @@
 ---
 label: Information
 hide_body: false
-fields: []
+fields:
+- name: services
+  type: textarea
+  default: ''
+  config:
+    required: true
+    wysiwyg: true
+    schema:
+      format: markdown
+  label: Services
+- name: contact
+  type: textarea
+  default: ''
+  config:
+    required: true
+    wysiwyg: true
+    schema:
+      format: markdown
+  label: Contact
+- name: collaborators
+  type: textarea
+  default: ''
+  config:
+    required: true
+    wysiwyg: true
+    schema:
+      format: markdown
+  label: Collaborators
