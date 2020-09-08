@@ -13,8 +13,8 @@ sections:
 - type: directory
   path: content/selected-works
   label: Selected works
-  create: all
-  match: "**/*"
+  create: documents
+  match: "*"
   templates:
   - selected-works
 upload_dir: static/images/uploads
