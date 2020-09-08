@@ -1,6 +1,6 @@
 ---
 label: Selected Works
-hide_body: false
+hide_body: true
 fields:
 - name: title
   type: text
@@ -43,6 +43,15 @@ fields:
     required: false
   label: Description
   description: Description is show on the selected works list page.
+- name: body
+  type: textarea
+  default: ''
+  config:
+    required: true
+    wysiwyg: true
+    schema:
+      format: markdown
+  label: Body
 - name: gallery
   type: blocks
   label: Gallery
