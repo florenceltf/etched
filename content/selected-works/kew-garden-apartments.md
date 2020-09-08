@@ -5,12 +5,27 @@ client: Private
 collaborators: Millieu Property, Sandy Builders
 category: Multi-Residential
 gallery:
-  - image: /images/uploads/img_0024.gif
-    title: Excellent
-    layout: landscape
   - image: /images/uploads/910a833b-6927-4cb7-baae-07b02350f0f1.jpeg
     title: Okinomiyaki
     layout: portrait
+  - image: /images/uploads/img_0024.gif
+    title: Excellent
+    layout: landscape
+  - image: /images/uploads/img_0024.gif
+    title: Excellent
+    layout: landscape-full
+  - image: /images/uploads/img_0024.gif
+    title: Excellent
+    layout: landscape-side
+  - image: /images/uploads/910a833b-6927-4cb7-baae-07b02350f0f1.jpeg
+    title: Okinomiyaki
+    layout: portrait-side
+  - image: /images/uploads/910a833b-6927-4cb7-baae-07b02350f0f1.jpeg
+    title: Okinomiyaki
+    layout: portrait-quote
+    
+    
+
 description: Insert a beautiful description about Kew Garden Apartments.
 ---
 When a site is zoned mixed use, the response is to build residences

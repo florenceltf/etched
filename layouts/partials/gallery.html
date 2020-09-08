@@ -1,63 +1,97 @@
 <div class="gallery columns is-multiline">
   {{ range . }}
 
-    {{ if eq .layout "portrait" }}
+  {{ if eq .layout "portrait" }}
 
-      <div class="column is-4 is-offset-4 project-image portrait">
-        <img style="width: 100%" src="{{ .image }}" alt="{{ .title }}" class="{{ .layout }}">
-        {{ with .caption }}<span class="caption">{{ . }}</span>{{ end }}
+  <div class="column is-4 is-offset-4 project-image portrait">
+    <img style="width: 100%" src="{{ .image }}" alt="{{ .title }}" class="{{ .layout }}">
+    {{ with .caption }}<span class="caption">{{ . }}</span>{{ end }}
+  </div>
+
+  {{ else if eq .layout "landscape" }}
+
+  <div class="column is-6 is-offset-3 project-image landscape">
+    <img style="width: 100%" src="{{ .image }}" alt="{{ .title }}" class="{{ .layout }}">
+    {{ with .caption }}<span class="caption">{{ . }}</span>{{ end }}
+  </div>
+
+  {{ else if eq .layout "landscape-full" }}
+
+  <div class="column is-8 is-offset-2 project-image landscape-full">
+    <img style="width: 100%" src="{{ .image }}" alt="{{ .title }}" class="{{ .layout }}">
+    {{ with .caption }}<span class="caption">{{ . }}</span>{{ end }}
+  </div>
+
+  {{ else if eq .layout "landscape-side" }}
+
+  <div class="column is-8 is-offset-2 project-image landscape-side">
+    <div class="column">
+      <div class="columns is-mobile">
+        <div class="column">
+          <div class="bd-notification is-info">
+            <img style="width: 100%" src="{{ .image }}" alt="{{ .title }}" class="{{ .layout }}">
+          </div>
+        </div>
+        <div class="column">
+          <div class="bd-notification is-info">
+            <img style="width: 100%" src="{{ .image }}" alt="{{ .title }}" class="{{ .layout }}">
+          </div>
+        </div>
       </div>
+    </div>
+  </div>
 
-    {{ else if eq .layout "landscape" }}
+  {{ else if eq .layout "portrait-side" }}
 
-      <div class="column is-6 is-offset-3 project-image landscape">
-        <img style="width: 100%" src="{{ .image }}" alt="{{ .title }}" class="{{ .layout }}">
-        {{ with .caption }}<span class="caption">{{ . }}</span>{{ end }}
+  <div class="column is-6 is-offset-3 project-image portrait-side">
+    <div class="column">
+      <div class="columns is-mobile">
+        <div class="column">
+          <div class="bd-notification is-info">
+            <img style="width: 100%" src="{{ .image }}" alt="{{ .title }}" class="{{ .layout }}">
+          </div>
+        </div>
+        <div class="column">
+          <div class="bd-notification is-info">
+            <img style="width: 100%" src="{{ .image }}" alt="{{ .title }}" class="{{ .layout }}">
+          </div>
+        </div>
       </div>
+    </div>
+  </div>
 
-    {{ else if eq .layout "landscape-full" }}
+  {{ else if eq .layout "portrait-quote" }}
 
-      <div class="column is-6 is-offset-3 project-image landscape">
-        TODO: Landscape full
+  <div class="column is-6 is-offset-3 project-image portrait-quote">
+    <div class="column">
+      <div class="columns is-mobile">
+        <div class="column">
+          <div class="bd-notification is-info">
+            <img style="width: 100%" src="{{ .image }}" alt="{{ .title }}" class="{{ .layout }}">
+          </div>
+        </div>
+        <div class="column">
+          <div class="bd-notification is-info">
+            <img style="width: 100%" src="{{ .image }}" alt="{{ .title }}" class="{{ .layout }}">
+          </div>
+        </div>
       </div>
+    </div>
+  </div>
 
-    {{ else if eq .layout "landscape-side" }}
+  {{ else if eq .layout "landscape-portrait-bottom" }}
 
-      <div class="column is-6 is-offset-3 project-image landscape">
-        TODO: Landscape side
-      </div>
+  <div class="column is-6 is-offset-3 project-image landscape">
+    TODO: Landscape portrait bottom
+  </div>
 
-    {{ else if eq .layout "portrait-side" }}
+  {{ else }}
 
-      <div class="column is-6 is-offset-3 project-image landscape">
-        TODO: Potratiat side
-      </div>
+  <div style="color:red" class="column is-6 is-offset-3 project-image landscape">
+    Unsupported layout: {{ .layout }}
+  </div>
 
-    {{ else if eq .layout "portrait-quote" }}
-
-      <div class="column is-6 is-offset-3 project-image landscape">
-        TODO: Portrait quote
-      </div>
-
-    {{ else if eq .layout "landscape-portrait-top" }}
-
-      <div class="column is-6 is-offset-3 project-image landscape">
-        TODO: Landscape portrait top
-      </div>
-
-    {{ else if eq .layout "landscape-portrait-bottom" }}
-
-      <div class="column is-6 is-offset-3 project-image landscape">
-        TODO: Landscape portrait bottom
-      </div>
-
-    {{ else }}
-
-      <div style="color:red" class="column is-6 is-offset-3 project-image landscape">
-        Unsupported layout:  {{ .layout }}
-      </div>
-
-    {{ end }}
+  {{ end }}
 
   {{ end }}
 </div>
