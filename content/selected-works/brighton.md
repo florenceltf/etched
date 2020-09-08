@@ -15,5 +15,10 @@ gallery:
   image: "/images/uploads/img_0024.gif"
   title: Excellent
   description: Bill and Ted go on an **excellent** adventure.
+- template: portrait-image-with-description
+  layout: portrait-with-description
+  title: Caption
+  image: "/images/uploads/example4.jpg"
+  description: Caption
 
 ---
