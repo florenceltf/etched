@@ -3,7 +3,6 @@ category = "Commercial"
 client = "Keanu Reeves"
 collaborators = ""
 description = "Insert a beautiful description about Koo Wee Rup."
-draft = true
 title = "Koo Wee Rup"
 year = "2005"
 [[gallery]]
