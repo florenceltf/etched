@@ -51,3 +51,5 @@ fields:
   config:
     min: 
     max: 
+pages:
+- content/selected-works/geelong.md
