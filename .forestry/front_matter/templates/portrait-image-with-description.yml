@@ -1,4 +1,31 @@
 ---
 label: Portrait Image with Description
 hide_body: true
-fields: []
+fields:
+- name: title
+  type: text
+  config:
+    required: true
+  label: Title
+  description: Title of the image is used in the alternate text.
+- name: image
+  type: file
+  config:
+    maxSize: 64
+  label: Image
+- name: layout
+  type: text
+  config:
+    required: false
+  label: Layout
+  hidden: true
+  default: portrait-with-description
+- name: description
+  type: textarea
+  default: ''
+  config:
+    required: false
+    wysiwyg: true
+    schema:
+      format: markdown
+  label: Description
