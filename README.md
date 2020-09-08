@@ -21,3 +21,4 @@
 - [ ] On index, have captions appear on image hover
 - [ ] On selected works, hide footer until project hover
 - [ ] Link next button to next project
+- [ ] Check lazyload
