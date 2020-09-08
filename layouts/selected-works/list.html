@@ -17,7 +17,7 @@
 
     <ul>
       {{ range .Pages }}
-      <li><a class="selected-work" data-selected-work="{{ .File.UniqueID }}" href="{{.Permalink}}">{{.Title}}</a></li>
+      <li><a class="selected-work" data-selected-work="{{ .File.UniqueID }}" href="{{.RelPermalink}}">{{.Title}}</a></li>
       {{ end }}
     </ul>
 

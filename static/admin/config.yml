@@ -1,6 +1,6 @@
 backend:
-  # TODO: name: git-gateway
-  name: github
+  # name: github
+  name: git-gateway
   repo: florenceltf/etched
   branch: master
 
