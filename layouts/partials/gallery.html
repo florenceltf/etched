@@ -46,7 +46,7 @@
 
   <div class="column is-8 is-offset-2 project-image landscape-side">
     <div class="column">
-      <div class="columns is-mobile">
+      <div class="columns is-variable is-3-mobile is-3-tablet is-3-desktop is-3-widescreen is-3-fullhd">
         <div class="column">
           <div class="bd-notification is-info">
             <img style="width: 100%" src="data:image/jpeg;base64,{{ $smallImageLeft.Content | base64Encode  }}"
@@ -66,13 +66,15 @@
   {{ else if eq .template "portrait-side-image" }}
 
   {{ $imageLeft := resources.Get (index . "image-left") }}
+  {{ $largeImageLeft := $imageLeft.Fill "400x800 Center" }}
   {{ $smallImageLeft := $imageLeft.Fill "20x Center" }}
   {{ $imageRight := resources.Get (index . "image-right") }}
+  {{ $largeImageRight := $imageRight.Fill "400x800 Center" }}
   {{ $smallImageRight := $imageRight.Fill "20x Center" }}
 
   <div class="column is-6 is-offset-3 project-image portrait-side">
     <div class="column">
-      <div class="columns is-mobile">
+      <div class="columns is-variable is-3-mobile is-3-tablet is-3-desktop is-3-widescreen is-3-fullhd">
         <div class="column">
           <div class="bd-notification is-info">
             <img style="width: 100%" src="data:image/jpeg;base64,{{ $smallImageLeft.Content | base64Encode  }}"
