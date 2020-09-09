@@ -26,5 +26,10 @@ gallery:
   alt: Example
   image: "/images/uploads/example-1.jpg"
   caption: ''
+- template: landscape-side-image
+  image-left: "/images/uploads/example2-1.jpg"
+  alt: Example
+  image-right: "/images/uploads/example3-1.jpg"
+  caption: Caption here
 
 ---
