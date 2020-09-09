@@ -20,5 +20,17 @@ gallery:
   title: Caption
   image: "/images/uploads/example4.jpg"
   description: Caption
+- template: portrait-image
+  layout: portrait
+  title: House
+  image: "/images/uploads/external-content-duckduckgo-com.jpeg"
+- template: landscape-image
+  layout: landscape
+  image: "/images/uploads/afasdfasdfa.jpeg"
+  title: House
+- template: portrait-image
+  layout: portrait
+  title: Title
+  image: "/images/uploads/example6.jpg"
 
 ---
