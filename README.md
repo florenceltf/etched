@@ -15,7 +15,7 @@
 - [x] project page links don't click
 
 ## To do
-- [ ] Mouse does not move when page is scrolled
+- [ ] Move cursor with mouse on page scroll and page resize
 - [ ] Add gap in side by side image layouts (Kew Gardens post)
 - [ ] Set up quote entry in portrait-quote layout style
 - [ ] On index, have captions appear on image hover
