@@ -14,6 +14,5 @@ gallery:
   alt: Landscape Image
   image: "/images/uploads/example6.jpg"
   caption: ''
-draft: true
 
 ---

@@ -21,6 +21,6 @@ fields:
   - portrait-side-image
   config:
     min: 1
-    max:
+    max: 
 pages:
 - content/_index.md
