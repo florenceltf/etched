@@ -1,0 +1,26 @@
+---
+label: Home
+hide_body: true
+fields:
+- name: title
+  type: text
+  config:
+    required: true
+  label: Title
+  default: Home
+- name: gallery
+  type: blocks
+  label: Gallery
+  template_types:
+  - landscape-full-image
+  - landscape-image
+  - landscape-portrait-bottom-image
+  - landscape-side-image
+  - portrait-image
+  - portrait-quote-image
+  - portrait-side-image
+  config:
+    min: 1
+    max: 
+pages:
+- content/_index.md

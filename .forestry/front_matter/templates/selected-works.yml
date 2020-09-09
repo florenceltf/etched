@@ -1,0 +1,70 @@
+---
+label: Selected Works
+hide_body: true
+fields:
+- name: title
+  type: text
+  config:
+    required: true
+  label: Title
+- name: year
+  type: text
+  config:
+    required: true
+  label: Year
+- name: client
+  type: text
+  config:
+    required: true
+  label: Client
+- name: collaborators
+  type: text
+  config:
+    required: false
+  label: Collaborators
+- name: category
+  type: select
+  default: []
+  config:
+    required: false
+    options:
+    - Residential
+    - Multi-Residential
+    - Commercial
+    source:
+      type: simple
+      section: 
+      file: 
+      path: 
+  label: Category
+- name: description
+  type: text
+  config:
+    required: false
+  label: Description
+  description: Description is shown on the selected works list page.
+- name: body
+  type: textarea
+  default: ''
+  config:
+    required: true
+    wysiwyg: true
+    schema:
+      format: markdown
+  label: Body
+- name: gallery
+  type: blocks
+  label: Gallery
+  template_types:
+  - landscape-full-image
+  - landscape-image
+  - landscape-portrait-bottom-image
+  - landscape-side-image
+  - portrait-image
+  - portrait-quote-image
+  - portrait-side-image
+  config:
+    min: 
+    max: 
+pages:
+- content/selected-works/brighton.md

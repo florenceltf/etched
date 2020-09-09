@@ -1,0 +1,26 @@
+---
+label: Portrait Quote Image
+hide_body: true
+fields:
+- name: alt
+  type: text
+  config:
+    required: true
+  description: Alternative text to display if the image fails to load.
+  label: Alt
+- name: image
+  label: Image
+  type: file
+  config:
+    maxSize: 64
+    required: true
+- name: quote
+  label: Quote
+  type: text
+  config:
+    required: false
+- name: caption
+  type: text
+  config:
+    required: false
+  label: Caption

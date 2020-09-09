@@ -1,0 +1,22 @@
+---
+label: Portrait Image
+hide_body: true
+fields:
+- name: alt
+  type: text
+  config:
+    required: true
+  label: Alt
+  description: Alternative text to display if the image fails to load.
+- name: image
+  type: file
+  config:
+    maxSize: 64
+    required: true
+  label: Image
+- name: caption
+  type: text
+  config:
+    required: false
+  label: Caption
+  description: Short description about the image.

@@ -1,8 +1,8 @@
 baseURL: https://etched.netlify.app/
 languageCode: en-au
 title: Etched
+metaDataFormat: yaml
 taxonomies: {}
-
 menu:
   main:
     - name: Selected Works

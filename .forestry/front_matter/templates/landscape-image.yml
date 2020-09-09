@@ -1,0 +1,21 @@
+---
+label: Landscape Image
+hide_body: true
+fields:
+- name: alt
+  type: text
+  config:
+    required: true
+  description: Alternative text to display if the image fails to load.
+  label: Alt
+- name: image
+  type: file
+  config:
+    maxSize: 64
+    required: true
+  label: Image
+- name: caption
+  type: text
+  config:
+    required: false
+  label: Caption
