@@ -1,6 +1,6 @@
 ---
 category: Residential
-title: Kew Gardens Apartments
+title: Kew Gardens Apartments!
 year: "2020"
 client: Client
 collaborators: Collaborator
@@ -13,6 +13,10 @@ body: "When a site is zoned mixed use, the response is to build residences  \nor
   spaces, they allow for multiple scenarios of work, live and socialising in the same
   space. The ground and first floor flexible spaces are ready to accommodate a creative
   studio, a shop, or extension of the living area."
-gallery: []
+gallery:
+- template: landscape-image
+  alt: Example
+  image: "/images/uploads/example3.jpg"
+  caption: ''
 
 ---
