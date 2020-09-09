@@ -12,8 +12,7 @@ body: |-
 gallery:
 - template: landscape-image
   alt: Landscape Image
-  image: "/images/uploads/example6.jpg"
+  image: "/images/uploads/example2.jpg"
   caption: ''
 draft: true
-
 ---
