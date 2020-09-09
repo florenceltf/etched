@@ -1,32 +1,32 @@
 <div class="gallery columns is-multiline">
   {{ range . }}
 
-  {{ if eq .layout "portrait" }}
+  {{ if eq .template "portrait-image" }}
 
   <div class="column is-4 is-offset-4 project-image portrait">
 
     <img style="width: 100%" data-src="{{ .image }}" data-sizes="auto"
-      alt="{{ .title }}" class="lazyload {{ .layout }}">
+      alt="{{ .title }}" class="lazyload {{ .template }}">
     {{ with .caption }}<span class="caption">{{ . }}</span>{{ end }}
   </div>
 
-  {{ else if eq .layout "landscape" }}
+  {{ else if eq .template "landscape-image" }}
 
   <div class="column is-6 is-offset-3 project-image landscape">
     <img style="width: 100%" data-src="{{ .image }}" alt="{{ .title }}"
-      class="lazyload {{ .layout }}">
+      class="lazyload {{ .template }}">
     {{ with .caption }}<span class="caption">{{ . }}</span>{{ end }}
   </div>
 
-  {{ else if eq .layout "landscape-full" }}
+  {{ else if eq .template "landscape-full-image" }}
 
   <div class="column is-8 is-offset-2 project-image landscape-full">
     <img style="width: 100%" data-src="lazyload {{ .image }}" alt="{{ .title }}"
-      class="{{ .layout }}">
+      class="{{ .template }}">
     {{ with .caption }}<span class="caption">{{ . }}</span>{{ end }}
   </div>
 
-  {{ else if eq .layout "landscape-side" }}
+  {{ else if eq .template "landscape-side-image" }}
 
   <div class="column is-8 is-offset-2 project-image landscape-side">
     <div class="column">
@@ -34,20 +34,20 @@
         <div class="column">
           <div class="bd-notification is-info">
             <img style="width: 100%" data-src="{{ .image }}" alt="{{ .title }}"
-              class="lazyload {{ .layout }}">
+              class="lazyload {{ .template }}">
           </div>
         </div>
         <div class="column">
           <div class="bd-notification is-info">
             <img style="width: 100%" data-src="{{ .image }}" alt="{{ .title }}"
-              class="lazyload {{ .layout }}">
+              class="lazyload {{ .template }}">
           </div>
         </div>
       </div>
     </div>
   </div>
 
-  {{ else if eq .layout "portrait-side" }}
+  {{ else if eq .template "portrait-side-image" }}
 
   <div class="column is-6 is-offset-3 project-image portrait-side">
     <div class="column">
@@ -55,20 +55,20 @@
         <div class="column">
           <div class="bd-notification is-info">
             <img style="width: 100%" data-src="{{ .image }}" alt="{{ .title }}"
-              class="lazyload {{ .layout }}">
+              class="lazyload {{ .template }}">
           </div>
         </div>
         <div class="column">
           <div class="bd-notification is-info">
             <img style="width: 100%" data-src="{{ .image }}" alt="{{ .title }}"
-              class="lazyload {{ .layout }}">
+              class="lazyload {{ .template }}">
           </div>
         </div>
       </div>
     </div>
   </div>
 
-  {{ else if eq .layout "portrait-quote" }}
+  {{ else if eq .template "portrait-quote-image" }}
 
   <div class="column is-6 is-offset-3 project-image portrait-quote">
     <div class="column">
@@ -76,20 +76,20 @@
         <div class="column">
           <div class="bd-notification is-info">
             <img style="width: 100%" data-src="{{ .image }}" alt="{{ .title }}"
-              class="lazyload {{ .layout }}">
+              class="lazyload {{ .template }}">
           </div>
         </div>
         <div class="column">
           <div class="bd-notification is-info">
             <img style="width: 100%" data-src="{{ .image }}" alt="{{ .title }}"
-              class="lazyload {{ .layout }}">
+              class="lazyload {{ .template }}">
           </div>
         </div>
       </div>
     </div>
   </div>
 
-  {{ else if eq .layout "landscape-portrait-bottom" }}
+  {{ else if eq .template "landscape-portrait-bottom-image" }}
 
   <div class="column is-6 is-offset-3 project-image landscape">
     TODO: Landscape portrait bottom
@@ -98,7 +98,7 @@
   {{ else }}
 
   <div style="color:red" class="column is-6 is-offset-3 project-image landscape">
-    Unsupported layout: {{ .layout }}
+    Unsupported layout: {{ .template }}
   </div>
 
   {{ end }}
