@@ -96,6 +96,7 @@ div.home {
   animation: fadein 1s .5s forwards;
   -webkit-animation: fadein 1s .5s forwards;
   opacity: 0;
+  padding: 0 48px 0 48px;
 }
 
 .logo {
@@ -284,7 +285,7 @@ p {
 }
 
 .gallery {
-  padding: 0 20px 0 20px;
+  padding: 0 40px 0 40px;
 }
 
 .project-image {
@@ -295,6 +296,10 @@ p {
   -webkit-animation: fadein .5s 1.5s forwards;
   animation: fadein .5s 1.5s forwards;
   opacity: 0;
+}
+
+.next-container {
+  padding: 0 40px 0 40px;
 }
 
 .next {
