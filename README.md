@@ -21,4 +21,4 @@
 - [ ] On index, have captions appear on image hover
 - [ ] On selected works, hide footer until project hover
 - [ ] Link next button to next project
-- [ ] Fix lazyload
+- [ ] [Fix lazyload](https://dev.to/p4lm/lazy-loading-images-in-hugo-45e0)
