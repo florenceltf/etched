@@ -7,6 +7,5 @@
 - [ ] Add margin when side layouts are in mobile view
 - [ ] Set up quote entry in portrait-quote layout style
 - [ ] On index, have captions appear on image hover
-- [ ] On selected works, hide footer until project hover
 - [ ] Link next button to next project
 - [ ] [Fix lazyload](https://dev.to/p4lm/lazy-loading-images-in-hugo-45e0)
