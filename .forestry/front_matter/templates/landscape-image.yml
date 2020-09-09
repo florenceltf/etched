@@ -2,15 +2,20 @@
 label: Landscape Image
 hide_body: true
 fields:
-- name: title
+- name: alt
   type: text
   config:
     required: true
-  label: Title
-  description: Title of the image is used in the alternate text.
+  description: Alternative text to display if the image fails to load.
+  label: Alt
 - name: image
   type: file
   config:
     maxSize: 64
     required: true
   label: Image
+- name: caption
+  type: text
+  config:
+    required: false
+  label: Caption
