@@ -10,7 +10,7 @@ fields:
 - name: alt
   type: text
   config:
-    required: false
+    required: true
   label: Alt
   description: Alternative text to display if the image fails to load.
 - name: caption
