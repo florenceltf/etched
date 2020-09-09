@@ -36,8 +36,7 @@ html {
 body {
   font-family: "Untitled Sans", Arial, Helvetica, sans-serif;
   margin: 0 auto 0 auto;
-  /* max-width: 1440px; */
-  background: #f2f1e6;
+  background: #fcfbf4;
   cursor: none;
 }
 
@@ -117,6 +116,14 @@ div.home {
   -webkit-animation: fadein 1s .5s forwards;
   animation: fadein 1s .5s forwards;
   opacity: 0;
+}
+
+.index-gallery {
+  margin-top: 100px;
+}
+
+.index-padding{
+  padding: 0 10px 0 10px;
 }
 
 /* info */
@@ -265,7 +272,7 @@ p {
 
 .project {
   z-index: 1;
-  background: #f2f1e6;
+  background: #fcfbf4;
 }
 
 .scrolled h2 {
@@ -299,6 +306,19 @@ p {
   opacity: 0;
 }
 
+.caption {
+  font-size: 14px;
+  line-height: 40px;
+}
+
+blockquote {
+  font-size: 20px;
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+}
+
 .next-container {
   padding: 0 40px 0 40px;
 }
@@ -330,4 +350,17 @@ p {
   position: absolute;
   top: 20px;
   width: 40px;
+}
+
+@media (max-width: 1024px){
+
+  .mobile-padding{
+    padding-top: 80px;
+  }
+
+  .index-padding{
+    padding: 0;
+  }
+  
+
 }

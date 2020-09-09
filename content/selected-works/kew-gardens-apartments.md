@@ -1,9 +1,9 @@
 ---
 category: Residential
 title: Kew Gardens Apartments
-year: "2020"
-client: Client
-collaborators: Collaborator
+year: "2016 — 2019"
+client: Private
+collaborators: Millieu Property, Sandy Builders
 description: Insert a beautiful little description here about Kew Gardens Apartments.
 body: "When a site is zoned mixed use, the response is to build residences  \nor commercial
   tenancies or some proportion of each type – this project allows for both uses to
@@ -15,21 +15,20 @@ body: "When a site is zoned mixed use, the response is to build residences  \nor
   studio, a shop, or extension of the living area."
 gallery:
 - template: landscape-image
-  alt: Example
-  image: "/images/uploads/example3.jpg"
-  caption: ''
+  alt: Alt text
+  image: "/images/uploads/example01.jpg"
+  caption: Optional caption
 - template: landscape-image
-  alt: Example
-  image: "/images/uploads/example.jpg"
-  caption: ''
-- template: landscape-image
-  alt: Example
-  image: "/images/uploads/example-1.jpg"
-  caption: ''
+  alt: Alt text
+  image: "/images/uploads/example02.jpg"
+  caption: Optional caption
 - template: landscape-side-image
-  image-left: "/images/uploads/example2-1.jpg"
-  alt: Example
-  image-right: "/images/uploads/example3-1.jpg"
-  caption: Caption here
-
+  image-left: "/images/uploads/example04.jpg"
+  alt: Alt text
+  image-right: "/images/uploads/example05.jpg"
+  caption: Optional caption
+- template: landscape-image
+  alt: Alt text
+  image: "/images/uploads/example03.jpg"
+  caption: Optional caption
 ---
