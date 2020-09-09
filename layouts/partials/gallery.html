@@ -74,8 +74,8 @@
 
   <div class="column is-6 is-offset-3 project-image portrait-side">
     <div class="column">
-      <div class="columns is-variable is-3-mobile is-3-tablet is-3-desktop is-3-widescreen is-3-fullhd">
-        <div class="column">
+      <div class="columns is-variable is-desktop">
+        <div class=" column">
           <div class="bd-notification is-info">
             <img style="width: 100%" src="data:image/jpeg;base64,{{ $smallImageLeft.Content | base64Encode  }}"
               data-src="{{ $imageLeft.RelPermalink }}" alt="{{ .alt }}" class="lazyload {{ .template }}">

@@ -223,13 +223,14 @@ section.selected a:hover {
 }
 
 
-.description-list {
+#description-list {
   width: 100%;
   background: #8a7244;
   position: fixed;
   bottom: 0;
   display: flex;
   justify-content: center;
+  display: none;
 }
 
 .description-content {
