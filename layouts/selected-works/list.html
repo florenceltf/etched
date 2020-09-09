@@ -10,26 +10,27 @@
     <div class="selected-line"></div>
   </div>
 
-  <section class="container selected">
+  <section class="container selected fadein">
     {{ range .Pages.GroupByParam "category" }}
 
     <h3>{{ .Key }}</h3>
 
     <ul>
       {{ range .Pages }}
-      <li><a class="selected-work" data-selected-work="{{ .File.UniqueID }}" href="{{.RelPermalink}}">{{.Title}}</a></li>
+      <li><a class="selected-work" data-selected-work="{{ .File.UniqueID }}" href="{{.RelPermalink}}">{{.Title}}</a>
+      </li>
       {{ end }}
     </ul>
 
     {{ end }}
   </section>
 
-  <div class="description-list columns is-mobile">
+  <div class="description-list columns is-mobile fadein">
     <!-- {{ range .Pages }}
     <p style="display:none" class="description fadein" data-selected-work="{{ .File.UniqueID }}">{{ .Description }}
     </p>
     {{ end }} -->
-    <div class="column is-6 is-offset-6" style="border-left: solid 1px rgb(206, 163, 136)">
+    <div class="description-content column is-6 is-offset-6" style="border-left: solid 1px rgb(206, 163, 136)">
       {{- range .Pages -}}<span style="display:none" class="description fadein"
         data-selected-work="{{ .File.UniqueID }}">{{ .Description }}</span>{{- end -}}
     </div>

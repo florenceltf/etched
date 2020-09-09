@@ -15,10 +15,14 @@
 }
 
 .fadein{
-  -webkit-animation-name: fadein;
-  -webkit-animation-duration: 2s;
-  animation-name: fadein;
-  animation-duration: 2s;
+  animation: fadein 1s forwards;
+  -webkit-animation: fadein 1s forwards;
+}
+
+.fadeload{
+  animation: fadein 1s .5s forwards;
+  -webkit-animation: fadein 1s .5s forwards;
+  opacity: 0;
 }
 
 ::selection {
@@ -32,7 +36,7 @@ html {
 body {
   font-family: "Untitled Sans", Arial, Helvetica, sans-serif;
   margin: 0 auto 0 auto;
-  max-width: 1440px;
+  /* max-width: 1440px; */
   background: #f2f1e6;
   cursor: none;
 }
@@ -83,11 +87,15 @@ div.home {
   flex-direction: column;
   justify-content: center;
   align-items: center;
+  z-index: 1;
 }
 
 .home img {
   max-width: 520px;
   height: 130px;
+  animation: fadein 1s .5s forwards;
+  -webkit-animation: fadein 1s .5s forwards;
+  opacity: 0;
 }
 
 .logo {
@@ -105,6 +113,9 @@ div.home {
   margin: 150px auto 0 auto;
   max-width: 800px;
   padding: 0 40px 0 40px;
+  -webkit-animation: fadein 1s .5s forwards;
+  animation: fadein 1s .5s forwards;
+  opacity: 0;
 }
 
 /* info */
@@ -140,10 +151,11 @@ div.info-details {
 
 .info-details {
   font-size: 20px;
+  margin-bottom: 50px;
 }
 
 .info-details p {
-  margin-top: 20px;
+  margin: 20px 0 40px 0;
 }
 
 
@@ -211,7 +223,7 @@ section.selected a:hover {
 
 
 .description-list {
-  width: 100%;  
+  width: 100%;
   background: #8a7244;
   position: fixed;
   bottom: 0;
@@ -219,20 +231,29 @@ section.selected a:hover {
   justify-content: center;
 }
 
-.description {
-  padding: 20px 20px 20px 20px;
+.description-content {
+  padding: 20px 20px 20px 30px;
 }
 
 /* projects */
 
 h2 {
+  pointer-events: none;
   font-weight: normal;
   font-size: 24px;
   text-align: center;
-  margin: -20px 0 60px 0;
+  margin: 130px 0 0 0;
   position: sticky;
   top: 40px;
   transition: font-size 0.25s;
+  z-index: 100;
+  -webkit-animation: fadein 1s .5s forwards;
+  animation: fadein 1s .5s forwards;
+  opacity: 0;
+}
+
+.project-container {
+  margin-top: 80px;
 }
 
 p {
@@ -241,7 +262,7 @@ p {
 }
 
 .project {
-  z-index: 0;
+  z-index: 1;
   background: #f2f1e6;
 }
 
@@ -262,7 +283,30 @@ p {
   margin-bottom: 0;
 }
 
+.gallery {
+  padding: 0 20px 0 20px;
+}
+
+.project-image {
+  margin-bottom: 80px;
+}
+
+.project-image img {
+  -webkit-animation: fadein .5s 1.5s forwards;
+  animation: fadein .5s 1.5s forwards;
+  opacity: 0;
+}
+
+.next {
+  text-align: center;
+  font-size: 16px;
+  border-top: 1px solid black;  
+  padding: 20px 0 40px 0;
+  margin: 0 10px 0 10px;
+}
+
 .cursor {
+  display: none;
   position: absolute;
   top: 0;
   left: 0;

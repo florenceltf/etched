@@ -2,16 +2,11 @@
 <main>
   {{ .Content }}
 </main>
-<div class="home fadein">
-  <a href="">
-    <img src="images/etched-logo.svg" alt="Etched Projects" />
-  </a>
-</div>
-{{ range .Params.gallery }}
 
-<div class="gallery">
-  <img style="width: 300px" src="{{ .image }}" alt="{{ .title }}" class="{{ .layout }}">
+<div class="home">
+  <img src="images/etched-logo.svg" alt="Etched Projects" />
 </div>
 
-{{ end }}
+{{ partial "gallery" .Params.gallery }}
+
 {{ end }}
