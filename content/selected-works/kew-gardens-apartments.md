@@ -1,6 +1,6 @@
 ---
 category: Residential
-title: Kew Gardens Apartments!!!
+title: Kew Gardens Apartments
 year: "2020"
 client: Client
 collaborators: Collaborator
