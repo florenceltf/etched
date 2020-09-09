@@ -9,7 +9,7 @@
     <div></div>
     <h2 class="title">{{ .Title }}</h2>
     <div class="container project-container">
-      {{ .Params.body }}
+      {{ .Params.body | markdownify }}
       <div class="details">
         <p>Year: {{ .Params.year }}</p>
         <p>Client: {{ .Params.client }}</p>
