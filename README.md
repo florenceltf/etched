@@ -22,3 +22,4 @@
 - [ ] On selected works, hide footer until project hover
 - [ ] Link next button to next project
 - [ ] [Fix lazyload](https://dev.to/p4lm/lazy-loading-images-in-hugo-45e0)
+- [ ] Add margin to line above next project
