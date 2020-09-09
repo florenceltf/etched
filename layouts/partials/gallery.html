@@ -8,8 +8,8 @@
 
   <div class="column is-4 is-offset-4 project-image portrait">
 
-    <img style="width: 100%" src="data:image/jpeg;base64,{{ $smallImage.Content | base64Encode  }}" data-src="{{ $image.RelPermalink }}" data-sizes="auto"
-      alt="{{ .alt }}" class="lazyload {{ .template }}">
+    <img style="width: 100%" src="data:image/jpeg;base64,{{ $smallImage.Content | base64Encode  }}"
+      data-src="{{ $image.RelPermalink }}" data-sizes="auto" alt="{{ .alt }}" class="lazyload {{ .template }}">
     {{ with .caption }}<span class="caption">{{ . }}</span>{{ end }}
   </div>
 
@@ -19,8 +19,8 @@
   {{ $smallImage := $image.Resize "20x" }}
 
   <div class="column is-6 is-offset-3 project-image landscape">
-    <img style="width: 100%" src="data:image/jpeg;base64,{{ $smallImage.Content | base64Encode  }}" data-src="{{ $image.RelPermalink }}" alt="{{ .alt }}"
-      class="lazyload {{ .template }}">
+    <img style="width: 100%" src="data:image/jpeg;base64,{{ $smallImage.Content | base64Encode  }}"
+      data-src="{{ $image.RelPermalink }}" alt="{{ .alt }}" class="lazyload {{ .template }}">
     {{ with .caption }}<span class="caption">{{ . }}</span>{{ end }}
   </div>
 
@@ -30,31 +30,31 @@
   {{ $smallImage := $image.Resize "20x" }}
 
   <div class="column is-8 is-offset-2 project-image landscape-full">
-    <img style="width: 100%" src="data:image/jpeg;base64,{{ $smallImage.Content | base64Encode  }}" data-src="lazyload {{ $image.RelPermalink }}" alt="{{ .alt }}"
-      class="{{ .template }}">
+    <img style="width: 100%" src="data:image/jpeg;base64,{{ $smallImage.Content | base64Encode  }}"
+      data-src="lazyload {{ $image.RelPermalink }}" alt="{{ .alt }}" class="{{ .template }}">
     {{ with .caption }}<span class="caption">{{ . }}</span>{{ end }}
   </div>
 
   {{ else if eq .template "landscape-side-image" }}
 
-  {{ $imageLeft := resources.Get .image }}
-  {{ $smallImageLeft := $image.Resize "20x" }}
-  {{ $imageRight := resources.Get .image }}
-  {{ $smallImageRight := $image.Resize "20x" }}
+  {{ $imageLeft := resources.Get (index . "image-left") }}
+  {{ $smallImageLeft := $imageLeft.Resize "20x" }}
+  {{ $imageRight := resources.Get (index . "image-right") }}
+  {{ $smallImageRight := $imageRight.Resize "20x" }}
 
   <div class="column is-8 is-offset-2 project-image landscape-side">
     <div class="column">
       <div class="columns is-mobile">
         <div class="column">
           <div class="bd-notification is-info">
-            <img style="width: 100%" src="data:image/jpeg;base64,{{ $smallImageLeft.Content | base64Encode  }}" data-src="{{ $imageLeft.RelPermalink }}" alt="{{ .alt }}"
-              class="lazyload {{ .template }}">
+            <img style="width: 100%" src="data:image/jpeg;base64,{{ $smallImageLeft.Content | base64Encode  }}"
+              data-src="{{ $imageLeft.RelPermalink }}" alt="{{ .alt }}" class="lazyload {{ .template }}">
           </div>
         </div>
         <div class="column">
           <div class="bd-notification is-info">
-            <img style="width: 100%" src="data:image/jpeg;base64,{{ $smallImageRight.Content | base64Encode  }}" data-src="{{ $imageRight.RelPermalink }}" alt="{{ .alt }}"
-              class="lazyload {{ .template }}">
+            <img style="width: 100%" src="data:image/jpeg;base64,{{ $smallImageRight.Content | base64Encode  }}"
+              data-src="{{ $imageRight.RelPermalink }}" alt="{{ .alt }}" class="lazyload {{ .template }}">
           </div>
         </div>
       </div>
@@ -63,24 +63,24 @@
 
   {{ else if eq .template "portrait-side-image" }}
 
-  {{ $imageLeft := resources.Get .image }}
-  {{ $smallImageLeft := $image.Resize "20x" }}
-  {{ $imageRight := resources.Get .image }}
-  {{ $smallImageRight := $image.Resize "20x" }}
+  {{ $imageLeft := resources.Get (index . "image-left") }}
+  {{ $smallImageLeft := $imageLeft.Resize "20x" }}
+  {{ $imageRight := resources.Get (index . "image-right") }}
+  {{ $smallImageRight := $imageRight.Resize "20x" }}
 
   <div class="column is-6 is-offset-3 project-image portrait-side">
     <div class="column">
       <div class="columns is-mobile">
         <div class="column">
           <div class="bd-notification is-info">
-            <img style="width: 100%" src="data:image/jpeg;base64,{{ $smallImageLeft.Content | base64Encode  }}" data-src="{{ $imageLeft.RelPermalink }}" alt="{{ .alt }}"
-              class="lazyload {{ .template }}">
+            <img style="width: 100%" src="data:image/jpeg;base64,{{ $smallImageLeft.Content | base64Encode  }}"
+              data-src="{{ $imageLeft.RelPermalink }}" alt="{{ .alt }}" class="lazyload {{ .template }}">
           </div>
         </div>
         <div class="column">
           <div class="bd-notification is-info">
-            <img style="width: 100%" src="data:image/jpeg;base64,{{ $smallImageRight.Content | base64Encode  }}" data-src="{{ $imageRight.RelPermalink }}" alt="{{ .alt }}"
-              class="lazyload {{ .template }}">
+            <img style="width: 100%" src="data:image/jpeg;base64,{{ $smallImageRight.Content | base64Encode  }}"
+              data-src="{{ $imageRight.RelPermalink }}" alt="{{ .alt }}" class="lazyload {{ .template }}">
           </div>
         </div>
       </div>
@@ -97,8 +97,8 @@
       <div class="columns is-mobile">
         <div class="column">
           <div class="bd-notification is-info">
-            <img style="width: 100%" src="data:image/jpeg;base64,{{ $smallImage.Content | base64Encode  }}" data-src="{{ $image.RelPermalink }}" alt="{{ .alt }}"
-              class="lazyload {{ .template }}">
+            <img style="width: 100%" src="data:image/jpeg;base64,{{ $smallImage.Content | base64Encode  }}"
+              data-src="{{ $image.RelPermalink }}" alt="{{ .alt }}" class="lazyload {{ .template }}">
           </div>
         </div>
         <div class="column">
