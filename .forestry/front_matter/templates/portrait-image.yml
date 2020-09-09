@@ -14,10 +14,3 @@ fields:
     maxSize: 64
     required: true
   label: Image
-- name: layout
-  type: text
-  config:
-    required: false
-  label: Layout
-  hidden: true
-  default: portrait
