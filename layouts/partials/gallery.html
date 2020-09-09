@@ -147,8 +147,30 @@
 
   {{ else if eq .template "landscape-portrait-bottom-image" }}
 
-  <div class="column is-6 is-offset-3 project-image landscape">
-    TODO: Landscape portrait bottom
+  {{ $imageLeft := resources.Get (index . "image-left") }}
+  {{ $largeImageLeft := $imageLeft.Fill "300x400 Center" }}
+  {{ $smallImageLeft := $imageLeft.Fill "20x Center" }}
+  {{ $imageRight := resources.Get (index . "image-right") }}
+  {{ $largeImageRight := $imageRight.Fill "600x450 BottomRight" }}
+  {{ $smallImageRight := $imageRight.Fill "20x BottomRight" }}
+
+  <div class="column is-10 is-offset-1 project-image landscape-portrait-bottom">
+    <div class="column">
+      <div class="columns is-variable is-8 is-desktop">
+        <div class=" column">
+          <div class="bd-notification is-info">
+            <img style="width: 100%" src="data:image/jpeg;base64,{{ $smallImageLeft.Content | base64Encode  }}"
+              data-src="{{ $imageLeft.RelPermalink }}" alt="{{ .alt }}" class="lazyload index-padding {{ .template }}">
+          </div>
+        </div>
+        <div class="column">
+          <div class="bd-notification is-info mobile-padding">
+            <img style="width: 100%" src="data:image/jpeg;base64,{{ $smallImageRight.Content | base64Encode  }}"
+              data-src="{{ $imageRight.RelPermalink }}" alt="{{ .alt }}" class="lazyload index-padding {{ .template }}">
+          </div>
+        </div>
+      </div>
+    </div>
   </div>
 
   {{ else }}
