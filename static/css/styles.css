@@ -44,6 +44,12 @@ a {
   color: black;
   text-decoration: none;
   cursor: none;
+  border-bottom: 0px solid transparent;
+  transition: border-bottom .5s;
+}
+
+a:hover {
+  border-bottom: 1px solid black;
 }
 
 header {
@@ -95,7 +101,7 @@ div.home {
   animation: fadein 1s .5s forwards;
   -webkit-animation: fadein 1s .5s forwards;
   opacity: 0;
-  padding: 0 48px 0 48px;
+  padding: 0 70px 0 70px;
 }
 
 .logo {
@@ -107,6 +113,10 @@ div.home {
 .logo img {
   width: 120px;
   height: 30px;
+}
+
+.logo a:hover{
+  border-bottom: 0px;
 }
 
 .container {
@@ -123,7 +133,7 @@ div.home {
 }
 
 .index-padding{
-  padding: 0 10px 0 10px;
+  padding: 0 20px 0 20px;
 }
 
 /* info */
@@ -298,12 +308,14 @@ p {
 
 .project-image {
   margin-bottom: 80px;
+  object-fit: cover;
 }
 
 .project-image img {
   -webkit-animation: fadein .5s 1.5s forwards;
   animation: fadein .5s 1.5s forwards;
   opacity: 0;
+  object-fit: cover;
 }
 
 .caption {
