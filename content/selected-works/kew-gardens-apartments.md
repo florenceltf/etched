@@ -18,5 +18,9 @@ gallery:
   alt: Example
   image: "/images/uploads/example3.jpg"
   caption: ''
+- template: landscape-image
+  alt: Example
+  image: "/images/uploads/example.jpg"
+  caption: ''
 
 ---
