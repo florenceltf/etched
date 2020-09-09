@@ -14,6 +14,5 @@ body: "When a site is zoned mixed use, the response is to build residences  \n o
   space. The ground and first floor flexible spaces are ready to accommodate a creative
   studio, a shop, or extension of the living area."
 gallery: []
-draft: true
 
 ---
