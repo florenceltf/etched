@@ -315,12 +315,12 @@ p {
   -webkit-animation: fadein .5s 1.5s forwards;
   animation: fadein .5s 1.5s forwards;
   opacity: 0;
-  object-fit: cover;
 }
 
 .caption {
+  padding-top: 10px;
   font-size: 14px;
-  line-height: 40px;
+  line-height: 20px;
 }
 
 blockquote {
@@ -338,7 +338,7 @@ blockquote {
 .next {
   text-align: center;
   font-size: 16px;
-  border-top: 1px solid black;  
+  border-top: 1px solid black;
   padding: 20px 0 40px 0;
 }
 
@@ -373,6 +373,6 @@ blockquote {
   .index-padding{
     padding: 0;
   }
-  
+
 
 }

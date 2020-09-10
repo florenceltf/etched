@@ -1,0 +1,20 @@
+{{ $image := resources.Get .image }}
+{{ $smallImage := $image.Resize "20x" }}
+{{ $largeImage := $image.Resize "600x Center" }}
+
+<div class="column is-6 is-offset-3 project-image">
+  <div class="columns is-multiline is-variable is-4 is-vcentered">
+
+    <figure class="column is-half image">
+      <img
+        src="data:image/jpeg;base64,{{ $smallImage.Content | base64Encode  }}"
+        data-src="{{ $largeImage.RelPermalink }}"
+        class="lazyload">
+    </figure>
+
+    <figure class="column is-half quote">
+      {{ .quote }}
+    </figure>
+
+  </div>
+</div>

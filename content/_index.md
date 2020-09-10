@@ -3,18 +3,16 @@ title: Index
 gallery:
 - template: landscape-portrait-bottom-image
   title: Title
-  image-left: "/images/uploads/example12.jpg"
-  alt: Alt text
-  image-right: "/images/uploads/example13.jpg"
+  image-portrait: "/images/uploads/example12.jpg"
+  image-landscape: "/images/uploads/example13.jpg"
   alt: Alt text
 - template: landscape-image
   title: Title
   image: "/images/uploads/example01.jpg"
   alt: Alt text
-- template: portrait-full-image
+- template: portrait-side-full-image
   title: Title
   image-left: "/images/uploads/example06.jpg"
-  alt: Alt text
   image-right: "/images/uploads/example09.jpg"
   alt: Alt text
 - template: landscape-full-image

@@ -1,0 +1,34 @@
+{{ $imageLeft := resources.Get (index . "image-left") }}
+{{ $largeImageLeft := $imageLeft.Fill "600x Center" }}
+{{ $smallImageLeft := $imageLeft.Resize "20x Center" }}
+
+{{ $imageRight := resources.Get (index . "image-right") }}
+{{ $largeImageRight := $imageRight.Fill "600x Center" }}
+{{ $smallImageRight := $imageRight.Resize "20x Center" }}
+
+
+<div class="column is-6 is-offset-3 project-image">
+  <div class="columns is-multiline is-variable is-4">
+
+    <figure class="column is-half image">
+      <img
+        src="data:image/jpeg;base64,{{ $smallImageLeft.Content | base64Encode  }}"
+        data-src="{{ $imageLeft.RelPermalink }}"
+        class="lazyload">
+    </figure>
+
+    <figure class="column is-half image">
+      <img
+        src="data:image/jpeg;base64,{{ $smallImageRight.Content | base64Encode  }}"
+        data-src="{{ $imageRight.RelPermalink }}"
+        class="lazyload">
+    </figure>
+
+    {{ with .caption }}
+    <div style="margin-top: -20px;" class="column caption">
+      {{ . }}
+    </div>
+    {{ end }}
+
+  </div>
+</div>
