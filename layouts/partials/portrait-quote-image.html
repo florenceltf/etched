@@ -4,16 +4,14 @@
 <div class="column is-6 is-offset-3 project-image">
   <div class="columns is-multiline is-variable is-4 is-vcentered">
 
-    <figure class="column is-half image">
-      <img
-        src="data:image/jpeg;base64,{{ $smallImage.Content | base64Encode  }}"
-        data-src="{{ $image.RelPermalink }}"
-        class="lazyload">
-    </figure>
-
-    <blockquote class="column is-half quote">
+    <blockquote class="column is-half quote padding">
       {{ .quote }}
     </blockquote>
+
+    <figure class="column is-half image">
+      <img src="data:image/jpeg;base64,{{ $smallImage.Content | base64Encode  }}" data-src="{{ $image.RelPermalink }}"
+        class="lazyload">
+    </figure>
 
   </div>
 </div>

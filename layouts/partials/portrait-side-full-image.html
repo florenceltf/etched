@@ -9,21 +9,17 @@
   <div class="columns is-multiline is-variable is-8">
 
     <figure class="column is-half image">
-      <img
-        src="data:image/jpeg;base64,{{ $smallImageLeft.Content | base64Encode  }}"
-        data-src="{{ $imageLeft.RelPermalink }}"
-        class="lazyload">
+      <img src="data:image/jpeg;base64,{{ $smallImageLeft.Content | base64Encode  }}"
+        data-src="{{ $imageLeft.RelPermalink }}" class="lazyload">
     </figure>
 
     <figure class="column is-half image">
-      <img
-        src="data:image/jpeg;base64,{{ $smallImageRight.Content | base64Encode  }}"
-        data-src="{{ $imageRight.RelPermalink }}"
-        class="lazyload">
+      <img src="data:image/jpeg;base64,{{ $smallImageRight.Content | base64Encode  }}"
+        data-src="{{ $imageRight.RelPermalink }}" class="lazyload">
     </figure>
 
     {{ with .caption }}
-    <div style="margin-top: -20px;" class="column caption">
+    <div class="column caption">
       {{ . }}
     </div>
     {{ end }}

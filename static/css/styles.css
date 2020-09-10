@@ -250,8 +250,8 @@ section.selected a:hover {
   display: none;
 }
 
-.description-content {
-  padding: 20px 20px 20px 30px;
+.description {
+  padding: 20px 20px 0 30px;
 }
 
 /* projects */
@@ -315,9 +315,13 @@ p {
 }
 
 .caption {
-  padding-top: 20px;
+  padding-top: 10px;
   font-size: 14px;
   line-height: 20px;
+}
+
+.column.caption {
+  margin-top: -10px;
 }
 
 blockquote {
@@ -363,13 +367,8 @@ blockquote {
 
 @media (max-width: 1024px){
 
-  .mobile-padding{
-    padding-top: 80px;
+  .padding{
+    padding-bottom: 80px;
   }
-
-  .index-padding{
-    padding: 0;
-  }
-
 
 }
