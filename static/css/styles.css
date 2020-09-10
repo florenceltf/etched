@@ -309,16 +309,13 @@ p {
 .project-image {
   margin-bottom: 60px;
   object-fit: cover;
-}
-
-.project-image img {
   -webkit-animation: fadein .5s 1.5s forwards;
   animation: fadein .5s 1.5s forwards;
   opacity: 0;
 }
 
 .caption {
-  padding-top: 25px;
+  padding-top: 15px;
   font-size: 14px;
   line-height: 20px;
 }

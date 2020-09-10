@@ -1,12 +1,12 @@
-{{ $imageLeft := resources.Get (index . "image-landscape") }}
+{{ $imageLeft := resources.Get (index . "image-portrait") }}
 {{ $smallImageLeft := $imageLeft.Resize "20x Center" }}
 
-{{ $imageRight := resources.Get (index . "image-portrait") }}
+{{ $imageRight := resources.Get (index . "image-landscape") }}
 {{ $smallImageRight := $imageRight.Resize "20x Center" }}
 
 
 <div class="column is-10 is-offset-1 project-image">
-  <div class="columns is-multiline is-variable is-4">
+  <div class="columns is-multiline is-variable is-8">
 
     <figure class="column is-half image">
       <img
@@ -16,9 +16,11 @@
     </figure>
 
     <figure class="column is-half image">
+
       <img
         src="data:image/jpeg;base64,{{ $smallImageRight.Content | base64Encode  }}"
         data-src="{{ $imageRight.RelPermalink }}"
+        style="position: absolute; bottom: 0; left: 0;"
         class="lazyload">
     </figure>
 
