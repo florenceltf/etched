@@ -4,6 +4,5 @@
 ## Tasks
 - [ ] On index, have captions appear on image hover
 - [ ] Should we resize uploaded images?
-- [ ] Different alt test for side by side images
-- [ ] Description hover is not aligned
-- [ ] Portrait image captions have tighter padding
+- [ ] Different alt text for side by side images (dw bout this)
+- [ ] If last project, loop to first proect when clicking next
