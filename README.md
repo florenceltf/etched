@@ -9,3 +9,4 @@
 - [ ] On index, have captions appear on image hover
 - [ ] Move cursor with mouse on page scroll and page resize
 - [ ] Different alt test for side by side images
+- [ ] Should we resize uploaded images?
