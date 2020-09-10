@@ -8,15 +8,16 @@
 <div class="column is-10 is-offset-1 project-image">
   <div class="columns is-multiline is-variable is-8">
 
-    <figure class="column is-half image">
+    <figure class="column is-half image padding">
       <img src="data:image/jpeg;base64,{{ $smallImageLeft.Content | base64Encode  }}"
         data-src="{{ $imageLeft.RelPermalink }}" class="lazyload">
     </figure>
 
-    <figure class="column is-half image">
-
-      <img src="data:image/jpeg;base64,{{ $smallImageRight.Content | base64Encode  }}"
-        data-src="{{ $imageRight.RelPermalink }}" class="lazyload">
+    <figure class="column is-half image landscape">
+      <div>
+        <img src="data:image/jpeg;base64,{{ $smallImageRight.Content | base64Encode  }}"
+          data-src="{{ $imageRight.RelPermalink }}" class="lazyload">
+      </div>
     </figure>
 
     {{ with .caption }}

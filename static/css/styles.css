@@ -343,6 +343,13 @@ blockquote {
   padding: 20px 0 40px 0;
 }
 
+.landscape {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+}
+
+
 .cursor {
   display: none;
   position: absolute;
