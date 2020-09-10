@@ -24,11 +24,13 @@
 
   </section>
 
+  {{ with .NextInSection }}
   <div class="columns is-multiline next-container">
     <div class="column is-6 is-offset-3">
-      <div class="next"><a href="">Next Project</a></div>
+      <div class="next"><a href="{{ .Permalink }}">Next Project</a></div>
     </div>
   </div>
+  {{ end }}
 
 </main>
 <script src="/js/project.js"></script>

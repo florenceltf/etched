@@ -3,7 +3,7 @@
 
 ## Tasks
 - [ ] Make images fill parent container
-- [ ] Link next button to next project
+- [x] Link next button to next project
 - [ ] Centre quote entry in portrait-quote layout style
 - [ ] On index, have captions appear on image hover
 - [ ] [Fix lazyload](https://dev.to/p4lm/lazy-loading-images-in-hugo-45e0)
