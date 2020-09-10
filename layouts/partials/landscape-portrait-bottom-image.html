@@ -1,9 +1,7 @@
 {{ $imageLeft := resources.Get (index . "image-landscape") }}
-{{ $largeImageLeft := $imageLeft.Fill "600x Center" }}
 {{ $smallImageLeft := $imageLeft.Resize "20x Center" }}
 
 {{ $imageRight := resources.Get (index . "image-portrait") }}
-{{ $largeImageRight := $imageRight.Fill "600x Center" }}
 {{ $smallImageRight := $imageRight.Resize "20x Center" }}
 
 
