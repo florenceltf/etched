@@ -317,6 +317,8 @@ p {
 
 .gallery {
   padding: 0 40px 0 40px;
+  margin-left: 0;
+  margin-right: 0;
 }
 
 .project-image {
@@ -347,6 +349,8 @@ blockquote {
 
 .next-container {
   padding: 0 40px 0 40px;
+  margin-left: 0;
+  margin-right: 0;
 }
 
 .next {
