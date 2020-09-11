@@ -1,0 +1,24 @@
+steps:
+  - name: 'gcr.io/cloud-builders/docker'
+    args: [ 'build', '--tag', 'gcr.io/$PROJECT_ID/core', '.' ]
+
+  - name: 'gcr.io/cloud-builders/docker'
+    args: ['push', 'gcr.io/$PROJECT_ID/core']
+
+  - name: 'gcr.io/google.com/cloudsdktool/cloud-sdk'
+    entrypoint: gcloud
+    args:
+      - 'run'
+      - 'deploy'
+      - '$PROJECT_ID'
+      - '--image'
+      - 'gcr.io/$PROJECT_ID/core'
+      - '--region'
+      - 'australia-southeast1'
+      - '--platform'
+      - 'managed'
+      - '80'
+      - '$PORT'
+
+images:
+  - 'gcr.io/$PROJECT_ID/core'
