@@ -142,13 +142,14 @@ div.home {
 }
 
 .index-gallery .caption {
-  color: transparent;
+  color: black;
 }
 
-/* .index-gallery figure:hover > .caption,
+.index-gallery figure:hover > .caption,
 .index-gallery div div div figure:hover > .caption{
   color: red;
-} */
+}
+
 /* 
 .index-gallery figure:hover {
   border: 1px solid red;
@@ -307,9 +308,6 @@ p {
   background: #fcfbf4;
 }
 
-.scrolled h2 {
-  font-size: 20px;
-}
 
 .scrolled {
   font-size: 20px;
@@ -344,16 +342,17 @@ p {
   line-height: 20px;
 }
 
-.column.caption {
-  margin-top: -10px;
-}
-
 blockquote {
   font-size: 20px;
   text-align: center;
   display: flex;
   justify-content: center;
   flex-direction: column;
+  padding: 30px;
+}
+
+.padding {
+  padding: 20px;
 }
 
 .next-container {

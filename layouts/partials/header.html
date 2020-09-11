@@ -1,4 +1,4 @@
-<header class="{{ if .context.IsHome }}  {{ end }}">
+<header class="{{ .class }}">
   <div class="page-nav{{ if .context.IsHome }} fadeload page-header{{ end }}">
     {{ $currentPage := .context }}
     {{ range .context.Site.Menus.main }}
