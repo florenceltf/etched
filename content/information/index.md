@@ -12,12 +12,16 @@ contact: |-
   [@etched_projects]()\
   [info@etchedprojects.com](mailto:info@etchedprojects.com)
 collaborators: |-
-  Architect name\
+  Architect\
   Millieu Group\
   The Block\
   Neometro\
-  Builders name\
-  Architect
+  Builder\
+  Architect\
+  Millieu Group\
+  The Block\
+  Neometro\
+  Builder\
 body: |-
   Etched creates responsive, enduring works of landscape architecture, that cultivate connections between people and their environments.
 
