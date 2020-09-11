@@ -142,18 +142,13 @@ div.home {
 }
 
 .index-gallery .caption {
-  color: black;
+  color: transparent;
 }
 
 .index-gallery figure:hover > .caption,
 .index-gallery div div div figure:hover > .caption{
-  color: red;
+  color: black;
 }
-
-/* 
-.index-gallery figure:hover {
-  border: 1px solid red;
-} */
 
 .index-padding{
   padding: 0 20px 0 20px;

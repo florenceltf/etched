@@ -11,18 +11,22 @@
     <figure class="column is-half image">
       <img src="data:image/jpeg;base64,{{ $smallImageLeft.Content | base64Encode  }}"
         data-src="{{ $imageLeft.RelPermalink }}" class="lazyload">
+      {{ with .caption }}
+      <div class="caption">
+        {{ . }}
+      </div>
+      {{ end }}
     </figure>
 
     <figure class="column is-half image">
       <img src="data:image/jpeg;base64,{{ $smallImageRight.Content | base64Encode  }}"
         data-src="{{ $imageRight.RelPermalink }}" class="lazyload">
+      {{ with .caption }}
+      <div class="column caption">
+        {{ . }}
+      </div>
+      {{ end }}
     </figure>
-
-    {{ with .caption }}
-    <div class="column caption">
-      {{ . }}
-    </div>
-    {{ end }}
 
   </div>
 </div>
