@@ -96,7 +96,7 @@ div.home {
 }
 
 .home img {
-  max-width: 520px;
+  max-width: 550px;
   height: 130px;
   animation: fadein 1s .5s forwards;
   -webkit-animation: fadein 1s .5s forwards;
@@ -131,6 +131,19 @@ div.home {
 .index-gallery {
   margin-top: 100px;
 }
+
+.index-gallery .caption {
+  color: transparent;
+}
+
+/* .index-gallery figure:hover > .caption,
+.index-gallery div div div figure:hover > .caption{
+  color: red;
+} */
+/* 
+.index-gallery figure:hover {
+  border: 1px solid red;
+} */
 
 .index-padding{
   padding: 0 20px 0 20px;
@@ -370,6 +383,23 @@ blockquote {
   position: absolute;
   top: 20px;
   width: 40px;
+}
+
+@media (min-width: 1500px) {
+  
+  .home img {
+    max-width: 650px;
+    height: 130px;
+    animation: fadein 1s .5s forwards;
+    -webkit-animation: fadein 1s .5s forwards;
+    opacity: 0;
+    padding: 0 70px 0 70px;
+  }
+
+  .container-full {
+    max-width: 1750px;  
+  }
+
 }
 
 @media (max-width: 1024px){
