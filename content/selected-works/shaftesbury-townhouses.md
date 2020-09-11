@@ -23,6 +23,6 @@ gallery:
   alt: Alt text
   image: "/images/uploads/example08.jpg"
   caption: Optional caption
-  quote: Insert quote here and the project and process.
+  quote: Insert quote here about the project, process etc.
 
 ---
