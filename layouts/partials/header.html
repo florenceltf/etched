@@ -1,23 +1,23 @@
-<header class="{{ .class }} columns is-variable is-0">
-  {{ $currentPage := .context }}
-  {{ range .context.Site.Menus.main }}
-  <div class="column is-2 {{ if $currentPage.IsHome }} fadeload {{ end }}">
+<header class="{{ if .context.IsHome }}  {{ end }}">
+  <div class="page-nav{{ if .context.IsHome }} fadeload page-header{{ end }}">
+    {{ $currentPage := .context }}
+    {{ range .context.Site.Menus.main }}
 
     <div
       class="nav-item{{if or ($currentPage.IsMenuCurrent "main" .) ($currentPage.HasMenuCurrent "main" .) }} active{{end}}">
       <a href="{{ .URL }}" title="{{ .Title }}">{{ .Name }}</a>
     </div>
+    {{ end }}
   </div>
-  {{ end }}
 
 
-  <div class="column is-offset-5 is-3">
-    {{ if (not .context.IsHome) }}
+  {{ if (not .context.IsHome) }}
+  <div>
     <div class="logo">
       <a href="/">
         <img src="/images/etched-logo.svg" alt="Etched Projects" />
       </a>
     </div>
-    {{ end }}
   </div>
+  {{ end }}
 </header>

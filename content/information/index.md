@@ -1,6 +1,6 @@
 ---
 title: Information
-layout: info
+layout: information
 services: |-
   Landscape Design\
   VCAT\

@@ -58,16 +58,21 @@ header {
   left: 0;
   margin: 0;
   z-index: 1;
+  width: 100%;
+  padding: 40px 0 0 40px;
+  font-size: 20px;
   display: flex;
   justify-content: space-between;
-  width: 100%;
-  padding-left: 40px;
 }
 
-header div {
-  padding: 40px 0 10px 0;
+.page-header {
   display: flex;
-  font-size: 20px;
+  justify-content: flex-start;
+}
+
+.page-nav {
+  display: flex;
+  justify-content: flex-start;
 }
 
 .nav-item a {
@@ -75,6 +80,10 @@ header div {
   border-bottom: 1px solid transparent;
   white-space: nowrap;
   overflow: hidden;
+}
+
+.nav-item:first-child {
+  margin-right: 100px;
 }
 
 .nav-item a:hover, .nav-item.active a {
@@ -121,7 +130,7 @@ div.home {
 
 .container {
   margin: 150px auto 0 auto;
-  max-width: 850px;
+  max-width: 870px;
   padding: 0 40px 0 40px;
   -webkit-animation: fadein 1s .5s forwards;
   animation: fadein 1s .5s forwards;
