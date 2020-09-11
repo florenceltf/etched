@@ -5,7 +5,7 @@ COPY --from=build /target/ /usr/local/apache2/htdocs/
 
 # Create the password
 RUN mkdir -p /etc/apache2
-RUN htpasswd -b -c /etc/apache2/.htpasswd etched $PASSWORD
+RUN htpasswd -b -c /etc/apache2/.htpasswd etched hello
 
 # Update the configuration
 COPY ./httpd.conf /usr/local/apache2/conf/httpd.conf
