@@ -1,7 +1,7 @@
 ---
 title: Index
 gallery:
-- template: portrait-landscape
+- template: portrait-landscape-image
   image-portrait: "/images/uploads/example12.jpg"
   image-landscape: "/images/uploads/example13.jpg"
   alt: Alt text
@@ -19,4 +19,5 @@ gallery:
   image: "/images/uploads/example10.jpg"
   alt: Alt text
   caption: Project Title
+
 ---
