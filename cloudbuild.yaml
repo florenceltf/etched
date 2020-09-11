@@ -1,6 +1,12 @@
 steps:
   - name: 'gcr.io/cloud-builders/docker'
-    args: [ 'build', '--tag', 'gcr.io/$PROJECT_ID/core', '.' ]
+    args:
+      - 'build'
+      - '--build-arg'
+      - 'PASSWORD=${_PASSWORD}'
+      - '--tag'
+      - 'gcr.io/$PROJECT_ID/core'
+      - '.'
 
   - name: 'gcr.io/cloud-builders/docker'
     args: ['push', 'gcr.io/$PROJECT_ID/core']
@@ -17,8 +23,8 @@ steps:
       - 'australia-southeast1'
       - '--platform'
       - 'managed'
+      - '--port'
       - '80'
-      - '$PORT'
 
 images:
   - 'gcr.io/$PROJECT_ID/core'
