@@ -402,6 +402,7 @@ blockquote {
 
   .container-full {
     max-width: 1750px;  
+    margin: 150px auto 0 auto;
   }
 
 }
