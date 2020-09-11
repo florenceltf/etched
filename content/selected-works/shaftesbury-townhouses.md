@@ -23,6 +23,6 @@ gallery:
   alt: Alt text
   image: "/images/uploads/example08.jpg"
   caption: Optional caption
-  quote: Insert quote here. Animustium eium im velOnsectur, ad quo quostion pra im fugitatas arum rent perspic tendam, eos re natas di dolorit la qui tem simus utecate
+  quote: Insert quote here and the project and process.
 
 ---
