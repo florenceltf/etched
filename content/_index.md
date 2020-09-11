@@ -1,7 +1,7 @@
 ---
 title: Index
 gallery:
-- template: landscape-portrait-bottom-image
+- template: portrait-landscape
   image-portrait: "/images/uploads/example12.jpg"
   image-landscape: "/images/uploads/example13.jpg"
   alt: Alt text
