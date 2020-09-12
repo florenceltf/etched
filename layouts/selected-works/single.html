@@ -20,8 +20,9 @@
       </div>
     </div>
 
-    {{ partial "gallery" .Params.gallery }}
-
+    <div class="project-gallery">
+      {{ partial "gallery" .Params.gallery }}
+    </div>
   </section>
 
   {{ with .NextInSection }}

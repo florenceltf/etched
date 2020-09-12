@@ -5,14 +5,14 @@
 {{ $smallImageRight := $imageRight.Resize "20x Center" }}
 
 
-<div class="column is-6 is-offset-3 project-image">
-  <div class="columns is-multiline is-variable is-4">
+<div class="column is-6 is-offset-3 project-image portrait-side-image">
+  <div class=" columns is-multiline is-variable is-4">
 
     <figure class="column is-half image">
       <img src="data:image/jpeg;base64,{{ $smallImageLeft.Content | base64Encode  }}"
         data-src="{{ $imageLeft.RelPermalink }}" class="lazyload">
-      {{ with .caption }}
-      <div class="column caption">
+      {{ with (index . "caption-left") }}
+      <div class="caption">
         {{ . }}
       </div>
       {{ end }}
@@ -21,8 +21,8 @@
     <figure class="column is-half image">
       <img src="data:image/jpeg;base64,{{ $smallImageRight.Content | base64Encode  }}"
         data-src="{{ $imageRight.RelPermalink }}" class="lazyload">
-      {{ with .caption }}
-      <div class="column caption">
+      {{ with (index . "caption-right") }}
+      <div class="caption">
         {{ . }}
       </div>
       {{ end }}

@@ -1,16 +1,13 @@
 {{ $image := resources.Get .image }}
 {{ $smallImage := $image.Resize "20x" }}
 
-<figure
-  class="column column is-6 is-offset-3 image project-image">
-  <img
-    src="data:image/jpeg;base64,{{ $smallImage.Content | base64Encode  }}"
-    data-src="{{ $image.RelPermalink }}"
+<figure class="column column is-6 is-offset-3 image project-image landscape-image">
+  <img src="data:image/jpeg;base64,{{ $smallImage.Content | base64Encode  }}" data-src="{{ $image.RelPermalink }}"
     class="lazyload">
 
   {{ with .caption }}
-    <div class="caption">
-      {{ . }}
-    </div>
+  <div class="caption">
+    {{ . }}
+  </div>
   {{ end }}
 </figure>

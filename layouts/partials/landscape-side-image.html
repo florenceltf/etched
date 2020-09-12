@@ -4,24 +4,29 @@
 {{ $imageRight := resources.Get (index . "image-right") }}
 {{ $smallImageRight := $imageRight.Resize "20x Center" }}
 
-<div class="column is-8 is-offset-2 project-image">
+<div class="column is-8 is-offset-2 project-image landscape-side-image">
   <div class="columns is-multiline is-variable is-4">
 
     <figure class="column is-half image">
       <img src="data:image/jpeg;base64,{{ $smallImageLeft.Content | base64Encode  }}"
         data-src="{{ $imageLeft.RelPermalink }}" class="lazyload">
+      {{ with (index . "caption-left") }}
+      <div class="caption">
+        {{ . }}
+      </div>
+      {{ end }}
     </figure>
+
 
     <figure class="column is-half image">
       <img src="data:image/jpeg;base64,{{ $smallImageRight.Content | base64Encode  }}"
         data-src="{{ $imageRight.RelPermalink }}" class="lazyload mobile-padding">
+      {{ with (index . "caption-right") }}
+      <div class="caption">
+        {{ . }}
+      </div>
+      {{ end }}
     </figure>
-
-    {{ with .caption }}
-    <div style="margin-top: -20px;" class="column caption">
-      {{ . }}
-    </div>
-    {{ end }}
 
   </div>
 </div>

@@ -22,6 +22,6 @@ document.addEventListener("mousemove", function (event) {
 window.addEventListener('scroll', updateCursor);
 
 
-// if (/Android|webOS|iPhone|iPad|iPod|BlackBerry|IEMobile|Opera Mini/i.test(navigator.userAgent)) {
-//   $("#cursor").css("display", "none");
-// };
+if (/Android|webOS|iPhone|iPad|iPod|BlackBerry|IEMobile|Opera Mini/i.test(navigator.userAgent)) {
+  cursorTag.style.display = "none";
+};

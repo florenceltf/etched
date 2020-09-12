@@ -1,5 +1,5 @@
 ---
-label: Landscape Portrait Bottom Image
+label: Portrait Landscape Image
 hide_body: true
 fields:
 - name: alt
@@ -8,20 +8,26 @@ fields:
     required: true
   description: Alternative text to display if the image fails to load.
   label: Alt
+- name: image-portrait
+  label: Image Portrait
+  type: file
+  config:
+    maxSize: 64
+    required: true
+- name: caption-portrait
+  type: text
+  config:
+    required: false
+  label: Caption Portrait
 - name: image-landscape
   label: Image Landscape
   type: file
   config:
     maxSize: 64
     required: true
-- name: image-portrat
-  label: Image Portrait
-  type: file
-  config:
-    maxSize: 64
-    required: true
-- name: caption
+- name: caption-landscape
   type: text
   config:
     required: false
-  label: Caption
+  label: Caption Landscape
+
