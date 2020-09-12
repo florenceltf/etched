@@ -7,3 +7,5 @@
 - [ ] Different alt text for side by side images
 - [ ] Should we resize uploaded images?
 - [ ] If last project, loop to first project when clicking next
+- [ ] hide cursor on click for mobile
+- [ ] fix width on mobile devices
