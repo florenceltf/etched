@@ -481,6 +481,10 @@ blockquote {
     margin-right: 30%;
   }
 
+  .index-gallery .caption {
+    font-size: 12px;
+  }
+
   .project-image {
     margin-bottom: 40px;
   }
