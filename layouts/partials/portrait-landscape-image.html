@@ -21,7 +21,7 @@
     <figure class="column is-half image landscape">
       <div>
         <img src="data:image/jpeg;base64,{{ $smallImageRight.Content | base64Encode  }}"
-          data-src="{{ $imageRight.RelPermalink }}" class="lazyload">
+          data-src="{{ $imageRight.RelPermalink }}" class="lazyload mobile-padding">
       </div>
       {{ with .caption }}
       <div class="caption">

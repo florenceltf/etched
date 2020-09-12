@@ -20,7 +20,7 @@
 
     <figure class="column is-half image">
       <img src="data:image/jpeg;base64,{{ $smallImageRight.Content | base64Encode  }}"
-        data-src="{{ $imageRight.RelPermalink }}" class="lazyload">
+        data-src="{{ $imageRight.RelPermalink }}" class="lazyload mobile-padding">
       {{ with .caption }}
       <div class="column caption">
         {{ . }}
