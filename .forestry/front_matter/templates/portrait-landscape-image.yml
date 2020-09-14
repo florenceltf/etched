@@ -42,3 +42,4 @@ fields:
       file: 
       path: 
   label: Project Link
+  description: Links to project. Only required for index page.
