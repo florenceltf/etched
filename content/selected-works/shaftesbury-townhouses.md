@@ -2,7 +2,7 @@
 category: Multi-Residential
 title: Shaftesbury Townhouses
 year: Ongoing
-client: The Smiths
+client: Private
 collaborators: Millieu Property, Sandy Builders
 description: Insert a beautiful little description here about Shaftesbury Townhouses.
 body: |-
