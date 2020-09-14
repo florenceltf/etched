@@ -12,7 +12,7 @@ sections:
   label: Information
 - type: directory
   path: content/selected-works
-  label: Selected works
+  label: Selected Works
   create: documents
   match: "*"
   templates:
