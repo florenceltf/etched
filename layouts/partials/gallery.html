@@ -1,7 +1,8 @@
 <div class="gallery columns is-multiline">
-  {{ range . }}
+  {{ $pageContext := . }}
+  {{ range .Params.gallery }}
 
-    {{ partial .template . }}
+    {{ partial .template (dict "item" . "context" $pageContext) }}
 
   {{ end }}
 </div>

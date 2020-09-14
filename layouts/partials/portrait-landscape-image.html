@@ -1,17 +1,21 @@
-{{ $imageLeft := resources.Get (index . "image-portrait") }}
+{{ $imageLeft := resources.Get (index .item "image-portrait") }}
 {{ $smallImageLeft := $imageLeft.Resize "20x Center" }}
+{{ $projectLinkPortrait := .context.Site.GetPage (print "/content/" (index .item "project-link-portrait")) }}
 
-{{ $imageRight := resources.Get (index . "image-landscape") }}
+{{ $imageRight := resources.Get (index .item "image-landscape") }}
 {{ $smallImageRight := $imageRight.Resize "20x Center" }}
+{{ $projectLinkLandscape := .context.Site.GetPage (print "/content/" (index .item "project-link-landscape")) }}
 
 
 <div class="column is-10 is-offset-1 project-image portrait-landscape-image">
   <div class="columns is-multiline is-variable is-8">
 
     <figure class="column is-half image">
-      <img src="data:image/jpeg;base64,{{ $smallImageLeft.Content | base64Encode  }}"
+      {{ with $projectLinkPortrait }}<a href="{{ $projectLinkPortrait.RelPermalink }}">{{ end }}
+        <img src="data:image/jpeg;base64,{{ $smallImageLeft.Content | base64Encode  }}"
         data-src="{{ $imageLeft.RelPermalink }}" class="lazyload">
-      {{ with (index . "caption-portrait") }}
+      {{ with $projectLinkPortrait }}</a>{{ end }}
+      {{ with (index .item "caption-portrait") }}
       <div class="caption">
         {{ . }}
       </div>
@@ -20,10 +24,12 @@
 
     <figure class="column is-half image landscape">
       <div>
-        <img src="data:image/jpeg;base64,{{ $smallImageRight.Content | base64Encode  }}"
+        {{ with $projectLinkLandscape }}<a href="{{ .RelPermalink }}">{{ end }}
+          <img src="data:image/jpeg;base64,{{ $smallImageRight.Content | base64Encode  }}"
           data-src="{{ $imageRight.RelPermalink }}" class="lazyload mobile-padding">
+        {{ with $projectLinkLandscape }}</a>{{ end }}
       </div>
-      {{ with (index . "caption-landscape") }}
+      {{ with (index .item "caption-landscape") }}
       <div class="caption">
         {{ . }}
       </div>

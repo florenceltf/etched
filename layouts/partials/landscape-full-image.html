@@ -1,11 +1,11 @@
-{{ $image := resources.Get .image }}
+{{ $image := resources.Get .item.image }}
 {{ $smallImage := $image.Resize "20x" }}
 
 <figure class="column is-8 is-offset-2 image project-image landscape-full-image">
   <img src="data:image/jpeg;base64,{{ $smallImage.Content | base64Encode  }}" data-src="{{ $image.RelPermalink }}"
     class="lazyload">
 
-  {{ with .caption }}
+  {{ with .item.caption }}
   <div class="caption">
     {{ . }}
   </div>
