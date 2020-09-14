@@ -1,10 +1,7 @@
 ---
 title: Information
 layout: info
-services: |-
-  Landscape Design\
-  VCAT\
-  Planning
+services: "Landscape Design  \nVCAT  \nPlanning"
 contact: |-
   7/6 Bromham Place,\
   Richmond,\
