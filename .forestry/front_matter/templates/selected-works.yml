@@ -58,11 +58,12 @@ fields:
   template_types:
   - landscape-full-image
   - landscape-image
-  - landscape-portrait-bottom-image
+  - portrait-landscape-image
   - landscape-side-image
   - portrait-image
   - portrait-quote-image
   - portrait-side-image
+  - portrait-side-full-image
   config:
     min: 
     max: 
