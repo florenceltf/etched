@@ -30,3 +30,15 @@ fields:
   config:
     required: false
   label: Caption Landscape
+- name: project_link
+  type: select
+  default: []
+  config:
+    required: false
+    options: []
+    source:
+      type: pages
+      section: selected-works
+      file: 
+      path: 
+  label: Project Link
