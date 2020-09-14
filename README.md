@@ -8,4 +8,6 @@
 - [ ] If last project, loop to first project when clicking next
 - [ ] hide cursor on click for mobile
 - [ ] fix width on mobile devices
+- [ ] not all 8 module templates are showing up in forestry
+- [ ] information not accessible in forestry
 
