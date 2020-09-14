@@ -19,6 +19,19 @@ fields:
   config:
     required: false
   label: Caption Left
+- name: project-link-left
+  type: select
+  default: []
+  config:
+    required: false
+    options: []
+    source:
+      type: pages
+      section: selected-works
+      file: 
+      path: 
+  label: Project Link Left
+  description: "* Note : Only required for index page."
 - name: image-right
   label: Image Right
   type: file
@@ -30,3 +43,16 @@ fields:
   config:
     required: false
   label: Caption Right
+- name: project-link-right
+  type: select
+  default: []
+  config:
+    required: false
+    options: []
+    source:
+      type: pages
+      section: selected-works
+      file: 
+      path: 
+  label: Project Link Right
+  description: "* Note : Only required for index page."
