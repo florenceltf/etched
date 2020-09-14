@@ -1,6 +1,9 @@
-$(document).ready(function () {
 
-  const cursorTag = document.querySelector("div.cursor");
+const cursorTag = document.querySelector("div.cursor");
+
+if (/Android|webOS|iPhone|iPad|iPod|BlackBerry|IEMobile|Opera Mini/i.test(navigator.userAgent)) {
+  cursorTag.style.display = "none";
+};
 
 var cursorX;
 var cursorY;
@@ -22,10 +25,3 @@ document.addEventListener("mousemove", function (event) {
 });
 
 window.addEventListener('scroll', updateCursor);
-
-
-if (/Android|webOS|iPhone|iPad|iPod|BlackBerry|IEMobile|Opera Mini/i.test(navigator.userAgent)) {
-  cursorTag.style.display = "none";
-};
-
-});
