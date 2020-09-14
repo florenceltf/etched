@@ -45,3 +45,5 @@ fields:
   label: layout
   hidden: true
   default: info
+pages:
+- content/information/index.md
