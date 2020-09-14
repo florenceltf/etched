@@ -426,7 +426,8 @@ blockquote {
 
   p,
   h4,
-  .caption {
+  .caption,
+ #description-list {
     font-size: 14px;
   }
 
