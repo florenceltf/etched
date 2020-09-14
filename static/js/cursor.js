@@ -1,4 +1,6 @@
-const cursorTag = document.querySelector("div.cursor");
+$(document).ready(function () {
+
+  const cursorTag = document.querySelector("div.cursor");
 
 var cursorX;
 var cursorY;
@@ -25,3 +27,5 @@ window.addEventListener('scroll', updateCursor);
 if (/Android|webOS|iPhone|iPad|iPod|BlackBerry|IEMobile|Opera Mini/i.test(navigator.userAgent)) {
   cursorTag.style.display = "none";
 };
+
+});

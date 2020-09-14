@@ -1,8 +1,7 @@
 ---
 title: Information
-layout: info
+layout: information
 services: "Landscape Design  \nVCAT  \nPlanning"
-slug: information
 contact: |-
   7/6 Bromham Place,\
   Richmond,\
@@ -33,7 +32,6 @@ body: |-
 menu:
   main:
     weight: 20
-
 ---
 Etched creates responsive, enduring works of landscape architecture, that cultivate connections between people and their environments.
 

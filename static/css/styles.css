@@ -424,7 +424,8 @@ blockquote {
 @media (max-width: 850px) {
 
   p,
-  h4 {
+  h4,
+  .caption {
     font-size: 14px;
   }
 
