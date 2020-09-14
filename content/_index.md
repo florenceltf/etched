@@ -20,8 +20,8 @@ gallery:
   alt: Alt text
   caption-left: Project Title
   caption-right: Project Title
-  project-link-left: ''
-  project-link-right: ''
+  project-link-left: selected-works/kew-gardens-apartments.md
+  project-link-right: selected-works/kew-gardens-apartments.md
 - template: landscape-full-image
   image: "/images/uploads/example10.jpg"
   alt: Alt text
