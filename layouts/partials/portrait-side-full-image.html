@@ -1,16 +1,20 @@
 {{ $imageLeft := resources.Get (index .item "image-left") }}
 {{ $smallImageLeft := $imageLeft.Resize "20x Center" }}
+{{ $projectLinkLeft := .context.Site.GetPage (print "/content/" (index .item "project-link-left")) }}
 
 {{ $imageRight := resources.Get (index .item "image-right") }}
 {{ $smallImageRight := $imageRight.Resize "20x Center" }}
-
+{{ $projectLinkRight := .context.Site.GetPage (print "/content/" (index .item "project-link-right")) }}
 
 <div class="column is-10 is-offset-1 project-image portrait-side-full-image">
   <div class="columns is-multiline is-variable is-8">
 
     <figure class="column is-half image">
+      {{ with $projectLinkLeft }}<a href="{{ $projectLinkLeft.RelPermalink }}">{{ end }}
       <img src="data:image/jpeg;base64,{{ $smallImageLeft.Content | base64Encode  }}"
         data-src="{{ $imageLeft.RelPermalink }}" class="lazyload">
+        {{ with $projectLinkLeft }}</a>{{ end }}
+
       {{ with (index .item "caption-left") }}
       <div class="caption">
         {{ . }}
@@ -19,8 +23,11 @@
     </figure>
 
     <figure class="column is-half image">
+      {{ with $projectLinkRight }}<a href="{{ $projectLinkRight.RelPermalink }}">{{ end }}
       <img src="data:image/jpeg;base64,{{ $smallImageRight.Content | base64Encode  }}"
         data-src="{{ $imageRight.RelPermalink }}" class="lazyload mobile-padding">
+        {{ with $projectLinkRight }}</a>{{ end }}
+
       {{ with (index .item "caption-right") }}
       <div class="caption">
         {{ . }}
