@@ -19,6 +19,19 @@ fields:
   config:
     required: false
   label: Caption Portrait
+- name: project-link-portrait
+  type: select
+  default: []
+  config:
+    required: false
+    options: []
+    source:
+      type: pages
+      section: selected-works
+      file: 
+      path: 
+  label: Project Link Portrait
+  description: "* Note : Only required for index page."
 - name: image-landscape
   label: Image Landscape
   type: file
@@ -30,7 +43,7 @@ fields:
   config:
     required: false
   label: Caption Landscape
-- name: project_link
+- name: project-link-landscape
   type: select
   default: []
   config:
@@ -41,4 +54,5 @@ fields:
       section: selected-works
       file: 
       path: 
-  label: Project Link
+  label: Project Link Landscape
+  description: "* Note : Only required for index page."
