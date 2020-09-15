@@ -46,4 +46,4 @@ fields:
   hidden: true
   default: info
 pages:
-- content/info/index.md
+- content/information/index.md

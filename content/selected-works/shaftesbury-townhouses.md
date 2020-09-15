@@ -2,7 +2,7 @@
 category: Multi-Residential
 title: Shaftesbury Townhouses
 year: Ongoing
-client: The Smiths
+client: Private
 collaborators: Millieu Property, Sandy Builders
 description: Insert a beautiful little description here about Shaftesbury Townhouses.
 body: |-
@@ -23,6 +23,6 @@ gallery:
   alt: Alt text
   image: "/images/uploads/example08.jpg"
   caption: Optional caption
-  quote: Insert quote here. Animustium eium im velOnsectur, ad quo quostion pra im fugitatas arum rent perspic tendam, eos re natas di dolorit la qui tem simus utecate
+  quote: Insert quote here about the project, process etc.
 
 ---

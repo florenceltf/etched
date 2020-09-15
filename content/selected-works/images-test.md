@@ -15,16 +15,18 @@ body: "When a site is zoned mixed use, the response is to build residences or co
   space. The ground and first floor flexible spaces are ready to accommodate a creative
   studio, a shop, or extension of the living area."
 gallery:
-- template: landscape-portrait-bottom-image
-  alt: Landscape Portrait Bottom Image
+- template: portrait-landscape-image
+  alt: Portrait Landscape Image
   image-landscape: "/images/uploads/example01.jpg"
   image-portrait: "/images/uploads/example09.jpg"
-  caption: Landscape Portrait Bottom Image
+  caption-landscape: Caption Landscape
+  caption-portrait: Caption Portrait
 - template: portrait-side-full-image
   alt: Portrait Side Image
   image-left: "/images/uploads/example08.jpg"
   image-right: "/images/uploads/example09.jpg"
-  caption: Portrait Side Full Image
+  caption-left: Portrait Side Full Image
+  caption-right: Portrait Side Full Image
 - template: portrait-quote-image
   alt: Portrait Quote Image
   image: "/images/uploads/example08.jpg"
@@ -33,62 +35,24 @@ gallery:
   alt: Portrait Side Image
   image-left: "/images/uploads/example08.jpg"
   image-right: "/images/uploads/example09.jpg"
-  caption: Portrait Side Image
+  caption-left: Portrait Side Image
+  caption-right: Portrait Side Image
 - template: landscape-side-image
   alt: Landscape Side Image
   image-left: "/images/uploads/example01.jpg"
   image-right: "/images/uploads/example02.jpg"
-  caption: Landscape Side blah blah blah blah blah blahblah blah blah blah blah blah blah blahblah blah blah blah blah blah blah blah blah blah blah blah
+  caption-left: Landscape Side
+  caption-right: Landscape Side
 - template: landscape-full-image
   alt: Landscape Full Image
   image: "/images/uploads/example01.jpg"
   caption: Landscape Full
-- template: landscape-full-image
-  alt: Landscape Full Image
-  image: "/images/uploads/example02.jpg"
-  caption: Landscape Full
-- template: landscape-full-image
-  alt: Landscape Full Image
-  image: "/images/uploads/example03.jpg"
-  caption: Landscape Full
-- template: landscape-full-image
-  alt: Landscape Full Image
-  image: "/images/uploads/example04.jpg"
-  caption: Landscape Full
-- template: landscape-full-image
-  alt: Landscape Full Image
-  image: "/images/uploads/example05.jpg"
-  caption: Landscape Full
-- template: landscape-image
-  alt: Landscape Image
-  image: "/images/uploads/example01.jpg"
-  caption: Landscape
 - template: landscape-image
   alt: Landscape Image
   image: "/images/uploads/example02.jpg"
-  caption: Landscape
-- template: landscape-image
-  alt: Landscape Image
-  image: "/images/uploads/example03.jpg"
-  caption: Landscape
-- template: landscape-image
-  alt: Landscape Image
-  image: "/images/uploads/example04.jpg"
-  caption: Landscape
-- template: landscape-image
-  alt: Landscape Image
-  image: "/images/uploads/example05.jpg"
   caption: Landscape
 - template: portrait-image
   alt: Portrait Image
   image: "/images/uploads/example06.jpg"
-  caption: Portrait
-- template: portrait-image
-  alt: Portrait Image
-  image: "/images/uploads/example08.jpg"
-  caption: Portrait
-- template: portrait-image
-  alt: Portrait Image
-  image: "/images/uploads/example09.jpg"
   caption: Portrait
 ---

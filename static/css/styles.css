@@ -26,11 +26,12 @@
 }
 
 ::selection {
-  background: transparent;
+  background: #ffc525;;
 }
 
 html {
   cursor: none;
+  -webkit-text-size-adjust: 100%;
 }
 
 body {
@@ -58,16 +59,21 @@ header {
   left: 0;
   margin: 0;
   z-index: 1;
+  width: 100%;
+  padding: 40px 0 0 40px;
+  font-size: 20px;
   display: flex;
   justify-content: space-between;
-  width: 100%;
-  padding-left: 40px;
 }
 
-header div {
-  padding: 40px 0 10px 0;
+.page-header {
   display: flex;
-  font-size: 20px;
+  justify-content: flex-start;
+}
+
+.page-nav {
+  display: flex;
+  justify-content: flex-start;
 }
 
 .nav-item a {
@@ -75,6 +81,10 @@ header div {
   border-bottom: 1px solid transparent;
   white-space: nowrap;
   overflow: hidden;
+}
+
+.nav-item:first-child {
+  margin-right: 100px;
 }
 
 .nav-item a:hover, .nav-item.active a {
@@ -96,7 +106,7 @@ div.home {
 }
 
 .home img {
-  max-width: 520px;
+  max-width: 550px;
   height: 130px;
   animation: fadein 1s .5s forwards;
   -webkit-animation: fadein 1s .5s forwards;
@@ -121,7 +131,7 @@ div.home {
 
 .container {
   margin: 150px auto 0 auto;
-  max-width: 800px;
+  max-width: 870px;
   padding: 0 40px 0 40px;
   -webkit-animation: fadein 1s .5s forwards;
   animation: fadein 1s .5s forwards;
@@ -130,6 +140,15 @@ div.home {
 
 .index-gallery {
   margin-top: 100px;
+}
+
+.index-gallery .caption {
+  color: transparent;
+}
+
+.index-gallery figure:hover > .caption,
+.index-gallery div div div figure:hover > .caption{
+  color: black;
 }
 
 .index-padding{
@@ -285,16 +304,13 @@ p {
   background: #fcfbf4;
 }
 
-.scrolled h2 {
-  font-size: 20px;
-}
 
 .scrolled {
   font-size: 20px;
 }
 
 .details {
-  margin: 60px 0 80px 0;
+  margin: 80px 0 100px 0;
   text-align: center;
 }
 
@@ -322,16 +338,17 @@ p {
   line-height: 20px;
 }
 
-.column.caption {
-  margin-top: -10px;
-}
-
 blockquote {
   font-size: 20px;
   text-align: center;
   display: flex;
   justify-content: center;
   flex-direction: column;
+  padding: 30px;
+}
+
+.padding {
+  padding: 20px;
 }
 
 .next-container {
@@ -376,10 +393,183 @@ blockquote {
   width: 40px;
 }
 
-@media (max-width: 1024px){
-
-  .padding{
-    padding-bottom: 80px;
+@media (min-width: 1500px) {
+  
+  .home img {
+    max-width: 650px;
+    height: 130px;
+    animation: fadein 1s .5s forwards;
+    -webkit-animation: fadein 1s .5s forwards;
+    opacity: 0;
+    padding: 0 70px 0 70px;
   }
+
+  .container-full {
+    max-width: 1750px;  
+    margin: 150px auto 0 auto;
+  }
+
+  blockquote {
+  padding: 0 50px 0 50px;
+}
+
+}
+
+@media (max-width: 1025px) {
+
+  .nav-item:first-child {
+    margin-right: 40px;
+  }
+}
+
+@media (max-width: 850px) {
+
+  p,
+  h4,
+  .caption,
+ #description-list {
+    font-size: 14px;
+  }
+
+  header {
+    font-size: 14px;
+    padding: 20px 0 10px 20px;
+    position: fixed;
+  }
+
+  .nav-item:first-child {
+    margin-right: 20px;
+  }
+
+  .home img {
+    max-width: 400px;
+    margin-top: -40px;
+  }
+
+  .logo-container {
+    display: flex;
+    justify-content: flex-end;
+    align-items: flex-end;
+  }
+
+  .logo {
+    padding-top: 2px;
+    padding-right: 20px;
+  }
+
+  .logo img{
+    height: 15px;
+    width: inherit;
+  }
+
+  .index-gallery {
+    margin-top: 80px;
+  }
+
+  .index-gallery .caption {
+    color: black;
+  }
+
+  .landscape-side-image figure:nth-child(even),
+  .portrait-side-full-image figure:nth-child(even),
+  .portrait-side-image figure:nth-child(even),
+  .portrait-landscape-image figure:nth-child(even) {
+    margin-left: 30%;
+  }
+
+  .index-gallery .landscape-side-image figure:nth-child(odd),
+  .index-gallery .portrait-side-full-image figure:nth-child(odd),
+  .index-gallery .portrait-side-image figure:nth-child(odd),
+  .index-gallery .portrait-landscape-image figure:nth-child(odd),
+  .index-gallery .portrait-image {
+    margin-right: 30%;
+  }
+
+  .project-image {
+    margin-bottom: 40px;
+  }
+
+  .project-gallery .portrait-image,
+  .project-gallery .portrait-quote-image  {
+      margin: 0 50px 35px 50px;
+  }
+
+  .project-gallery .landscape-side-image figure {
+    margin: 0;
+  }
+
+  .project-gallery .caption {
+    font-size: 12px;
+  }
+
+  .mobile-padding {
+    margin-top: 25px;
+  }
+
+  .column {
+    padding: 0;
+  }
+
+  .gallery {
+    padding: 0 20px 0 20px;
+  }
+
+  section.selected h3 {
+    font-size: 14px;
+  }
+
+  section.selected a {
+    font-size: 18px;
+  }
+
+  section.selected ul {
+    line-height: 25px;
+  }
+
+  .container {
+    padding: 0 20px 0 20px;
+    margin-top: 100px;
+  }
+
+  .info-details {
+    margin-top: 40px;
+  }
+
+  .info-details p {
+    margin-top: 10px;
+  }
+
+  h2.title {
+    font-size: 14px;
+    text-align: left;
+    padding-left: 20px;
+    margin-top: 70px;
+    position: inherit;
+  }
+
+  .project-container {
+    margin-top: 20px;
+  }
+
+  .details p {
+    font-size: 12px;
+  }
+
+  .details {
+    margin: 40px 0 60px 0;
+  }
+
+  .next {
+    font-size: 14px;
+  }
+
+  .next-container {
+    padding: 30px 20px 0 20px;
+  }
+
+  blockquote p{
+  padding: 20px 0px 25px 0px;
+  }
+
 
 }

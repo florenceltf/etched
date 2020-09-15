@@ -1,5 +1,5 @@
 ---
-label: Portrait Side Full Image
+label: Portrait Landscape Image
 hide_body: true
 fields:
 - name: alt
@@ -8,18 +8,18 @@ fields:
     required: true
   description: Alternative text to display if the image fails to load.
   label: Alt
-- name: image-left
-  label: Image Left
+- name: image-portrait
+  label: Image Portrait
   type: file
   config:
     maxSize: 64
     required: true
-- name: caption-left
+- name: caption-portrait
   type: text
   config:
     required: false
-  label: Caption Left
-- name: project-link-left
+  label: Caption Portrait
+- name: project-link-portrait
   type: select
   default: []
   config:
@@ -30,20 +30,20 @@ fields:
       section: selected-works
       file: 
       path: 
-  label: Project Link Left
+  label: Project Link Portrait
   description: "* Note : Only required for index page."
-- name: image-right
-  label: Image Right
+- name: image-landscape
+  label: Image Landscape
   type: file
   config:
     maxSize: 64
     required: true
-- name: caption-right
+- name: caption-landscape
   type: text
   config:
     required: false
-  label: Caption Right
-- name: project-link-right
+  label: Caption Landscape
+- name: project-link-landscape
   type: select
   default: []
   config:
@@ -54,5 +54,5 @@ fields:
       section: selected-works
       file: 
       path: 
-  label: Project Link Right
+  label: Project Link Landscape
   description: "* Note : Only required for index page."

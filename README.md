@@ -2,7 +2,9 @@
 
 
 ## Tasks
-- [ ] On index, have captions appear on image hover
+- [ ] currently has a scroll on mobile (ie home)
+- [ ] type size changes on mobile landscape
+- [ ] If last project, loop to first project when clicking next
+- [ ] Different alt text for side by side images
 - [ ] Should we resize uploaded images?
-- [ ] Different alt text for side by side images (dw bout this)
-- [ ] If last project, loop to first proect when clicking next
+

@@ -8,11 +8,11 @@ sections:
   path: content/_index.md
   label: Home
 - type: document
-  path: content/info/index.md
+  path: content/information/index.md
   label: Information
 - type: directory
   path: content/selected-works
-  label: Selected works
+  label: Selected Works
   create: documents
   match: "*"
   templates:

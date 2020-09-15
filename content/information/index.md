@@ -1,10 +1,7 @@
 ---
 title: Information
-layout: info
-services: |-
-  Landscape Design\
-  VCAT\
-  Planning
+layout: information
+services: "Landscape Design  \nVCAT  \nPlanning"
 contact: |-
   7/6 Bromham Place,\
   Richmond,\
@@ -12,12 +9,16 @@ contact: |-
   [@etched_projects]()\
   [info@etchedprojects.com](mailto:info@etchedprojects.com)
 collaborators: |-
-  Architect name\
+  Architect\
   Millieu Group\
   The Block\
   Neometro\
-  Builders name\
-  Architect
+  Builder\
+  Architect\
+  Millieu Group\
+  The Block\
+  Neometro\
+  Builder
 body: |-
   Etched creates responsive, enduring works of landscape architecture, that cultivate connections between people and their environments.
 
@@ -31,7 +32,6 @@ body: |-
 menu:
   main:
     weight: 20
-
 ---
 Etched creates responsive, enduring works of landscape architecture, that cultivate connections between people and their environments.
 
