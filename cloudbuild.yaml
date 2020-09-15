@@ -6,8 +6,6 @@ steps:
       - 'PASSWORD=${_PASSWORD}'
       - '--tag'
       - 'gcr.io/$PROJECT_ID/core'
-      - '--cache-from'
-      - 'gcr.io/$PROJECT_ID/core'
       - '.'
 
   - name: 'gcr.io/cloud-builders/docker'
