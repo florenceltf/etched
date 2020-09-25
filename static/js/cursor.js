@@ -9,10 +9,17 @@ if (!/Android|webOS|iPhone|iPad|iPod|BlackBerry|IEMobile|Opera Mini/i.test(navig
       const x = cursorX;
       const y = cursorY + window.pageYOffset;
 
-      cursorTag.style.display = "block";
       cursorTag.style.transform = `translate(${x}px, ${y - 20}px)`;
     }
   }
+
+  document.addEventListener("mouseenter", function () {
+    cursorTag.style.display = "block";
+  });
+
+  document.addEventListener("mouseleave", function () {
+    cursorTag.style.display = "none";
+  });
 
   document.addEventListener("mousemove", function (event) {
     cursorX = event.clientX;
@@ -21,4 +28,5 @@ if (!/Android|webOS|iPhone|iPad|iPod|BlackBerry|IEMobile|Opera Mini/i.test(navig
   });
 
   window.addEventListener('scroll', updateCursor);
+
 }
