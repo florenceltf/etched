@@ -22,21 +22,6 @@ fields:
   config:
     required: false
   label: Collaborators
-- name: category
-  type: select
-  default: []
-  config:
-    required: false
-    options:
-    - Residential
-    - Multi-Residential
-    - Commercial
-    source:
-      type: simple
-      section: 
-      file: 
-      path: 
-  label: Category
 - name: description
   type: text
   config:
@@ -67,5 +52,12 @@ fields:
   config:
     min: 
     max: 
+- name: category
+  type: text
+  config:
+    required: true
+  label: Category
+  description: Eg. Multi Residential, Multi Residential – Large
+  default: Multi Residential
 pages:
 - content/selected-works/kew-gardens-apartments.md
