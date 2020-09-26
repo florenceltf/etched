@@ -1,5 +1,5 @@
 ---
-category: Multi-Residential
+category: Industrial
 title: Shaftesbury Townhouses
 year: Ongoing
 client: Private
