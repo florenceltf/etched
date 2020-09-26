@@ -20,8 +20,8 @@
 }
 
 .fadeload{
-  animation: fadein 1s .5s forwards;
-  -webkit-animation: fadein 1s .5s forwards;
+  animation: fadein 3s .5s forwards;
+  -webkit-animation: fadein 3s .5s forwards;
   opacity: 0;
 }
 
@@ -296,7 +296,7 @@ h2 {
 
 p {
   margin: 0 0 20px 0;
-  font-size: 20px;
+  font-size: 18px;
 }
 
 .project {
@@ -327,14 +327,14 @@ p {
 .project-image {
   margin-bottom: 60px;
   object-fit: cover;
-  -webkit-animation: fadein .5s 1.5s forwards;
-  animation: fadein .5s 1.5s forwards;
+  -webkit-animation: fadein 2s 1.5s forwards;
+  animation: fadein 2s 1.5s forwards;
   opacity: 0;
 }
 
 .caption {
   padding-top: 10px;
-  font-size: 14px;
+  font-size: 16px;
   line-height: 20px;
 }
 
