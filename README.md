@@ -2,7 +2,7 @@
 
 
 ## Tasks
-- [ ] make categories editable
+- [x] make categories editable
 - [ ] initial page load animation (rhythm)
 - [ ] text size increase (16px)
 - [ ] crosshair on different browsers
