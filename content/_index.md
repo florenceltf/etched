@@ -1,11 +1,6 @@
 ---
 title: Index
 gallery:
-- template: landscape-image
-  image: "/images/uploads/example01.jpg"
-  alt: Alt text
-  caption: Project Title
-  project-link: selected-works/kew-gardens-apartments.md
 - template: portrait-side-full-image
   image-left: "/images/uploads/example06.jpg"
   image-right: "/images/uploads/example09.jpg"
