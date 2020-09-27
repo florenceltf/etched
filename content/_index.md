@@ -27,6 +27,4 @@ gallery:
   alt: Alt text
   caption: Project Title
   project-link: selected-works/kew-gardens-apartments.md
-draft: true
-
 ---
