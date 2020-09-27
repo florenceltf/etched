@@ -10,6 +10,10 @@
 - [ ] Different alt text for side by side images
 - [ ] check all images have alternates
 - [ ] Should we resize uploaded images?
+- [ ] caption on mobile size
+- [ ] all font size 18px
+- [ ] new information design
+- [ ] 
 - [x] make categories editable
 - [x] hide mouse when off screen
 - [x] decrease main copy by 2pt
