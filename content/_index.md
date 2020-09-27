@@ -8,7 +8,7 @@ gallery:
   caption-portrait: Project Title
   caption-landscape: Project Title
   project-link-portrait: selected-works/kew-gardens-apartments.md
-  project-link-landscape: selected-works/kew-gardens-apartments.md
+  project-link-landscape: ''
 - template: landscape-image
   image: "/images/uploads/example01.jpg"
   alt: Alt text
@@ -27,5 +27,6 @@ gallery:
   alt: Alt text
   caption: Project Title
   project-link: selected-works/kew-gardens-apartments.md
+draft: true
 
 ---
