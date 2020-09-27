@@ -32,7 +32,7 @@ gallery:
 - template: landscape-image
   alt: Alt text
   image: "/images/uploads/example03.jpg"
-  caption: Optional caption
+  caption: ''
   project-link: ''
 
 ---
