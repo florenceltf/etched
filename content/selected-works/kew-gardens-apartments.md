@@ -18,7 +18,7 @@ gallery:
 - template: landscape-image
   alt: Alt text
   image: "/images/uploads/example02.jpg"
-  caption: Optional caption
+  caption: ''
   project-link: ''
 - template: landscape-side-image
   image-left: "/images/uploads/example04.jpg"
