@@ -1,5 +1,5 @@
 ---
-category: Industrial
+category: Test
 title: Shaftesbury Townhouses
 year: Ongoing
 client: Private
