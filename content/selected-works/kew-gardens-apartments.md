@@ -13,7 +13,7 @@ gallery:
 - template: landscape-image
   alt: Alt text
   image: "/images/uploads/example01.jpg"
-  caption: Optional caption
+  caption: ''
   project-link: ''
 - template: landscape-image
   alt: Alt text
