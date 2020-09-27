@@ -34,6 +34,5 @@ gallery:
   image: "/images/uploads/example03.jpg"
   caption: Optional caption
   project-link: ''
-draft: true
 
 ---
