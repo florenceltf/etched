@@ -14,7 +14,7 @@ gallery:
 - template: portrait-image
   alt: Alt text
   image: "/images/uploads/example06.jpg"
-  caption: Optional caption
+  caption: ''
 - template: landscape-full-image
   alt: Alt text
   image: "/images/uploads/example07.jpg"
