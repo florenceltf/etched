@@ -14,7 +14,7 @@
 
     <div class="sub-nav flex">
       <div class="flex"><a href="#stor">Story</a></div>
-      <a href="#services">Services</a>
+      <div><a href="#services">Services</a></div>
       <div class="flex align-right"><a href="#collaborators">Collaborators</a></div>
     </div>
 
@@ -29,7 +29,7 @@
 
     <div id="collaborators">
       <h5>Collaborators</h5>
-      {{ .Params.collaborators | markdownify }}
+      <p>{{ .Params.collaborators | markdownify }}</p>
     </div>
 
   </section>
