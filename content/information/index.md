@@ -16,15 +16,8 @@ story: |-
 
   With every detail a binding thread in a larger story, our places are etched in time.
 services: "Services\n\nLandscape\n\nDesign \n\nVCAT Planning"
-collaborators: |-
-  Architect
-  Millieu Group
-  The Block
-  NeometroBuilder
-  Architect
-  Millieu Group
-  The Block
-  NeometroBuilder
+collaborators: "Architect\n\nMillieu Group\n\nThe Block\n\nNeometro\n\nBuilder\n\nArchitect\n\nMillieu
+  Group\n\nThe Block \n\nNeometro\n\nBuilder"
 menu:
   main:
     weight: 20
