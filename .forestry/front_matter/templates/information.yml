@@ -2,6 +2,13 @@
 label: Information
 hide_body: true
 fields:
+- name: layout
+  type: text
+  config:
+    required: true
+  label: Layout
+  hidden: true
+  default: info
 - name: body
   type: textarea
   default: ''
@@ -10,40 +17,6 @@ fields:
     wysiwyg: true
     schema:
       format: markdown
-  label: Body
-- name: services
-  type: textarea
-  default: ''
-  config:
-    required: true
-    wysiwyg: true
-    schema:
-      format: markdown
-  label: Services
-- name: contact
-  type: textarea
-  default: ''
-  config:
-    required: true
-    wysiwyg: true
-    schema:
-      format: markdown
-  label: Contact
-- name: collaborators
-  type: textarea
-  default: ''
-  config:
-    required: true
-    wysiwyg: true
-    schema:
-      format: markdown
-  label: Collaborators
-- name: layout
-  type: text
-  config:
-    required: true
-  label: layout
-  hidden: true
-  default: info
+  label: Content
 pages:
 - content/information/index.md

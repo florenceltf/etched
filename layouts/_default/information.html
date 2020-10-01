@@ -18,23 +18,8 @@
       <div class="flex align-right">Collaborators</div>
     </div>
 
-    {{ .Content }}
+    {{ .Params.body | markdownify }}
   </section>
-
-  <div class="container info-details columns is-tablet">
-    <div class="column">
-      <h4>Services</h4>
-      <p>{{ .Params.services | markdownify }}</p>
-    </div>
-    <div class="column">
-      <h4>Collaborators</h4>
-      <p>{{ .Params.collaborators | markdownify }}</p>
-    </div>
-    <div class="column">
-      <h4>Contact</h4>
-      <p>{{ .Params.contact | markdownify }}</p>
-    </div>
-  </div>
 </main>
 {{ end }}
 

@@ -9,3 +9,7 @@ menu:
       url: /selected-works/
       identifier: selected-works
       weight: 10
+markup:
+  goldmark:
+    renderer:
+      unsafe: true

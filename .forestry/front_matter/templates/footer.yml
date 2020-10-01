@@ -1,0 +1,16 @@
+---
+label: Footer
+hide_body: true
+fields:
+- name: content
+  type: textarea
+  default: ''
+  config:
+    required: true
+    wysiwyg: true
+    schema:
+      format: markdown
+  label: Content
+  description: This content is displayed in the footer across many of the site's pages.
+pages:
+- data/footer.yaml
