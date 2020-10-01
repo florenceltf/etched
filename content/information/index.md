@@ -1,7 +1,7 @@
 ---
 title: Information
 layout: information
-body: d
+body: ''
 menu:
   main:
     weight: 20
