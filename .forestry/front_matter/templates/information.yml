@@ -1,6 +1,6 @@
 ---
 label: Information
-hide_body: true
+hide_body: false
 fields:
 - name: body
   type: textarea
