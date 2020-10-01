@@ -1,5 +1,5 @@
 const animatedTags = document.querySelectorAll(
-  "img"
+  "figure"
 );
 
 animatedTags.forEach(function (tag) {
