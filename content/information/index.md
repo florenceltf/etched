@@ -1,8 +1,7 @@
 ---
 title: Information
 layout: information
-body: ''
-content: "Etched creates responsive, enduring works of landscape architecture, that
+body: "Etched creates responsive, enduring works of landscape architecture, that
   cultivate connections between people and their environments.\n\nWe believe that
   spaces of green are more than a means to soften harsh edges and angular lines. They’re
   a place of calm in an otherwise kinetic life. A lens to capture northern light.\n\nThey

@@ -9,7 +9,7 @@ fields:
   label: Layout
   hidden: true
   default: info
-- name: content
+- name: body
   type: textarea
   default: ''
   config:
