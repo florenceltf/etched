@@ -1,5 +1,4 @@
 ---
-content: |-
-  <div class="flex">Etched Projects Pty. Ltd.</div>
-  <div>info@etchedprojects.com</div>
-  <div class="flex align-right">@etched_projects</div>
+content: "<div class=\"flex\">Etched Projects Pty. Ltd.</div>   \n<div><a href=\"mailto:info@etchedprojects.com\">info@etchedprojects.com<a></div>
+  \ \n<div class=\"flex align-right\"><a href=\"[https://www.instagram.com/etched_projects/](https://www.instagram.com/etched_projects/
+  \"https://www.instagram.com/etched_projects/\")\" target=\"_blank\">@etched_projects</div></a>"
