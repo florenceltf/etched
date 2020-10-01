@@ -2,6 +2,12 @@
 label: Selected Works Category
 hide_body: true
 fields:
+- name: title
+  type: text
+  config:
+    required: false
+  label: Title
+  description: Title of the category.
 - name: references
   type: list
   config:
@@ -13,9 +19,3 @@ fields:
       section: selected-works
   label: References
   description: List of selected works to include in the category
-- name: title
-  type: text
-  config:
-    required: false
-  label: Title
-  description: Title of the category.
