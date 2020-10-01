@@ -2,15 +2,6 @@
 label: Information
 hide_body: false
 fields:
-- name: body
-  type: textarea
-  default: ''
-  config:
-    required: false
-    wysiwyg: true
-    schema:
-      format: markdown
-  label: Body
 - name: layout
   type: text
   config:
