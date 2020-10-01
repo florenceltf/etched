@@ -6,8 +6,17 @@ fields:
   type: text
   config:
     required: true
-  label: layout
+  label: Layout
   hidden: true
   default: info
+- name: content
+  type: textarea
+  default: ''
+  config:
+    required: true
+    wysiwyg: false
+    schema:
+      format: markdown
+  label: Content
 pages:
 - content/information/index.md
