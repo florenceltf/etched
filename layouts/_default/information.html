@@ -13,12 +13,26 @@
   <section class="container information-text">
 
     <div class="sub-nav flex">
-      <div class="flex">Story</div>
+      <div class="flex"><a href="#stor">Story</a></div>
       <a href="#services">Services</a>
       <div class="flex align-right"><a href="#collaborators">Collaborators</a></div>
     </div>
 
-    {{ .Params.body | markdownify }}
+    <div id="story">
+      <h5>Story</h5>
+      {{ .Params.story | markdownify }}
+    </div>
+
+    <div id="services">
+      <h5>Services</h5>
+      {{ .Params.services | markdownify }}
+    </div>
+
+    <div id="collaborators">
+      <h5>Collaborators</h5>
+      {{ .Params.collaborators | markdownify }}
+    </div>
+
   </section>
 </main>
 {{ end }}
