@@ -11,33 +11,6 @@ fields:
     schema:
       format: markdown
   label: Body
-- name: services
-  type: textarea
-  default: ''
-  config:
-    required: true
-    wysiwyg: true
-    schema:
-      format: markdown
-  label: Services
-- name: contact
-  type: textarea
-  default: ''
-  config:
-    required: true
-    wysiwyg: true
-    schema:
-      format: markdown
-  label: Contact
-- name: collaborators
-  type: textarea
-  default: ''
-  config:
-    required: true
-    wysiwyg: true
-    schema:
-      format: markdown
-  label: Collaborators
 - name: layout
   type: text
   config:

@@ -1,24 +1,6 @@
 ---
 title: Information
 layout: information
-services: "Landscape Design  \nVCAT  \nPlanning"
-contact: |-
-  7/6 Bromham Place,\
-  Richmond,\
-  Victoria, 3121\
-  [@etched_projects]()\
-  [info@etchedprojects.com](mailto:info@etchedprojects.com)
-collaborators: |-
-  Architect\
-  Millieu Group\
-  The Block\
-  Neometro\
-  Builder\
-  Architect\
-  Millieu Group\
-  The Block\
-  Neometro\
-  Builder
 body: "Etched creates responsive, enduring works of landscape architecture, that cultivate
   connections between people and their environments.\n\nWe believe that spaces of
   green are more than a means to soften harsh edges and angular lines. They’re a place
