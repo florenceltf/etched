@@ -183,7 +183,23 @@ div.home {
 }
 
 .information-text h5 {
+  margin-top: 100px;
+  margin-bottom: 20px;
   font-size: 18px;
+}
+
+#story h5{
+  margin-top: 0;
+}
+
+#services,
+#collaborators {
+  text-align: center;
+}
+
+#services p,
+#collaborators p{
+margin-bottom: 0;
 }
 
 .sub-nav {
