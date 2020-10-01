@@ -15,7 +15,7 @@ sections:
   label: Information
 - type: directory
   path: content/selected-works
-  label: Selected Works
+  label: Projects
   create: documents
   match: "*"
   templates:
