@@ -12,3 +12,5 @@ fields:
       format: html-blocks
   label: Content
   description: This content is displayed in the footer across many of the site's pages.
+pages:
+- data/footer.yaml
