@@ -1,0 +1,21 @@
+---
+label: Selected Works Category
+hide_body: true
+fields:
+- name: title
+  type: text
+  config:
+    required: false
+  label: Title
+  description: Title of the category.
+- name: references
+  type: list
+  config:
+    use_select: true
+    min: 1
+    max: 
+    source:
+      type: pages
+      section: selected-works
+  label: References
+  description: List of selected works to include in the category
