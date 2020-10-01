@@ -502,6 +502,11 @@ footer {
     text-align: center;
   }
 
+  #services,
+  #collaborators {
+    padding-top: 60px;
+  }
+
   header {
     font-size: 14px;
     padding: 20px 0 10px 20px;
@@ -652,10 +657,15 @@ footer {
   footer {
     font-size: 14px;
     display: block;
+    margin-top: 70px;
   }
 
   .align-right {
     text-align: left;
   }
+
+  .columns.is-variable.is-8 {
+    --columnGap: 0rem;
+}
 
 }

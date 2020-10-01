@@ -4,7 +4,7 @@
 ## Tasks
 - [x] eamon :: cursor cross browser
 - [x] flo :: logo colour #282829
-- [ ] flo :: currently has a scroll on mobile (ie home)
+- [x] flo :: currently has a scroll on mobile (ie home)
 - [ ] flo :: infinite scroll on home page : bit glitchy and can this be rewritten in js?
 - [ ] flo :: initial page load animation (rhythm)
 - [x] eamon :: new information design (sub nav, markdown, footer)
