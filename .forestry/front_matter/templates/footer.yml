@@ -9,7 +9,7 @@ fields:
     required: true
     wysiwyg: true
     schema:
-      format: html-blocks
+      format: html
   label: Content
   description: This content is displayed in the footer across many of the site's pages.
 pages:
