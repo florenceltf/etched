@@ -11,3 +11,5 @@ fields:
     min: 1
     max: 
   description: Categories of projects.
+pages:
+- content/selected-works/_index.md

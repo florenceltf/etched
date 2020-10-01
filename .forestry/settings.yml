@@ -13,7 +13,6 @@ sections:
 - type: document
   path: content/selected-works/_index.md
   label: Selected Works
-  match: "**/*"
 - type: directory
   path: content/selected-works
   label: Projects
