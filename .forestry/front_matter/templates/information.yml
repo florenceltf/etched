@@ -9,7 +9,7 @@ fields:
   label: Layout
   hidden: true
   default: info
-- name: body
+- name: story
   type: textarea
   default: ''
   config:
@@ -17,6 +17,24 @@ fields:
     wysiwyg: true
     schema:
       format: markdown
-  label: Content
+  label: Story
+- name: services
+  type: textarea
+  default: ''
+  config:
+    required: true
+    wysiwyg: true
+    schema:
+      format: markdown
+  label: Services
+- name: collaborators
+  type: textarea
+  default: ''
+  config:
+    required: true
+    wysiwyg: true
+    schema:
+      format: markdown
+  label: Collaborators
 pages:
 - content/information/index.md
