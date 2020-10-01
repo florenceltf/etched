@@ -19,10 +19,10 @@ services: "Porepuda quunt aut es mi, qui omni cuptatet quis cor mint volori aute
   etustectus mi, quis doloreperae oditatu rempossit, sequam quissunt.\n\n  \nSchematic
   & Idea Generation  \nConcept Design  \nTown Planning Endorsement  \nPlant Design
   \ \nTender Documentation  \nContract Administration"
-collaborators: "Above Zero  \nAliro  \nAmazon Property Group   \nAngelo Property Group
-  \  \nArchitekton  \nArchsign  \nArmitage Jones  \nAscot Building Group  \nBB Design
-  Group  \nBekl  \nBest Hooper  \nBill Jacobs Building Design   \nThe Block  \nCadence
-  Property Group   \nCassisi Architects  \nCera Stribley Architects   \nChamberlain
+collaborators: "\nAbove Zero  \nAliro  \nAmazon Property Group   \nAngelo Property
+  Group   \nArchitekton  \nArchsign  \nArmitage Jones  \nAscot Building Group  \nBB
+  Design Group  \nBekl  \nBest Hooper  \nBill Jacobs Building Design   \nThe Block
+  \ \nCadence Property Group   \nCassisi Architects  \nCera Stribley Architects   \nChamberlain
   Architects   \nColver Constructions   \nCommon Ground   \nConcept Y Architecture
   \ \nCorplex  \nDale Grant Building Design   \nDe Luca Property Group DHL  \nDKO
   Architecture  \nFrater Consulting Services   \nGenesis Developments   \nGlenvill
