@@ -18,6 +18,7 @@ sections:
   label: Projects
   create: documents
   match: "*"
+  exclude: _index.md
   templates:
   - selected-works
 - type: document
