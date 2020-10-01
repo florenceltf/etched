@@ -5,14 +5,15 @@ admin_path: "/admin/"
 webhook_url: 
 sections:
 - type: document
-  path: data/footer.yaml
-  label: Footer
-- type: document
   path: content/_index.md
   label: Home
 - type: document
   path: content/information/index.md
   label: Information
+- type: document
+  path: content/selected-works/_index.md
+  label: Selected Works
+  match: "**/*"
 - type: directory
   path: content/selected-works
   label: Projects
@@ -20,6 +21,9 @@ sections:
   match: "*"
   templates:
   - selected-works
+- type: document
+  path: data/footer.yaml
+  label: Footer
 upload_dir: assets/images/uploads
 public_path: "/images/uploads"
 front_matter_path: ''
