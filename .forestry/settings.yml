@@ -2,8 +2,11 @@
 new_page_extension: md
 auto_deploy: false
 admin_path: "/admin/"
-webhook_url: 
+webhook_url:
 sections:
+- type: document
+  label: Configuration
+  path: data/footer.yaml
 - type: document
   path: content/_index.md
   label: Home
