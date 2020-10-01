@@ -423,7 +423,7 @@ footer {
 
 @media (min-width: 1500px) {
   
-  .home img {
+  .home svg {
     max-width: 650px;
     height: 130px;
     animation: fadein 1s .5s forwards;
@@ -470,7 +470,7 @@ footer {
     margin-right: 20px;
   }
 
-  .home img {
+  .home svg {
     max-width: 400px;
     margin-top: -40px;
   }
@@ -486,7 +486,7 @@ footer {
     padding-right: 20px;
   }
 
-  .logo img{
+  .logo svg{
     height: 15px;
     width: inherit;
   }
