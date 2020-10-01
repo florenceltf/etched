@@ -12,11 +12,12 @@ body: "[Services](#services), [Contact](#contact), [Collaborators](#collaborator
   journey between our team, and our network of designers and makers. They care as
   much as we do. And for that reason, our places feel different.\n\n![/images/uploads/example08.jpg](https://app.forestry.io/sites/l0cbg2rjvsn3na/body-media//images/uploads/example08.jpg)\n\nWith
   every detail a binding thread in a larger story, our places are etched in time.\n\n##
-  Services\n\n<i id=\"services\"/>\n\nLandscape Design  \nVCAT  \nPlanning\n\n## Contact\n\n<i
-  id=\"contact\"/>\n\n7/6 Bromham Place,  \nRichmond,  \nVictoria, 3121  \n[@etched_projects](https://app.forestry.io/sites/l0cbg2rjvsn3na/#/pages/content-information-index-md)
-  \ \n[info@etchedprojects.com](mailto:info@etchedprojects.com)\n\n## Collaborators\n\n<i
-  id=\"collaborators\"/>\n\nArchitect  \nMillieu Group  \nThe Block  \nNeometro  \nBuilder
-  \ \nArchitect  \nMillieu Group  \nThe Block  \nNeometro  \nBuilder"
+  Services\n\n<span id=\"services\"></span>\n\nLandscape Design  \nVCAT  \nPlanning\n\n##
+  Contact\n\n<span id=\"contact\"></span>\n\n7/6 Bromham Place,  \nRichmond,  \nVictoria,
+  3121  \n[@etched_projects](https://app.forestry.io/sites/l0cbg2rjvsn3na/#/pages/content-information-index-md)
+  \ \n[info@etchedprojects.com](mailto:info@etchedprojects.com)\n\n## Collaborators\n\n<span
+  id=\"collaborators\"></span>\n\nArchitect  \nMillieu Group  \nThe Block  \nNeometro
+  \ \nBuilder  \nArchitect  \nMillieu Group  \nThe Block  \nNeometro  \nBuilder"
 menu:
   main:
     weight: 20
