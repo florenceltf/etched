@@ -18,6 +18,16 @@ html {
   }
 }
 
+
+@keyframes fadeout {
+  100% {
+    opacity: 1;
+  }
+  0% {
+    opacity: 0;
+  }
+}
+
 @keyframes line {
   0% {
     height: 0%;
@@ -27,6 +37,11 @@ html {
   }
 }
 
+
+.fadeout{
+  animation: fadeout 1s forwards;
+  -webkit-animation: fadeout 1s forwards;
+}
 
 .fadein{
   animation: fadein 1s forwards;
