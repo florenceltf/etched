@@ -1,20 +1,7 @@
 ---
 title: Information
 layout: information
-story: |-
-  Etched creates responsive, enduring works of landscape architecture, that cultivate connections between people and their environments.
-
-  We believe that spaces of green are more than a means to soften harsh edges and angular lines. They’re a place of calm in an otherwise kinetic life. A lens to capture northern light.
-
-  ![/images/uploads/example08.jpg](https://app.forestry.io/sites/l0cbg2rjvsn3na/body-media//images/uploads/example08.jpg)
-
-  They surprise us— shifting and evolving with the seasons. They evoke the imagination. They’re a complex tapestry of colour, texture, form and materiality.
-
-  We understand that outcomes like this are the result of a shared and collaborative journey between our team, and our network of designers and makers.
-
-  ![/images/uploads/example07.jpg](https://app.forestry.io/sites/l0cbg2rjvsn3na/body-media//images/uploads/example07.jpg)
-
-  They care as much as we do. And for that reason, our places feel different. With every detail a binding thread in a larger story, our places are etched in time.
+contact: contact 
 services: "Porepuda quunt aut es mi, qui omni cuptatet quis cor mint volori autet
   etustectus mi, quis doloreperae oditatu rempossit, sequam quissunt.\n\n  \nSchematic
   & Idea Generation  \nConcept Design  \nTown Planning Endorsement  \nPlant Design
@@ -41,6 +28,6 @@ collaborators: "\nAbove Zero  \nAliro  \nAmazon Property Group  \nAngelo
   Fox  \nWhiteman Property & Accounting   \nZap Property Group"
 menu:
   main:
-    weight: 20
+    weight: 30
 
 ---

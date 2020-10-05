@@ -18,6 +18,15 @@ html {
   }
 }
 
+@keyframes line {
+  0% {
+    height: 0%;
+  }
+  100% {
+    height: 100%;
+  }
+}
+
 
 .fadein{
   animation: fadein 1s forwards;
@@ -181,9 +190,11 @@ div.home {
 .info-line {
   width: 1px;
   background: #ffc525;
-  height: 100%;
+  height: 0%;
   position: relative;
   text-align: center;
+  animation: line 5s forwards;
+  -webkit-animation: line 15;
 }
 
 h5 {

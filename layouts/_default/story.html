@@ -12,18 +12,8 @@
 
   <section class="container information-text">
 
-    <div id="contact">
-      {{ .Params.contact | markdownify }}
-    </div>
-
-    <div id="services">
-      <h5>Services</h5>
-      {{ .Params.services | markdownify }}
-    </div>
-
-    <div id="collaborators">
-      <h5>Collaborators</h5>
-      <p>{{ .Params.collaborators | markdownify }}</p>
+    <div id="story">
+      {{ .Params.story | markdownify }}
     </div>
 
   </section>
