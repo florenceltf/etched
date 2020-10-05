@@ -246,6 +246,16 @@ div.info-details {
   margin: 20px 0 40px 0;
 }
 
+.scroll {
+  position: fixed;
+  bottom: 0;
+  padding: 0 0 39px 40px;
+}
+
+.scroll p {
+  margin-bottom: 0;
+}
+
 
 /* selected works */
 
@@ -457,6 +467,10 @@ footer {
   opacity: 0;
 }
 
+.mobile-menu {
+  display: none;    
+}
+
 @media (min-width: 1500px) {
   
   .home svg {
@@ -488,6 +502,29 @@ footer {
 
 @media (max-width: 850px) {
 
+  .mobile-menu {
+    display: flex;
+  }
+
+  .mobile-menu p {
+    margin-bottom: 0; 
+  }
+
+  hr {
+    margin-bottom: 5px;
+    width: 30px;
+    margin-right: 15px;
+    align-items: center;
+  }
+
+  .nav-item {
+    display: none;
+  }
+
+  .scroll {
+    padding: 0 0 20px 20px;
+  }
+
   p,
   h4,
   h5,
@@ -495,7 +532,8 @@ footer {
  #description-list,
  .sub-nav,
  #services p,
- #collaborators p {
+ #collaborators p,
+ #contact p {
     font-size: 14px;
   }
   
@@ -543,6 +581,9 @@ footer {
   .logo svg{
     height: 15px;
     width: inherit;
+  }
+  .logo a {
+    border-bottom: 0px solid black;
   }
 
   .index-gallery {
@@ -658,10 +699,12 @@ footer {
     font-size: 14px;
     display: block;
     margin-top: 70px;
+    margin-bottom: 20px;
+    text-align: center;
   }
 
   .align-right {
-    text-align: left;
+    text-align: center;
   }
 
   .columns.is-variable.is-8 {

@@ -1,4 +1,14 @@
 <header class="{{ .class }}">
+
+  <div class="mobile-menu">
+    <a href="">
+      <hr>
+      <hr>
+      <hr>
+    </a>
+    <p>Menu</p>
+  </div>
+
   <div class="page-nav{{ if .context.IsHome }} fadeload page-header{{ end }}">
     {{ $currentPage := .context }}
     {{ range .context.Site.Menus.main }}
@@ -7,8 +17,10 @@
       class="nav-item{{if or ($currentPage.IsMenuCurrent "main" .) ($currentPage.HasMenuCurrent "main" .) }} active{{end}}">
       <a href="{{ .URL }}" title="{{ .Title }}">{{ .Name }}</a>
     </div>
+
     {{ end }}
   </div>
+
 
 
   {{ if (not .context.IsHome) }}
