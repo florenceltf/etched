@@ -10,13 +10,20 @@ sections:
 - type: document
   path: content/information/index.md
   label: Information
+- type: document
+  path: content/selected-works/_index.md
+  label: Selected Works
 - type: directory
   path: content/selected-works
-  label: Selected Works
+  label: Projects
   create: documents
   match: "*"
+  exclude: content/selected-works/_index.md
   templates:
   - selected-works
+- type: document
+  path: data/footer.yaml
+  label: Footer
 upload_dir: assets/images/uploads
 public_path: "/images/uploads"
 front_matter_path: ''

@@ -1,0 +1,15 @@
+---
+label: Selected Works List
+hide_body: true
+fields:
+- name: categories
+  type: blocks
+  label: Categories
+  template_types:
+  - selected-works-category
+  config:
+    min: 1
+    max: 
+  description: Categories of projects.
+pages:
+- content/selected-works/_index.md

@@ -21,7 +21,7 @@
       </div>
     </div>
 
-    <div class="project-gallery">
+    <div class="project-gallery fadeload">
       {{ partial "gallery" . }}
     </div>
   </section>
@@ -37,4 +37,8 @@
 </main>
 <script src="/js/project.js"></script>
 
+{{ end }}
+
+{{ define "footer" }}
+{{ partial "footer" . }}
 {{ end }}

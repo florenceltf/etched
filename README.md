@@ -2,19 +2,16 @@
 
 
 ## Tasks
-- [ ] flo :: initial page load animation (rhythm)
-- [ ] eamon :: crosshair on different browsers
-- [ ] flo :: logo colour #282829
-- [ ] eamon :: currently has a horizontal scroll on mobile (ie home)
-- [ ] eamon :: infinite scroll on home page : bit glitchy and can this be rewritten in js?
-- [ ] flo :: caption on mobile size
-- [ ] flo :: all font size 18px
-- [ ] eamon :: new information design
-- [x] make categories editable
-- [x] hide mouse when off screen
-- [x] decrease main copy by 2pt
-- [x] thicker crosshair
-- [x] text size increase (16px)
+- [x] eamon :: cursor cross browser
+- [x] flo :: logo colour #282829
+- [x] flo :: currently has a scroll on mobile (ie home)
+- [ ] flo :: infinite scroll on home page : bit glitchy and can this be rewritten in js?
+- [x] flo :: initial page load animation (rhythm)
+- [x] eamon :: new information design (sub nav, markdown, footer)
+- [x] eamon :: footer editable
+- [ ] eamon :: next project not working (order is funky now...)
+- [ ] eamon :: categories non-alphabetical
+- [ ] eamon :: projects non-alphabetical
+- [ ] eamon :: image class for images within p tag
+- [ ] Different alt text for side by side images
 - [ ] check all images have alternates
-- [ ] different alt text for side by side images
-- [ ] should we resize uploaded images?

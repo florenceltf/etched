@@ -1,3 +1,7 @@
+html {
+  scroll-behavior: smooth;
+}
+
 @font-face {
   font-family: "Untitled Sans";
   font-size: 18px;
@@ -13,6 +17,7 @@
     opacity: 1;
   }
 }
+
 
 .fadein{
   animation: fadein 1s forwards;
@@ -45,7 +50,7 @@ a {
   color: black;
   text-decoration: none;
   cursor: none;
-  border-bottom: 0px solid transparent;
+  border-bottom: 2px solid transparent;
   transition: border-bottom .5s;
 }
 
@@ -105,7 +110,7 @@ div.home {
   z-index: 1;
 }
 
-.home img {
+.home svg {
   max-width: 550px;
   height: 130px;
   animation: fadein 1s .5s forwards;
@@ -120,7 +125,7 @@ div.home {
   padding-right: 40px;
 }
 
-.logo img {
+.logo svg {
   width: 120px;
   height: 30px;
 }
@@ -131,7 +136,7 @@ div.home {
 
 .container {
   margin: 150px auto 0 auto;
-  max-width: 870px;
+  max-width: 750px;
   padding: 0 40px 0 40px;
   -webkit-animation: fadein 1s .5s forwards;
   animation: fadein 1s .5s forwards;
@@ -179,6 +184,42 @@ div.home {
   height: 100%;
   position: relative;
   text-align: center;
+}
+
+h5 {
+  margin-bottom: 20px;
+  font-size: 18px;
+}
+
+#story h5{
+  margin-top: 0;
+}
+
+#services,
+#collaborators {
+  text-align: center;
+  padding-top: 100px;
+}
+
+#services p,
+#collaborators p{
+margin-bottom: 20px;
+font-size: 18px;
+}
+
+.sub-nav {
+  font-size: 18px;
+  padding-bottom: 60px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.flex {
+  flex: 1;
+}
+
+.align-right {
+  text-align: right;
 }
 
 div.info-details {
@@ -327,9 +368,9 @@ p {
 .project-image {
   margin-bottom: 60px;
   object-fit: cover;
-  -webkit-animation: fadein 2s 1.5s forwards;
+  /* -webkit-animation: fadein 2s 1.5s forwards;
   animation: fadein 2s 1.5s forwards;
-  opacity: 0;
+  opacity: 0; */
 }
 
 .caption {
@@ -360,8 +401,8 @@ blockquote {
 .next {
   text-align: center;
   font-size: 16px;
-  border-top: 1px solid black;
-  padding: 20px 0 40px 0;
+  border-top: 2px solid black;
+  padding: 20px 0 0 0;
 }
 
 .landscape {
@@ -376,7 +417,7 @@ blockquote {
   position: absolute;
   top: 0;
   left: 0;
-  background: black;
+  background: #282829;
   height: 24px;
   width: 2px;
   pointer-events: none;
@@ -384,7 +425,7 @@ blockquote {
 }
 
 .cursor:after {
-  background: black;
+  background: #282829;
   content: "";
   height: 2px;
   left: -12px;
@@ -393,9 +434,21 @@ blockquote {
   width: 24px;
 }
 
+footer {
+  font-size: 16px;
+  display: flex;
+  justify-content: space-between;
+  margin: 100px auto 40px auto;
+  max-width: 750px;
+  padding: 0 40px 0 40px;
+  -webkit-animation: fadein 1s .5s forwards;
+  animation: fadein 1s .5s forwards;
+  opacity: 0;
+}
+
 @media (min-width: 1500px) {
   
-  .home img {
+  .home svg {
     max-width: 650px;
     height: 130px;
     animation: fadein 1s .5s forwards;
@@ -426,9 +479,32 @@ blockquote {
 
   p,
   h4,
+  h5,
   .caption,
- #description-list {
+ #description-list,
+ .sub-nav,
+ #services p,
+ #collaborators p {
     font-size: 14px;
+  }
+  
+  .sub-nav {
+    display: block;
+    text-align: center;
+    padding-bottom: 50px;
+  }
+
+  .sub-nav div {
+    margin-bottom: 5px;
+  }
+
+  .sub-nav .align-right {
+    text-align: center;
+  }
+
+  #services,
+  #collaborators {
+    padding-top: 60px;
   }
 
   header {
@@ -441,7 +517,7 @@ blockquote {
     margin-right: 20px;
   }
 
-  .home img {
+  .home svg {
     max-width: 400px;
     margin-top: -40px;
   }
@@ -457,7 +533,7 @@ blockquote {
     padding-right: 20px;
   }
 
-  .logo img{
+  .logo svg{
     height: 15px;
     width: inherit;
   }
@@ -571,5 +647,18 @@ blockquote {
   padding: 20px 0px 25px 0px;
   }
 
+  footer {
+    font-size: 14px;
+    display: block;
+    margin-top: 70px;
+  }
+
+  .align-right {
+    text-align: left;
+  }
+
+  .columns.is-variable.is-8 {
+    --columnGap: 0rem;
+}
 
 }

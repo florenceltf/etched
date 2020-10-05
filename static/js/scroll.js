@@ -1,17 +1,17 @@
-  var origDocHeight = document.body.offsetHeight;
+// var origDocHeight = document.body.offsetHeight;
 
-  var clone=$("body").contents().clone();
-  clone.appendTo("body");
-  clone.prependTo("body");
+// var clone = $("body").contents().clone();
+// clone.appendTo("body");
+// clone.prependTo("body");
 
-  $(document).scroll(function(){ 
+// $(document).scroll(function () {
 
-      var scrollWindowPos = $(document).scrollTop(); 
+//     var scrollWindowPos = $(document).scrollTop();
 
-      if(scrollWindowPos >= origDocHeight ) { 
-          $(document).scrollTop(0); 
-      }
-      if(scrollWindowPos <= 0 ) { 
-           $(document).scrollTop(origDocHeight); 
-       }        
-  });
+//     if (scrollWindowPos >= origDocHeight) {
+//         $(document).scrollTop(0);
+//     }
+//     if (scrollWindowPos <= 0) {
+//         $(document).scrollTop(origDocHeight);
+//     }
+// });

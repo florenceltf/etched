@@ -1,6 +1,14 @@
-if (!/Android|webOS|iPhone|iPad|iPod|BlackBerry|IEMobile|Opera Mini/i.test(navigator.userAgent)) {
-  const cursorTag = document.querySelector("div.cursor");
+const cursorTag = document.querySelector("div.cursor");
 
+function showCursor() {
+  cursorTag.style.display = "block";
+}
+
+function hideCursor() {
+  cursorTag.style.display = "none";
+}
+
+if (!/Android|webOS|iPhone|iPad|iPod|BlackBerry|IEMobile|Opera Mini/i.test(navigator.userAgent)) {
   var cursorX;
   var cursorY;
 
@@ -9,17 +17,13 @@ if (!/Android|webOS|iPhone|iPad|iPod|BlackBerry|IEMobile|Opera Mini/i.test(navig
       const x = cursorX;
       const y = cursorY + window.pageYOffset;
 
-      cursorTag.style.transform = `translate(${x}px, ${y - 20}px)`;
+      cursorTag.style.transform = `translate(${x}px, ${y - 15}px)`;
+      showCursor();
     }
   }
 
-  document.addEventListener("mouseenter", function () {
-    cursorTag.style.display = "block";
-  });
-
-  document.addEventListener("mouseleave", function () {
-    cursorTag.style.display = "none";
-  });
+  document.addEventListener("mouseenter", showCursor);
+  document.addEventListener("mouseleave", hideCursor);
 
   document.addEventListener("mousemove", function (event) {
     cursorX = event.clientX;

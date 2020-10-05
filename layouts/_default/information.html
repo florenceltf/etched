@@ -9,23 +9,33 @@
   <div class="info-line-container">
     <div class="info-line"></div>
   </div>
-  <section class="container">
-    {{ .Content }}
-  </section>
 
-  <div class="container info-details columns is-tablet">
-    <div class="column">
-      <h4>Services</h4>
-      <p>{{ .Params.services | markdownify }}</p>
+  <section class="container information-text">
+
+    <div class="sub-nav flex">
+      <div class="flex"><a href="#stor">Story</a></div>
+      <div><a href="#services">Services</a></div>
+      <div class="flex align-right"><a href="#collaborators">Collaborators</a></div>
     </div>
-    <div class="column">
-      <h4>Collaborators</h4>
+
+    <div id="story">
+      {{ .Params.story | markdownify }}
+    </div>
+
+    <div id="services">
+      <h5>Services</h5>
+      {{ .Params.services | markdownify }}
+    </div>
+
+    <div id="collaborators">
+      <h5>Collaborators</h5>
       <p>{{ .Params.collaborators | markdownify }}</p>
     </div>
-    <div class="column">
-      <h4>Contact</h4>
-      <p>{{ .Params.contact | markdownify }}</p>
-    </div>
-  </div>
+
+  </section>
 </main>
+{{ end }}
+
+{{ define "footer" }}
+{{ partial "footer" . }}
 {{ end }}
