@@ -12,13 +12,14 @@
 
   <section class="container information-text">
 
-    <div id="contact">
-      {{ .Params.contact | markdownify }}
-    </div>
-
     <div id="services">
       <h5>Services</h5>
       {{ .Params.services | markdownify }}
+    </div>
+
+    <div id="contact">
+      <h5>Contact</h5>
+      <p>{{ .Params.contact | markdownify }}</p>
     </div>
 
     <div id="collaborators">

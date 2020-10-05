@@ -1,11 +1,13 @@
 ---
 title: Information
 layout: information
-contact: contact 
 services: "Porepuda quunt aut es mi, qui omni cuptatet quis cor mint volori autet
   etustectus mi, quis doloreperae oditatu rempossit, sequam quissunt.\n\n  \nSchematic
   & Idea Generation  \nConcept Design  \nTown Planning Endorsement  \nPlant Design
   \ \nTender Documentation  \nContract Administration"
+contact: 
+  "Evan Dimitropoulos, Director  \n+61 411 279 332  \n
+  7/6 Bromham Place  \nRichmond, VIC 3121  \ninfo@etchedprojects.com  \n@etched_projects"
 collaborators: "\nAbove Zero  \nAliro  \nAmazon Property Group  \nAngelo
   Property Group   \nArchitekton  \nArchsign  \nArmitage Jones  \nAscot Building Group
   \ \nBB Design Group  \nBekl  \nBest Hooper  \nBill Jacobs Building Design   \nThe

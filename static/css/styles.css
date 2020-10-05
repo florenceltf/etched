@@ -97,12 +97,12 @@ header {
   overflow: hidden;
 }
 
-.nav-item:first-child {
-  margin-right: 100px;
-}
-
 .nav-item a:hover, .nav-item.active a {
   border-bottom: 2px solid black;
+}
+
+.nav-item {
+  margin-right: 40px;
 }
 
 div.home {
@@ -190,11 +190,9 @@ div.home {
 .info-line {
   width: 1px;
   background: #ffc525;
-  height: 0%;
+  height: 100%;
   position: relative;
   text-align: center;
-  animation: line 5s forwards;
-  -webkit-animation: line 15;
 }
 
 h5 {
@@ -202,18 +200,19 @@ h5 {
   font-size: 18px;
 }
 
-#story h5{
-  margin-top: 0;
+#services {
+  text-align: center;
 }
 
-#services,
+#contact,
 #collaborators {
   text-align: center;
-  padding-top: 100px;
+  padding-top: 70px;
 }
 
 #services p,
-#collaborators p{
+#collaborators p,
+#contact p{
 margin-bottom: 20px;
 font-size: 18px;
 }
@@ -447,6 +446,7 @@ blockquote {
 
 footer {
   font-size: 16px;
+  bottom: 0;
   display: flex;
   justify-content: space-between;
   margin: 100px auto 40px auto;
@@ -515,17 +515,13 @@ footer {
 
   #services,
   #collaborators {
-    padding-top: 60px;
+    padding-top: 50px;
   }
 
   header {
     font-size: 14px;
     padding: 20px 0 10px 20px;
     position: fixed;
-  }
-
-  .nav-item:first-child {
-    margin-right: 20px;
   }
 
   .home svg {
