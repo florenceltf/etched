@@ -1,12 +1,12 @@
 <header class="{{ .class }}">
 
   <div class="mobile-menu">
-    <a href="">
+    <div>
       <hr>
       <hr>
       <hr>
-    </a>
-    <p>Menu</p>
+    </div>
+    <p class="menu-text">Menu</p>
   </div>
 
   <div class="page-nav{{ if .context.IsHome }} fadeload page-header{{ end }}">
@@ -72,7 +72,7 @@
   </div>
   {{ end }}
 
-  <div class="menu-background">
+  <div class="menu-background fadein">
     <div class="mobile-nav">
       <a href="">Selected Works</a>
       <a href="">Story</a>
