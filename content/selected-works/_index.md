@@ -16,7 +16,9 @@ categories:
   title: Multi-Residential Large
 - template: selected-works-category
   references:
-  - selected-works/kew-gardens-apartments.md
-  title: Residential
+  - selected-works/industrial-30-000m2.md
+  - selected-works/industrial-10-000m2.md
+  - selected-works/industrial-10-30-000m2.md
+  title: Commercial
 
 ---
