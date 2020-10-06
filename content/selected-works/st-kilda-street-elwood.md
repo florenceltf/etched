@@ -1,5 +1,5 @@
 ---
-category: Multi Residential
+category: Multi-Residential Large
 title: St Kilda Street, Elwood
 description: ''
 body: Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor
