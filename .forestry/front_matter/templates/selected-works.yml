@@ -7,16 +7,6 @@ fields:
   config:
     required: true
   label: Title
-- name: year
-  type: text
-  config:
-    required: true
-  label: Year
-- name: client
-  type: text
-  config:
-    required: true
-  label: Client
 - name: category
   type: text
   config:
@@ -24,11 +14,6 @@ fields:
   label: Category
   description: Eg. Multi Residential, Multi Residential – Large
   default: Multi Residential
-- name: collaborators
-  type: text
-  config:
-    required: false
-  label: Collaborators
 - name: description
   type: text
   config:
@@ -44,6 +29,21 @@ fields:
     schema:
       format: markdown
   label: Body
+- name: client
+  type: text
+  config:
+    required: true
+  label: Client
+- name: collaborators
+  type: text
+  config:
+    required: false
+  label: Collaborators
+- name: year
+  type: text
+  config:
+    required: true
+  label: Year
 - name: gallery
   type: blocks
   label: Gallery
@@ -60,4 +60,13 @@ fields:
     min: 
     max: 
 pages:
-- content/selected-works/kew-gardens-apartments.md
+- content/selected-works/earl-street-kew.md
+- content/selected-works/high-street-malvern-1.md
+- content/selected-works/high-street-malvern.md
+- content/selected-works/industrial-10-000m2.md
+- content/selected-works/industrial-10-30-000m2.md
+- content/selected-works/industrial-30-000m2.md
+- content/selected-works/lygon-street-east-brunswick.md
+- content/selected-works/rathmines-street-hawthorn.md
+- content/selected-works/st-kilda-street-elwood.md
+- content/selected-works/wilson-avenue-brunswick.md

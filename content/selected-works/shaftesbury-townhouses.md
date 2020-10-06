@@ -1,15 +1,15 @@
 ---
-category: Test
-title: Shaftesbury Townhouses
-year: Ongoing
-client: Private
-collaborators: Millieu Property, Sandy Builders
-description: Insert a beautiful little description here about Shaftesbury Townhouses.
-body: |-
-  When a site is zoned mixed use, the response is to build residences
-  or commercial tenancies or some proportion of each type – this project allows for both uses to occur in the same space. A “flexible space”, complete with bathroom, kitchenette and storage is ready to accommodate a creative studio, a shop, an extension of the living area or even a car.
-
-  The functional integrity of the project is its flexible spaces, they allow for multiple scenarios of work, live and socialising in the same space. The ground and first floor flexible spaces are ready to accommodate a creative studio, a shop, or extension of the living area.
+category: Multi-Residential
+title: Shaftesbury Street, Thornbury
+year: " 2017 — 2019"
+client: Neometro
+collaborators: Common Ground
+description: ''
+body: Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor
+  incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud
+  exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute
+  irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla
+  pariatur. Excepteur mollit anim id est laborum.
 gallery:
 - template: portrait-image
   alt: Alt text
