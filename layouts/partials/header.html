@@ -4,7 +4,7 @@
     <div>
       <hr class="top">
       <hr class="middle fadein">
-      <hr class="bottom">
+      <hr class="bottom fadein">
     </div>
     <p class="menu-text">Menu</p>
   </div>
@@ -74,9 +74,16 @@
 
   <div class="menu-background fadein">
     <div class="mobile-nav">
-      <a href="">Selected Works</a>
-      <a href="">Story</a>
-      <a href="">Information</a>
+      {{ $currentPage := .context }}
+      {{ range .context.Site.Menus.main }}
+
+      <div
+        class="mobile-item{{if or ($currentPage.IsMenuCurrent "main" .) ($currentPage.HasMenuCurrent "main" .) }} active{{end}}">
+        <a href="{{ .URL }}" title="{{ .Title }}">{{ .Name }}</a>
+      </div>
+
+      {{ end }}
     </div>
+  </div>
 
 </header>
