@@ -29,5 +29,10 @@ gallery:
   image: "/images/uploads/high-04.jpg"
   alt: high-04
   caption: ''
+- template: landscape-image
+  project-link: []
+  image: "/images/uploads/high-05.jpg"
+  alt: high-05
+  caption: ''
 
 ---
