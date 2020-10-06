@@ -9,9 +9,8 @@ categories:
   title: Multi-Residential
 - template: selected-works-category
   references:
-  - selected-works/shaftesbury-townhouses.md
-  - selected-works/kew-gardens-apartments.md
-  title: Other
+  - selected-works/wilson-avenue-brunswick.md
+  title: Multi-Residential Large
 - template: selected-works-category
   references:
   - selected-works/kew-gardens-apartments.md
