@@ -37,7 +37,7 @@ gallery:
 - template: landscape-image
   project-link: []
   image: "/images/uploads/rathmines-06.jpg"
-  alt: rathmine-6
+  alt: rathmine-06
   caption: ''
 
 ---
