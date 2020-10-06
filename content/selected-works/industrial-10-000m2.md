@@ -1,5 +1,5 @@
 ---
-category: Multi Residential
+category: Commercial
 title: Industrial < 10,000m2
 description: ''
 body: Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor
