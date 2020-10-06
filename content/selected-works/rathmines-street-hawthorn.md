@@ -21,5 +21,13 @@ gallery:
   alt: rathmines-02
   image: "/images/uploads/rathmines-02.jpg"
   caption: ''
+- template: portrait-side-image
+  project-link-left: []
+  project-link-right: []
+  image-left: "/images/uploads/rathmines-03.jpg"
+  image-right: "/images/uploads/rathmines-04.jpg"
+  alt: rathmines-03
+  caption-left: ''
+  caption-right: ''
 
 ---
