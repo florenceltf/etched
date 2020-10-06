@@ -60,6 +60,7 @@ fields:
     min: 
     max: 
 pages:
+- content/selected-works/earl-street-kew.md
 - content/selected-works/high-street-malvern-1.md
 - content/selected-works/high-street-malvern.md
 - content/selected-works/kew-gardens-apartments.md
