@@ -1,6 +1,6 @@
 ---
 category: Commercial
-title: Industrial 30,000m<sup>2</sup> +
+title: Industrial 30,000m2 +
 description: ''
 body: Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor
   incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud
