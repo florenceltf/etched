@@ -24,5 +24,9 @@ gallery:
   image: "/images/uploads/example08.jpg"
   caption: Optional caption
   quote: Insert quote here about the project, process etc.
+- template: landscape-full-image
+  project-link: []
+  alt: shaftesbury-6
+  image: "/images/uploads/shaftesbury-01.jpg"
 
 ---
