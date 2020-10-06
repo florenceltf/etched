@@ -665,9 +665,10 @@ footer {
     width: inherit;
   }
 
-  .logo a {
-    border-bottom: none;
-  }
+.logo-container .logo a,
+.logo-container .logo a:hover {
+  border-bottom: none;
+}
 
   .index-gallery {
     margin-top: 80px;

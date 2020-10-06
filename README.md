@@ -2,18 +2,9 @@
 
 
 ## Tasks
-- [x] eamon :: cursor cross browser
-- [x] flo :: logo colour #282829
-- [x] flo :: menu hamburger to be cross
-- [ ] flo :: scroll arrow
-- [ ] flo :: remove underline on logo
-- [x] flo :: currently has a scroll on mobile (ie home)
-- [ ] flo :: mobile menu underlines
-- [ ] eamon :: mobile menu not working
-- [ ] flo :: infinite scroll on home page : bit glitchy and can this be rewritten in js?
-- [x] flo :: initial page load animation (rhythm)
-- [x] eamon :: new information design (sub nav, markdown, footer)
-- [x] eamon :: footer editable
+- [ ] eamon :: remove underline on logo
+- [ ] eamon :: infinite scroll on home page : bit glitchy and can this be rewritten in js?
+- [ ] eamon :: mobile menu not working 
 - [ ] eamon :: next project not working (order is funky now...)
 - [ ] eamon :: categories non-alphabetical
 - [ ] eamon :: projects non-alphabetical
