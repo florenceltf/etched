@@ -11,6 +11,5 @@ client: Milieu
 collaborators: Fieldwork Architects, Foolscap Studio
 year: 2018 — 2019
 gallery: []
-draft: true
 
 ---
