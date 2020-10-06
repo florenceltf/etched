@@ -10,6 +10,7 @@ categories:
 - template: selected-works-category
   references:
   - selected-works/wilson-avenue-brunswick.md
+  - selected-works/earl-street-kew.md
   title: Multi-Residential Large
 - template: selected-works-category
   references:
