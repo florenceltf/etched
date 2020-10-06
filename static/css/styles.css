@@ -20,10 +20,10 @@ html {
 
 
 @keyframes fadeout {
-  100% {
+  0% {
     opacity: 1;
   }
-  0% {
+  100% {
     opacity: 0;
   }
 }

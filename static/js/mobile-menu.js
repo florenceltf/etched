@@ -6,7 +6,8 @@ const scrollTag = document.querySelector(".scroll");
 
 menuTag.addEventListener("click", function () {
   if (menuText.innerHTML === "Close") {
-    menuBackground.style.display = "none";
+    menuBackground.classList.remove("fadein");
+    menuBackground.classList.add("fadeout");
     menuText.innerHTML = "Menu";
     homeOverlay.style.display = "flex";
   } else {
