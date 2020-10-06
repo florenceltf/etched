@@ -407,7 +407,7 @@ p {
 }
 
 .details {
-  margin: 80px 0 100px 0;
+  margin: 80px 0 80px 0;
   text-align: center;
 }
 
@@ -771,7 +771,7 @@ footer {
   }
 
   .details {
-    margin: 40px 0 40px 0;
+    margin: 40px 0 60px 0;
   }
 
   .next {
