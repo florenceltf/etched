@@ -11,6 +11,5 @@ client: Neometro, Milieu
 collaborators: Fieldwork Architects, DesignOffice
 year: 2016 — 2020
 gallery: []
-draft: true
 
 ---
