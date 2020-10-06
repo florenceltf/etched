@@ -16,5 +16,13 @@ gallery:
   image: "/images/uploads/high-01.jpg"
   alt: high-01
   caption: ''
+- template: portrait-side-image
+  project-link-left: []
+  project-link-right: []
+  alt: high-02
+  image-left: "/images/uploads/high-02.jpg"
+  image-right: "/images/uploads/high-03.jpg"
+  caption-left: ''
+  caption-right: ''
 
 ---
