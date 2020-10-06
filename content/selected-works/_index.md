@@ -11,6 +11,8 @@ categories:
   references:
   - selected-works/wilson-avenue-brunswick.md
   - selected-works/earl-street-kew.md
+  - selected-works/st-kilda-street-elwood.md
+  - selected-works/lygon-street-east-brunswick.md
   title: Multi-Residential Large
 - template: selected-works-category
   references:
