@@ -1,5 +1,5 @@
 ---
-category: Multi Residential
+category: Multi-Residential
 title: Rathmines Street, Hawthorn
 year: 2018 — 2020
 client: Deluca Projects
