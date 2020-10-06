@@ -29,5 +29,10 @@ gallery:
   alt: rathmines-03
   caption-left: ''
   caption-right: ''
+- template: landscape-full-image
+  project-link: []
+  image: "/images/uploads/rathmines-05.jpg"
+  alt: rathmine-05
+  caption: ''
 
 ---
