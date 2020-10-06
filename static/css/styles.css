@@ -569,11 +569,11 @@ footer {
   }
 
   hr.bottom {
-    transform: rotate(-45deg) translate(-4px, -1px);
+    display: none;
   }
 
   hr.middle {
-    display: none;
+    transform: rotate(-45deg) translate(-4px, -1px);
   }
 
   .nav-item {
