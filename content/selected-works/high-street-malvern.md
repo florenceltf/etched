@@ -1,9 +1,9 @@
 ---
 category: Multi-Residential
-title: High Street, Malvern
+title: St Georges Road, Northcote
 year: 2018 — 2019
-client: Founding Office
-collaborators: NTF Architecture
+client: Pacasa
+collaborators: Cera Stribley Architecture
 description: ''
 body: Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor
   incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud
@@ -11,6 +11,5 @@ body: Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod te
   irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla
   pariatur. Excepteur mollit anim id est laborum.
 gallery: []
-draft: true
 
 ---
