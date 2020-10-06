@@ -7,16 +7,6 @@ fields:
   config:
     required: true
   label: Title
-- name: year
-  type: text
-  config:
-    required: true
-  label: Year
-- name: client
-  type: text
-  config:
-    required: true
-  label: Client
 - name: category
   type: text
   config:
@@ -24,11 +14,6 @@ fields:
   label: Category
   description: Eg. Multi Residential, Multi Residential – Large
   default: Multi Residential
-- name: collaborators
-  type: text
-  config:
-    required: false
-  label: Collaborators
 - name: description
   type: text
   config:
@@ -44,6 +29,21 @@ fields:
     schema:
       format: markdown
   label: Body
+- name: client
+  type: text
+  config:
+    required: true
+  label: Client
+- name: collaborators
+  type: text
+  config:
+    required: false
+  label: Collaborators
+- name: year
+  type: text
+  config:
+    required: true
+  label: Year
 - name: gallery
   type: blocks
   label: Gallery
