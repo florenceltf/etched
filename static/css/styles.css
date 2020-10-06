@@ -188,18 +188,31 @@ div.home {
   padding: 0 20px 0 20px;
 }
 
-/* info */
+/* story */
 
-.info-bg {
-  background: rgb(206, 163, 136);
+.story-bg {
+  background: #818365;
 }
 
-.info-line-container {
+.line-container {
   position: fixed;
   top: 0;
   left: 50%;
   height: 100vh;
   z-index: -1;
+}
+
+.story-line {
+  width: 1px;
+  background: #fed2ad;
+  position: relative;
+  text-align: center;
+}
+
+/* info */
+
+.info-bg {
+  background: rgb(206, 163, 136);
 }
 
 .info-line {
@@ -261,6 +274,7 @@ div.info-details {
 }
 
 .scroll {
+  font-size: 18px;
   position: fixed;
   bottom: 0;
   padding: 0 0 39px 40px;
@@ -269,6 +283,7 @@ div.info-details {
 
 .arrow {
   margin-left: 15px;
+  margin-top: 2px;
 }
 
 .arrow::before {
@@ -276,11 +291,11 @@ div.info-details {
   border-width: 2px 2px 0 0;
   content: '';
   display: inline-block;
-  height: 12px;
+  height: 14px;
   left: 5px;
   top: 5px;
   vertical-align: top;
-  width: 12px;
+  width: 14px;
   transform: rotate(135deg);
 }
 
@@ -295,17 +310,9 @@ div.info-details {
   background: #8a7244;
 }
 
-.selected-line-container {
-  position: fixed;
-  top: 0;
-  left: 50%;
-  height: 100vh;
-  z-index: -1;
-}
-
 .selected-line {
   width: 1px;
-  background: rgb(206, 163, 136);
+  background: #c28d6b;
   height: 100%;
   position: relative;
   text-align: center;
@@ -601,6 +608,7 @@ footer {
 
   .scroll {
     padding: 0 0 20px 20px;
+    font-size: 14px;
   }
 
   p,
@@ -633,10 +641,6 @@ footer {
     padding-top: 50px;
   }
 
-  .scroll {
-    font-size: 14px;
-  }
-
   header {
     font-size: 14px;
     padding: 20px 0 10px 20px;
@@ -665,10 +669,13 @@ footer {
     width: inherit;
   }
 
-.logo-container .logo a,
-.logo-container .logo a:hover {
-  border-bottom: none;
-}
+  .logo a {
+    border-bottom: 0px solid transparent;
+  }
+
+  .logo a:hover {
+    border-bottom: 0px solid transparent;
+  }
 
   .index-gallery {
     margin-top: 80px;
