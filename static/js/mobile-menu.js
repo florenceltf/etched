@@ -3,6 +3,14 @@ const menuBackground = document.querySelector(".menu-background");
 const menuText = document.querySelector(".menu-text");
 const homeOverlay = document.querySelector(".home");
 const scrollTag = document.querySelector(".scroll");
+const topTag = document.querySelector("hr.top");
+const middleTag = document.querySelector("hr.middle");
+const bottomTag = document.querySelector("hr.bottom");
+
+topTag.classList.remove("top");
+middleTag.classList.remove("middle");
+bottomTag.classList.remove("bottom");
+
 
 menuTag.addEventListener("click", function () {
   if (menuText.innerHTML === "Close") {
@@ -10,11 +18,17 @@ menuTag.addEventListener("click", function () {
     menuBackground.classList.add("fadeout");
     menuText.innerHTML = "Menu";
     homeOverlay.style.display = "flex";
+    topTag.classList.remove("top");
+    middleTag.classList.remove("middle");
+    bottomTag.classList.remove("bottom");
   } else {
     menuBackground.style.display = "flex";
     homeOverlay.style.display = "none";
     menuText.innerHTML = "Close";
     menuBackground.classList.add("fadein");
+    topTag.classList.add("top");
+    middleTag.classList.add("middle");
+    bottomTag.classList.add("bottom");
   }
 });
 

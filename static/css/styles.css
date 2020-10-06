@@ -557,10 +557,23 @@ footer {
     margin-right: 15px;
     align-items: center;
     border: 1px solid black;
+    transition: transform 1s;
   }
 
   hr:last-child {
     margin-bottom: 0px;
+  }
+
+  hr.top {
+    transform: rotate(45deg) translate(4px, 10px);
+  }
+
+  hr.bottom {
+    transform: rotate(-45deg) translate(-4px, -1px);
+  }
+
+  hr.middle {
+    display: none;
   }
 
   .nav-item {
@@ -658,8 +671,7 @@ footer {
     width: inherit;
   }
 
-  .logo a,
-  .logo a:hover {
+  .logo a {
     border-bottom: none;
   }
 
