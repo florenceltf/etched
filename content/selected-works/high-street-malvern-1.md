@@ -24,5 +24,10 @@ gallery:
   image-right: "/images/uploads/high-03.jpg"
   caption-left: ''
   caption-right: ''
+- template: landscape-full-image
+  project-link: []
+  image: "/images/uploads/high-04.jpg"
+  alt: high-04
+  caption: ''
 
 ---
