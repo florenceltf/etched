@@ -14,6 +14,7 @@ menuTag.addEventListener("click", function () {
     menuBackground.style.display = "flex";
     homeOverlay.style.display = "none";
     menuText.innerHTML = "Close";
+    menuBackground.classList.add("fadein");
   }
 });
 
