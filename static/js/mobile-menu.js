@@ -21,8 +21,10 @@ menuTag.addEventListener("click", function () {
 window.onscroll = function (ev) {
   if ((window.innerHeight + window.pageYOffset) >= document.body.offsetHeight) {
     scrollTag.style.display = "none";
+    scrollTag.classList.add("fadeout");
   } else {
     scrollTag.style.display = "block";
+    scrollTag.classList.add("fadein");
   }
 };
 
