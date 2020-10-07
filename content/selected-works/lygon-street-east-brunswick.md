@@ -10,6 +10,10 @@ body: Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod te
 client: Milieu
 collaborators: Fieldwork Architects, Foolscap Studio
 year: 2018 — 2019
-gallery: []
+gallery:
+- template: landscape-image
+  project-link: []
+  image: "/images/uploads/lygon-01.jpg"
+  caption: ''
 
 ---
