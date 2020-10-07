@@ -13,8 +13,8 @@
     <figure class="column is-half image">
       {{ with $projectLinkPortrait }}<a href="{{ $projectLinkPortrait.RelPermalink }}">{{ end }}
         <img src="data:image/jpeg;base64,{{ $smallImageLeft.Content | base64Encode  }}"
-        data-src="{{ $imageLeft.RelPermalink }}" class="lazyload">
-      {{ with $projectLinkPortrait }}</a>{{ end }}
+          data-src="{{ $imageLeft.RelPermalink }}" class="lazyload" alt="{{ $imageLeft.Title }}">
+        {{ with $projectLinkPortrait }}</a>{{ end }}
       {{ with (index .item "caption-portrait") }}
       <div class="caption">
         {{ . }}
@@ -26,8 +26,8 @@
       <div>
         {{ with $projectLinkLandscape }}<a href="{{ .RelPermalink }}">{{ end }}
           <img src="data:image/jpeg;base64,{{ $smallImageRight.Content | base64Encode  }}"
-          data-src="{{ $imageRight.RelPermalink }}" class="lazyload mobile-padding">
-        {{ with $projectLinkLandscape }}</a>{{ end }}
+            data-src="{{ $imageRight.RelPermalink }}" class="lazyload mobile-padding" alt="{{ $imageRight.Title }}">
+          {{ with $projectLinkLandscape }}</a>{{ end }}
       </div>
       {{ with (index .item "caption-landscape") }}
       <div class="caption">

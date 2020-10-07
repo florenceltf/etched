@@ -4,9 +4,9 @@
 
 <figure class="column is-4 is-offset-4 image project-image portrait-image">
   {{ with $projectLink }}<a href="{{ $projectLink.RelPermalink }}">{{ end }}
-  <img src="data:image/jpeg;base64,{{ $smallImage.Content | base64Encode  }}" data-src="{{ $image.RelPermalink }}"
-    class="lazyload">
-  {{ with $projectLink }}</a>{{ end }}
+    <img src="data:image/jpeg;base64,{{ $smallImage.Content | base64Encode  }}" data-src="{{ $image.RelPermalink }}"
+      alt="{{ $image.Title }}" class="lazyload">
+    {{ with $projectLink }}</a>{{ end }}
 
   {{ with .item.caption }}
   <div class="caption">
