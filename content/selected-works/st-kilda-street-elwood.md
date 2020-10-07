@@ -23,5 +23,9 @@ gallery:
   quote: Insert quote here. Animustium eium im velOnsectur, ad quo quostion pra im
     fugitatas arum rent perspic tendam, eos re natas di dolorit la qui tem simus utecate
   image: "/images/uploads/stkilda-03.jpg"
+- template: landscape-full-image
+  project-link: []
+  image: "/images/uploads/stkilda-04.jpg"
+  caption: ''
 
 ---
