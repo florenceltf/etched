@@ -20,5 +20,9 @@ gallery:
   project-link: []
   image: "/images/uploads/index-06.jpg"
   caption: ''
+- template: landscape-image
+  project-link: []
+  image: "/images/uploads/index-07.jpg"
+  caption: ''
 
 ---
