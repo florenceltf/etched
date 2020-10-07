@@ -1,31 +1,12 @@
 ---
 title: Index
 gallery:
-- template: portrait-side-full-image
-  image-left: "/images/uploads/example06.jpg"
-  image-right: "/images/uploads/example09.jpg"
-  alt: Alt text
-  caption-left: Project Title
-  caption-right: Project Title
-  project-link-left: selected-works/kew-gardens-apartments.md
-  project-link-right: selected-works/kew-gardens-apartments.md
 - template: portrait-landscape-image
-  image-portrait: "/images/uploads/example12.jpg"
-  image-landscape: "/images/uploads/example13.jpg"
-  alt: Alt text
-  caption-portrait: Project Title
-  caption-landscape: Project Title
-  project-link-portrait: selected-works/kew-gardens-apartments.md
-  project-link-landscape: ''
-- template: landscape-full-image
-  image: "/images/uploads/example10.jpg"
-  alt: Alt text
-  caption: Project Title
-  project-link: selected-works/kew-gardens-apartments.md
-- template: landscape-image
-  project-link: ''
-  alt: Test
-  image: "/images/uploads/example13.jpg"
-  caption: Project Test
+  project-link-portrait: []
+  project-link-landscape: []
+  image-portrait: "/images/uploads/index-01.jpg"
+  caption-portrait: ''
+  image-landscape: "/images/uploads/index-02.jpg"
+  caption-landscape: ''
 
 ---
