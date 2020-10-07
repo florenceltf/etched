@@ -16,5 +16,9 @@ gallery:
   project-link: []
   image: "/images/uploads/index-05.jpg"
   caption: ''
+- template: portrait-image
+  project-link: []
+  image: "/images/uploads/index-06.jpg"
+  caption: ''
 
 ---
