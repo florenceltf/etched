@@ -8,5 +8,9 @@ gallery:
   caption-portrait: ''
   image-landscape: "/images/uploads/index-02.jpg"
   caption-landscape: ''
+- template: landscape-image
+  project-link: []
+  image: "/images/uploads/index-03.jpg"
+  caption: ''
 
 ---
