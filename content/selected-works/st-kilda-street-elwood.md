@@ -15,5 +15,9 @@ gallery:
   project-link: []
   image: "/images/uploads/stkilda-01.jpg"
   caption: ''
+- template: landscape-image
+  project-link: []
+  image: "/images/uploads/stkilda-02.jpg"
+  caption: ''
 
 ---
