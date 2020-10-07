@@ -17,9 +17,9 @@ gallery:
   image: "/images/uploads/index-05.jpg"
   caption: Shaftesbury Street, Thornbury
 - template: portrait-image
-  project-link: []
+  project-link: selected-works/high-street-malvern.md
   image: "/images/uploads/index-06.jpg"
-  caption: ''
+  caption: St Georges Road, Northcote
 - template: landscape-image
   project-link: []
   image: "/images/uploads/index-07.jpg"
