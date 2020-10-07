@@ -28,5 +28,16 @@ gallery:
   project-link: []
   image: "/images/uploads/index-08.jpg"
   caption: ''
+- template: portrait-image
+  project-link: []
+  image: "/images/uploads/index-11.jpg"
+  caption: ''
+- template: portrait-landscape-image
+  project-link-portrait: []
+  project-link-landscape: []
+  image-portrait: "/images/uploads/index-12.jpg"
+  caption-portrait: ''
+  image-landscape: ''
+  caption-landscape: ''
 
 ---
