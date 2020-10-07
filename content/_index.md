@@ -37,7 +37,7 @@ gallery:
   project-link-landscape: []
   image-portrait: "/images/uploads/index-12.jpg"
   caption-portrait: ''
-  image-landscape: ''
+  image-landscape: "/images/uploads/index-13.jpg"
   caption-landscape: ''
 
 ---
