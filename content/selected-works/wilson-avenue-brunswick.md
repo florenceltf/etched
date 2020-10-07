@@ -15,5 +15,9 @@ gallery:
   project-link: []
   image: "/images/uploads/wilson-01.jpg"
   caption: ''
+- template: landscape-full-image
+  project-link: []
+  image: "/images/uploads/wilson-02.jpg"
+  caption: ''
 
 ---
