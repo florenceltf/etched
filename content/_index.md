@@ -30,11 +30,11 @@ gallery:
   caption: Earl Street, Kew
 - template: portrait-landscape-image
   project-link-portrait: []
-  project-link-landscape: []
+  project-link-landscape: selected-works/st-kilda-street-elwood.md
   image-portrait: "/images/uploads/index-10.jpg"
   image-landscape: "/images/uploads/index-09.jpg"
   caption-portrait: ''
-  caption-landscape: ''
+  caption-landscape: St Kilda Street, Elwood
 - template: portrait-image
   project-link: []
   image: "/images/uploads/index-11.jpg"
