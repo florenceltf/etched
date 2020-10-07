@@ -9,9 +9,9 @@ gallery:
   image-landscape: "/images/uploads/index-02.jpg"
   caption-landscape: Rathmines Street, Hawthorn
 - template: landscape-image
-  project-link: []
+  project-link: selected-works/high-street-malvern-1.md
   image: "/images/uploads/index-03.jpg"
-  caption: ''
+  caption: High Street, Malvern
 - template: landscape-full-image
   project-link: []
   image: "/images/uploads/index-05.jpg"
