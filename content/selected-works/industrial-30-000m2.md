@@ -26,5 +26,9 @@ gallery:
   project-link: []
   image: "/images/uploads/industrial-14.jpg"
   caption: ''
+- template: portrait-image
+  project-link: []
+  image: "/images/uploads/industrial-15.jpg"
+  caption: ''
 
 ---
