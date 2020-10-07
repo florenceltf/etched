@@ -39,7 +39,7 @@ gallery:
   project-link-landscape: []
   image-portrait: "/images/uploads/industrial-13.jpg"
   caption-portrait: ''
-  image-landscape: ''
+  image-landscape: "/images/uploads/industrial-17.jpg"
   caption-landscape: ''
 
 ---
