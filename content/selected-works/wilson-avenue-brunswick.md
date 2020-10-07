@@ -10,6 +10,10 @@ body: Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod te
 client: Neometro, Milieu
 collaborators: Fieldwork Architects, DesignOffice
 year: 2016 — 2020
-gallery: []
+gallery:
+- template: landscape-image
+  project-link: []
+  image: "/images/uploads/wilson-01.jpg"
+  caption: ''
 
 ---
