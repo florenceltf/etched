@@ -39,5 +39,9 @@ gallery:
   caption-portrait: ''
   image-landscape: "/images/uploads/index-13.jpg"
   caption-landscape: ''
+- template: landscape-full-image
+  project-link: []
+  image: "/images/uploads/index-14.jpg"
+  caption: ''
 
 ---
