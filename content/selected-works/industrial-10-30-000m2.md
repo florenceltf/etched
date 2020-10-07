@@ -30,5 +30,9 @@ gallery:
   image-right: "/images/uploads/industrial-09.jpg"
   caption-left: ''
   caption-right: ''
+- template: landscape-full-image
+  project-link: []
+  image: "/images/uploads/industrial-10.jpg"
+  caption: ''
 
 ---
