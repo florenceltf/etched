@@ -10,6 +10,10 @@ body: Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod te
 client: Hub Property Group
 collaborators: Cera Stribley Architecture
 year: 2018 — 2020
-gallery: []
+gallery:
+- template: landscape-full-image
+  project-link: []
+  image: "/images/uploads/earl-01.jpg"
+  caption: ''
 
 ---
