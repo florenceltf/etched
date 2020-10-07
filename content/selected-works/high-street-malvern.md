@@ -19,5 +19,12 @@ gallery:
   project-link: []
   image: "/images/uploads/stgeorges-02.jpg"
   caption: ''
+- template: portrait-side-image
+  project-link-left: []
+  project-link-right: []
+  image-left: "/images/uploads/stgeorges-03.jpg"
+  image-right: "/images/uploads/stgeorges-04.jpg"
+  caption-left: ''
+  caption-right: ''
 
 ---
