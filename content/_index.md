@@ -21,9 +21,9 @@ gallery:
   image: "/images/uploads/index-06.jpg"
   caption: St Georges Road, Northcote
 - template: landscape-image
-  project-link: []
+  project-link: selected-works/wilson-avenue-brunswick.md
   image: "/images/uploads/index-07.jpg"
-  caption: ''
+  caption: Wilson Avenue, Brunswick
 - template: landscape-full-image
   project-link: []
   image: "/images/uploads/index-08.jpg"
