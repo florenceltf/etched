@@ -15,5 +15,9 @@ gallery:
   project-link: []
   image: "/images/uploads/earl-01.jpg"
   caption: ''
+- template: portrait-image
+  project-link: []
+  image: "/images/uploads/earl-02.jpg"
+  caption: ''
 
 ---
