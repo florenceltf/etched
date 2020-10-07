@@ -23,5 +23,12 @@ gallery:
   project-link: []
   image: "/images/uploads/industrial-07.jpg"
   caption: ''
+- template: landscape-side-image
+  project-link-left: []
+  project-link-right: []
+  image-left: "/images/uploads/industrial-08.jpg"
+  image-right: "/images/uploads/industrial-09.jpg"
+  caption-left: ''
+  caption-right: ''
 
 ---
