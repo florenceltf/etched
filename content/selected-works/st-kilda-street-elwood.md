@@ -10,6 +10,10 @@ body: Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod te
 client: Armitage Jones
 collaborators: DKO Architecture, Mim Design Studio
 year: 2018 — 2019
-gallery: []
+gallery:
+- template: landscape-full-image
+  project-link: []
+  image: "/images/uploads/stkilda-01.jpg"
+  caption: ''
 
 ---
