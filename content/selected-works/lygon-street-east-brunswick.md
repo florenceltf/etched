@@ -19,5 +19,9 @@ gallery:
   project-link: []
   image: "/images/uploads/lygon-02.jpg"
   caption: ''
+- template: landscape-image
+  project-link: []
+  image: "/images/uploads/lygon-03.jpg"
+  caption: ''
 
 ---
