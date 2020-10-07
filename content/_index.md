@@ -25,9 +25,9 @@ gallery:
   image: "/images/uploads/index-07.jpg"
   caption: Wilson Avenue, Brunswick
 - template: landscape-full-image
-  project-link: []
+  project-link: selected-works/earl-street-kew.md
   image: "/images/uploads/index-08.jpg"
-  caption: ''
+  caption: Earl Street, Kew
 - template: portrait-landscape-image
   project-link-portrait: []
   project-link-landscape: []
