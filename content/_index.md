@@ -36,9 +36,9 @@ gallery:
   caption-portrait: ''
   caption-landscape: St Kilda Street, Elwood
 - template: portrait-image
-  project-link: []
+  project-link: selected-works/lygon-street-east-brunswick.md
   image: "/images/uploads/index-11.jpg"
-  caption: ''
+  caption: Lygon Street, East Brunswick
 - template: portrait-landscape-image
   project-link-portrait: []
   project-link-landscape: []
