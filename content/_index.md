@@ -47,8 +47,8 @@ gallery:
   image-landscape: "/images/uploads/index-13.jpg"
   caption-landscape: Industrial Works — Medium Scale
 - template: landscape-full-image
-  project-link: []
+  project-link: selected-works/industrial-30-000m2.md
   image: "/images/uploads/index-14.jpg"
-  caption: ''
+  caption: Industrial — Large Scale
 
 ---
