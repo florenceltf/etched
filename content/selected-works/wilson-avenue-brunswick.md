@@ -19,5 +19,9 @@ gallery:
   project-link: []
   image: "/images/uploads/wilson-02.jpg"
   caption: ''
+- template: portrait-image
+  project-link: []
+  image: "/images/uploads/wilson-03.jpg"
+  caption: ''
 
 ---
