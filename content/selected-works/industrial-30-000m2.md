@@ -10,6 +10,10 @@ body: Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod te
 client: Remove
 collaborators: ''
 year: Remove
-gallery: []
+gallery:
+- template: landscape-image
+  project-link: []
+  image: "/images/uploads/industrial-11.jpg"
+  caption: ''
 
 ---
