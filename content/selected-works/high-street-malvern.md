@@ -15,5 +15,9 @@ gallery:
   project-link: []
   image: "/images/uploads/stgeorges-01.jpg"
   caption: ''
+- template: landscape-full-image
+  project-link: []
+  image: "/images/uploads/stgeorges-02.jpg"
+  caption: ''
 
 ---
