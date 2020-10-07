@@ -34,5 +34,12 @@ gallery:
   project-link: []
   image: "/images/uploads/industrial-16.jpg"
   caption: ''
+- template: portrait-landscape-image
+  project-link-portrait: []
+  project-link-landscape: []
+  image-portrait: "/images/uploads/industrial-13.jpg"
+  caption-portrait: ''
+  image-landscape: ''
+  caption-landscape: ''
 
 ---
