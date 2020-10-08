@@ -15,18 +15,28 @@
   </div>
 
   <section class="container selected fadein">
-    {{ range .Pages.GroupByParam "category" }}
+    {{ $site := .Site }}
+    {{ range .Params.categories }}
 
-    <h3>{{ .Key }}</h3>
+      <h3>{{ .title }}</h3>
 
-    <ul>
-      {{ range .Pages }}
-      <li><a class="selected-work" data-selected-work="{{ .File.UniqueID }}" href="{{.RelPermalink}}">{{.Title}}</a>
-      </li>
-      {{ end }}
-    </ul>
+      <ul>
+        {{ range .references }}
+        {{ $page := $site.GetPage (print "/content/" .) }}
+
+        <li>
+          <a
+            class="selected-work"
+            data-selected-work="{{ $page.File.UniqueID }}"
+            href="{{ $page.RelPermalink }}"
+          >{{ $page.Title }}
+          </a>
+        </li>
+        {{ end }}
+      </ul>
 
     {{ end }}
+
   </section>
 
   <div class="columns is-mobile fadein is-gapless" id="description-list">
@@ -39,9 +49,6 @@
         data-selected-work="{{ .File.UniqueID }}">{{ .Description }}</span>{{- end -}}
     </div>
   </div>
-
-
-
 
   <script src="/js/selected-work-list.js"></script>
 
