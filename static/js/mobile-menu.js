@@ -4,30 +4,24 @@ console.log("menuBackground", menuBackground)
 const menuText = document.querySelector(".menu-text");
 const homeOverlay = document.querySelector(".home");
 const scrollTag = document.querySelector(".scroll");
-const topTag = document.querySelector("hr.top");
-const middleTag = document.querySelector("hr.middle");
-const bottomTag = document.querySelector("hr.bottom");
+const topTag = document.querySelector("#top");
+const middleTag = document.querySelector("#middle");
+const bottomTag = document.querySelector("#bottom");
 const logoTag = document.querySelector(".logo-container");
 
-topTag.classList.remove("top");
-middleTag.classList.remove("middle");
-bottomTag.classList.remove("bottom");
-
-
 menuTag.addEventListener("click", function () {
-  console.log("hi")
   if (menuText.innerHTML === "Close") {
     menuBackground.classList.remove("fadein");
     menuBackground.classList.add("fadeout");
     menuText.innerHTML = "Menu";
-    homeOverlay.style.display = "flex";
+    if (homeOverlay) { homeOverlay.style.display = "flex"; }
     topTag.classList.remove("top");
     middleTag.classList.remove("middle");
     bottomTag.classList.remove("bottom");
     logoTag.style.display = "block";
   } else {
     menuBackground.style.display = "flex";
-    homeOverlay.style.display = "none";
+    if (homeOverlay) { homeOverlay.style.display = "none"; }
     menuText.innerHTML = "Close";
     menuBackground.classList.add("fadein");
     topTag.classList.add("top");
@@ -37,13 +31,14 @@ menuTag.addEventListener("click", function () {
   }
 });
 
-window.onscroll = function (ev) {
-  if ((window.innerHeight + window.pageYOffset) >= document.body.offsetHeight) {
-    scrollTag.style.display = "none";
-    scrollTag.classList.add("fadeout");
-  } else {
-    scrollTag.style.display = "block";
-    scrollTag.classList.add("fadein");
-  }
-};
-
+if (scrollTag) {
+  window.onscroll = function (ev) {
+    if ((window.innerHeight + window.pageYOffset) >= document.body.offsetHeight) {
+      scrollTag.style.display = "none";
+      scrollTag.classList.add("fadeout");
+    } else {
+      scrollTag.style.display = "block";
+      scrollTag.classList.add("fadein");
+    }
+  };
+}
