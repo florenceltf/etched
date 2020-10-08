@@ -17,15 +17,6 @@ fields:
     color_format: Hex
   description: Change the colour of the vertical line on the page.
   default: "#FFC525"
-- name: story
-  type: textarea
-  default: ''
-  config:
-    required: true
-    wysiwyg: true
-    schema:
-      format: markdown
-  label: Story
 - name: services
   type: textarea
   default: ''
