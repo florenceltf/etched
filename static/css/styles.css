@@ -570,7 +570,7 @@ footer {
   }
 
   hr.top {
-    transform: rotate(45deg) translate(4px, 10px);
+    transform: rotate(45deg) translate(4.5px, 10px);
   }
 
   hr.bottom {
@@ -578,7 +578,7 @@ footer {
   }
 
   hr.middle {
-    transform: rotate(-45deg) translate(-4px, -1px);
+    transform: rotate(-45deg) translate(-5px, -1px);
   }
 
   .nav-item {
@@ -667,12 +667,10 @@ footer {
     width: inherit;
   }
 
-  .logo a {
-    border-bottom: 0px solid transparent;
-  }
-
+  .logo a,
   .logo a:hover {
-    border-bottom: 0px solid transparent;
+    border-bottom: 0px solid transparent !important;
+    transition: none !important;
   }
 
   .index-gallery {
@@ -716,7 +714,7 @@ footer {
   }
 
   .mobile-padding {
-    margin-top: 25px;
+    margin-top: 40px;
   }
 
   .column {
