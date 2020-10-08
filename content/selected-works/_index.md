@@ -20,5 +20,6 @@ categories:
   - selected-works/industrial-10-30-000m2.md
   - selected-works/industrial-30-000m2.md
   title: Commercial
+line-color: "#C28D6B"
 
 ---
