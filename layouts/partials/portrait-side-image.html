@@ -22,7 +22,7 @@
       {{ end }}
     </figure>
 
-    <figure class="column is-half image">
+    <figure class="column is-half image mobile-padding">
       {{ with $projectLinkRight }}<a href="{{ $projectLinkRight.RelPermalink }}">{{ end }}
         <img src="data:image/jpeg;base64,{{ $smallImageRight.Content | base64Encode  }}"
           data-src="{{ $imageRight.RelPermalink }}" class="lazyload" alt="{{ $imageRight.Title }}">
