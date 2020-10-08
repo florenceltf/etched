@@ -1,0 +1,25 @@
+---
+label: Story
+hide_body: true
+fields:
+- type: text
+  name: title
+  label: title
+- type: text
+  name: layout
+  label: layout
+- type: textarea
+  name: services
+  label: services
+- type: textarea
+  name: contact
+  label: contact
+- type: textarea
+  name: collaborators
+  label: collaborators
+- type: text
+  name: story
+  label: story
+- type: text
+  name: line-colour
+  label: line-colour
