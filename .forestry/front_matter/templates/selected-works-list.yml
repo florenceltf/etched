@@ -2,9 +2,9 @@
 label: Selected Works List
 hide_body: true
 fields:
-- name: line-color
+- name: line-colour
   type: color
-  label: Line Color
+  label: Line Colour
   config:
     required: true
     color_format: Hex
@@ -17,7 +17,7 @@ fields:
   - selected-works-category
   config:
     min: 1
-    max: 
+    max:
   description: Categories of projects.
 pages:
 - content/selected-works/_index.md

@@ -204,7 +204,6 @@ div.home {
 
 .story-line {
   width: 1px;
-  background: #fed2ad;
   position: relative;
   text-align: center;
 }
@@ -217,7 +216,6 @@ div.home {
 
 .info-line {
   width: 1px;
-  background: #ffc525;
   position: relative;
   text-align: center;
 }
@@ -300,7 +298,7 @@ div.info-details {
 }
 
 .arrow::after {
-  
+
 }
 
 
@@ -312,7 +310,6 @@ div.info-details {
 
 .selected-line {
   width: 1px;
-  background: #c28d6b;
   height: 100%;
   position: relative;
   text-align: center;
@@ -504,7 +501,7 @@ footer {
 }
 
 .mobile-menu {
-  display: none;    
+  display: none;
 }
 
 .menu-background {
@@ -516,7 +513,7 @@ footer {
 }
 
 @media (min-width: 1500px) {
-  
+
   .home svg {
     max-width: 650px;
     height: 130px;
@@ -527,7 +524,7 @@ footer {
   }
 
   .container-full {
-    max-width: 1750px;  
+    max-width: 1750px;
     margin: 150px auto 0 auto;
   }
 
@@ -556,7 +553,7 @@ footer {
   }
 
   .mobile-menu p {
-    margin-bottom: 0; 
+    margin-bottom: 0;
   }
 
   hr {
@@ -598,7 +595,7 @@ footer {
     display: flex;
     flex-direction: column;
     justify-content: center;
-    display: none;  
+    display: none;
   }
 
   .mobile-item{
@@ -623,7 +620,7 @@ footer {
  #contact p {
     font-size: 14px;
   }
-  
+
   .sub-nav {
     display: block;
     text-align: center;

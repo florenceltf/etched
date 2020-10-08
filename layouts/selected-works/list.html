@@ -7,7 +7,11 @@
 {{ define "main" }}
 <main>
   <div class="line-container">
-    <div class="selected-line line"></div>
+    <div
+      style="background: {{ index .Params "line-colour" }}"
+      class="selected-line line"
+      >
+    </div>
   </div>
 
   <section class="container selected fadein">
