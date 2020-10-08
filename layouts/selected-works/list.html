@@ -40,10 +40,6 @@
   </section>
 
   <div class="columns is-mobile fadein is-gapless" id="description-list">
-    <!-- {{ range .Pages }}
-    <p style="display:none" class="description fadein" data-selected-work="{{ .File.UniqueID }}">{{ .Description }}
-    </p>
-    {{ end }} -->
     <div class="description-content column is-6 is-offset-6" style="border-left: solid 1px rgb(206, 163, 136)">
       {{- range .Pages -}}<span style="display:none" class="description fadein"
         data-selected-work="{{ .File.UniqueID }}">{{ .Description }}</span>{{- end -}}
