@@ -13,7 +13,7 @@ fields:
     required: true
   label: Category
   description: Eg. Multi Residential, Multi Residential – Large
-  default: Multi Residential
+  default: Multi-Residential
 - name: description
   type: text
   config:
@@ -57,8 +57,8 @@ fields:
   - portrait-side-image
   - portrait-side-full-image
   config:
-    min:
-    max:
+    min: 
+    max: 
 pages:
 - content/selected-works/earl-street-kew.md
 - content/selected-works/high-street-malvern-1.md
