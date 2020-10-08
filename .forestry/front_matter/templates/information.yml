@@ -9,14 +9,6 @@ fields:
   label: Layout
   hidden: true
   default: info
-- name: line-colour
-  type: color
-  label: Line Colour
-  config:
-    required: true
-    color_format: Hex
-  description: Change the colour of the vertical line on the page.
-  default: "#FFC525"
 - name: story
   type: textarea
   default: ''
@@ -44,5 +36,13 @@ fields:
     schema:
       format: markdown
   label: Collaborators
+- name: line-colour
+  type: color
+  label: Line Colour
+  config:
+    required: true
+    color_format: Hex
+  description: Change the colour of the vertical line on the page.
+  default: "#FFC525"
 pages:
 - content/information/index.md
