@@ -9,6 +9,14 @@ fields:
   label: Title
   description: Title of the page
   default: Story
+- name: line-colour
+  type: color
+  label: Line Colour
+  config:
+    required: true
+    color_format: Hex
+  description: Change the colour of the vertical line on the page.
+  default: "#FFC525"
 - name: story
   type: textarea
   default: ''
@@ -18,11 +26,5 @@ fields:
     schema:
       format: markdown
   label: Story
-- name: line-colour
-  type: color
-  label: Line Colour
-  config:
-    required: true
-    color_format: Hex
-  description: Change the colour of the vertical line on the page.
-  default: "#FFC525"
+pages:
+- content/story/index.md
