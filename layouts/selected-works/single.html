@@ -11,12 +11,17 @@
     <div class="container project-container">
       <p>{{ .Params.body | markdownify }}</p>
       <div class="details">
+        {{ if .Params.client }}
         <p>Client: {{ .Params.client }}</p>
+        {{ end }}
 
-        {{ if (isset .Params "collaborators") }}
+        {{ if .Params.collaborators }}
         <p>Collaborators: {{ .Params.collaborators }}</p>
         {{ end }}
+
+        {{ if .Params.year }}
         <p>Year: {{ .Params.year }}</p>
+        {{ end }}
 
       </div>
     </div>
