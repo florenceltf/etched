@@ -4,9 +4,8 @@ html {
 
 @font-face {
   font-family: "Untitled Sans";
-  font-size: 18px;
-  font-weight: 400px;
-  src: url(/fonts/UntitledSansTest-Regular.otf);
+  src: url(/fonts/untitled-sans-web-regular.woff2) format("woff2"), 
+    url(/fonts/untitled-sans-web-regular.woff) format("woff");
 }
 
 @keyframes fadein {
