@@ -1,6 +1,5 @@
 const menuTag = document.querySelector(".mobile-menu");
 const menuBackground = document.querySelector(".menu-background");
-console.log("menuBackground", menuBackground)
 const menuText = document.querySelector(".menu-text");
 const homeOverlay = document.querySelector(".home");
 const scrollTag = document.querySelector(".scroll");
