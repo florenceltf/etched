@@ -17,7 +17,7 @@ menuTag.addEventListener("click", function () {
     topTag.classList.remove("top");
     middleTag.classList.remove("middle");
     bottomTag.classList.remove("bottom");
-    logoTag.style.display = "block";
+    if (logoTag) { logoTag.style.display = "block"; }
   } else {
     menuBackground.style.display = "flex";
     if (homeOverlay) { homeOverlay.style.display = "none"; }
@@ -26,7 +26,7 @@ menuTag.addEventListener("click", function () {
     topTag.classList.add("top");
     middleTag.classList.add("middle");
     bottomTag.classList.add("bottom");
-    logoTag.style.display = "none";
+    if (logoTag) { logoTag.style.display = "none"; }
   }
 });
 
