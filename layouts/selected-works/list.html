@@ -29,7 +29,7 @@
             class="selected-work"
             data-selected-work="{{ $page.File.UniqueID }}"
             href="{{ $page.RelPermalink }}"
-          >{{ $page.Title }}
+          >{{ $page.Title | markdownify }}
           </a>
         </li>
         {{ end }}
