@@ -12,7 +12,7 @@
 {{ end }}
 
 {{ $linkTo := slice }}
-{{ $shiftedOrderedRefs := (after 1 $orderedRefs) | append (index $orderedRefs 1) }}
+{{ $shiftedOrderedRefs := (after 1 $orderedRefs) | append (index $orderedRefs 0) }}
 {{ range $index, $current := $orderedRefs }}
 {{ $next := index $shiftedOrderedRefs $index }}
 {{ $linkTo = $linkTo | append (slice (dict "current" $current "next" $next)) }}

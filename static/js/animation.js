@@ -1,18 +1,32 @@
-const animatedTags = document.querySelectorAll(
-  "figure"
-);
+const animatedTags = document.querySelectorAll("figure");
+
+const gallery = document.querySelector(".gallery").cloneNode(true);
 
 animatedTags.forEach(function (tag) {
   tag.style.opacity = 0;
 });
 
-const fadeIn = function () {
-  let delay = 1.5;
 
-  animatedTags.forEach(function (tag) {
+let delay = 1.75;
+
+animatedTags.forEach(function (tag) {
+  const tagTop = tag.getBoundingClientRect().top;
+  const tagBottom = tag.getBoundingClientRect().bottom;
+
+  if (tagTop < window.innerHeight && tagBottom > 0) {
     tag.style.animation = `fadein 1s ${delay}s both`;
     delay = delay + 0.75;
-  });
-};
+  } else {
+    tag.style.opacity = 1;
+    tag.style.animation = "";
+  }
+});
 
-fadeIn();
+window.addEventListener('scroll', (x) => {
+  if (
+    (window.innerHeight + window.pageYOffset)
+      >= document.body.offsetHeight
+  ) {
+    document.body.appendChild(gallery.cloneNode(true));
+  }
+});
