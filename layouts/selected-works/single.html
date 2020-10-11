@@ -3,6 +3,23 @@
 {{ end }}
 
 {{ define "main" }}
+
+{{ $orderedRefs := slice }}
+{{ range .Parent.Params.categories }}
+{{ range .references }}
+{{ $orderedRefs = $orderedRefs | append (slice .) }}
+{{ end }}
+{{ end }}
+
+{{ $linkTo := slice }}
+{{ $shiftedOrderedRefs := (after 1 $orderedRefs) | append (index $orderedRefs 1) }}
+{{ range $index, $current := $orderedRefs }}
+{{ $next := index $shiftedOrderedRefs $index }}
+{{ $linkTo = $linkTo | append (slice (dict "current" $current "next" $next)) }}
+{{ end }}
+
+{{ $nextProjectRef := index (where $linkTo "current" .File.Path) 0 }}
+
 <main>
 
   <section>
@@ -31,7 +48,7 @@
     </div>
   </section>
 
-  {{ with .NextInSection }}
+  {{ with .GetPage (print "/content/" $nextProjectRef.next) }}
   <div class="columns is-multiline next-container">
     <div class="column is-6 is-offset-3">
       <div class="next"><a href="{{ .RelPermalink }}">Next Project</a></div>
