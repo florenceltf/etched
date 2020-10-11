@@ -1,17 +1,10 @@
-// var origDocHeight = document.body.offsetHeight;
+const gallery = document.querySelector(".gallery");
 
-// var clone = $("body").contents().clone();
-// clone.appendTo("body");
-// clone.prependTo("body");
-
-// $(document).scroll(function () {
-
-//     var scrollWindowPos = $(document).scrollTop();
-
-//     if (scrollWindowPos >= origDocHeight) {
-//         $(document).scrollTop(0);
-//     }
-//     if (scrollWindowPos <= 0) {
-//         $(document).scrollTop(origDocHeight);
-//     }
-// });
+window.addEventListener('scroll', (x) => {
+  if (
+    (window.innerHeight + window.pageYOffset)
+      >= document.body.offsetHeight
+  ) {
+    document.body.appendChild(gallery.cloneNode(true));
+  }
+});
