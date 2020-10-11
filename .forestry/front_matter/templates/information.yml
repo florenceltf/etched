@@ -9,15 +9,14 @@ fields:
   label: Layout
   hidden: true
   default: info
-- name: story
-  type: textarea
-  default: ''
+- name: line-colour
+  type: color
+  label: Line Colour
   config:
     required: true
-    wysiwyg: true
-    schema:
-      format: markdown
-  label: Story
+    color_format: Hex
+  description: Change the colour of the vertical line on the page.
+  default: "#FFC525"
 - name: services
   type: textarea
   default: ''

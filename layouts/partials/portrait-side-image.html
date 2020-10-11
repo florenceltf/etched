@@ -11,8 +11,8 @@
 
     <figure class="column is-half image">
       {{ with $projectLinkLeft }}<a href="{{ $projectLinkLeft.RelPermalink }}">{{ end }}
-      <img src="data:image/jpeg;base64,{{ $smallImageLeft.Content | base64Encode  }}"
-        data-src="{{ $imageLeft.RelPermalink }}" class="lazyload">
+        <img src="data:image/jpeg;base64,{{ $smallImageLeft.Content | base64Encode  }}"
+          data-src="{{ $imageLeft.RelPermalink }}" class="lazyload" alt="{{ $imageLeft.Title }}">
         {{ with $projectLinkLeft }}</a>{{ end }}
 
       {{ with (index .item "caption-left") }}
@@ -22,10 +22,10 @@
       {{ end }}
     </figure>
 
-    <figure class="column is-half image">
+    <figure class="column is-half image mobile-padding">
       {{ with $projectLinkRight }}<a href="{{ $projectLinkRight.RelPermalink }}">{{ end }}
-      <img src="data:image/jpeg;base64,{{ $smallImageRight.Content | base64Encode  }}"
-        data-src="{{ $imageRight.RelPermalink }}" class="lazyload">
+        <img src="data:image/jpeg;base64,{{ $smallImageRight.Content | base64Encode  }}"
+          data-src="{{ $imageRight.RelPermalink }}" class="lazyload" alt="{{ $imageRight.Title }}">
         {{ with $projectLinkRight }}</a>{{ end }}
 
       {{ with (index .item "caption-right") }}

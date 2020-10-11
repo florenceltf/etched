@@ -1,0 +1,29 @@
+{{ define "body-class" }}story-bg{{ end  }}
+
+{{ define "header" }}
+{{ partial "header" (dict "context" . ) }}
+{{ end }}
+
+{{ define "main" }}
+<main>
+  <div class="line-container">
+    <div
+      style="background: {{ index .Params "line-colour" }}"
+      class="story-line line"
+      >
+    </div>
+  </div>
+
+  <section class="container">
+
+    <div id="story">
+      {{ .Params.story | markdownify }}
+    </div>
+
+  </section>
+</main>
+{{ end }}
+
+{{ define "footer" }}
+{{ partial "footer" . }}
+{{ end }}

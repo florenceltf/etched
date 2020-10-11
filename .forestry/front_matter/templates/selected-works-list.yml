@@ -2,6 +2,14 @@
 label: Selected Works List
 hide_body: true
 fields:
+- name: line-colour
+  type: color
+  label: Line Colour
+  config:
+    required: true
+    color_format: Hex
+  description: Change the colour of the vertical line on the page.
+  default: "#C28D6B"
 - name: categories
   type: blocks
   label: Categories
@@ -9,7 +17,7 @@ fields:
   - selected-works-category
   config:
     min: 1
-    max: 
+    max:
   description: Categories of projects.
 pages:
 - content/selected-works/_index.md

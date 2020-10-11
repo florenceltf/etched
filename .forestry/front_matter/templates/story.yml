@@ -1,0 +1,23 @@
+---
+label: Story
+hide_body: true
+fields:
+- name: line-colour
+  type: color
+  label: Line Colour
+  config:
+    required: true
+    color_format: Hex
+  description: Change the colour of the vertical line on the page.
+  default: "#C28D6B"
+- name: story
+  type: textarea
+  default: ''
+  config:
+    required: true
+    wysiwyg: true
+    schema:
+      format: markdown
+  label: Story
+pages:
+- content/story/index.md

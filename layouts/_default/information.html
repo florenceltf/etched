@@ -6,33 +6,39 @@
 
 {{ define "main" }}
 <main>
-  <div class="info-line-container">
-    <div class="info-line"></div>
+  <div class="line-container">
+    <div
+      style="background: {{ index .Params "line-colour" }}"
+      class="info-line line"
+      >
+    </div>
   </div>
 
-  <section class="container information-text">
-
-    <div class="sub-nav flex">
-      <div class="flex"><a href="#stor">Story</a></div>
-      <div><a href="#services">Services</a></div>
-      <div class="flex align-right"><a href="#collaborators">Collaborators</a></div>
-    </div>
-
-    <div id="story">
-      {{ .Params.story | markdownify }}
-    </div>
+  <section class="container">
 
     <div id="services">
       <h5>Services</h5>
       {{ .Params.services | markdownify }}
     </div>
 
+    <div id="contact">
+      <h5>Contact</h5>
+      <p>{{ .Params.contact | markdownify }}</p>
+    </div>
+
     <div id="collaborators">
       <h5>Collaborators</h5>
       <p>{{ .Params.collaborators | markdownify }}</p>
     </div>
-
   </section>
+
+  <div class="scroll fadein">
+    <a href="#collaborators">
+      Scroll
+    </a>
+    <span class="arrow"></span>
+  </div>
+
 </main>
 {{ end }}
 

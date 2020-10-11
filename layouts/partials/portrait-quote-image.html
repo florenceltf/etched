@@ -10,7 +10,7 @@
 
     <figure class="column is-half image">
       <img src="data:image/jpeg;base64,{{ $smallImage.Content | base64Encode  }}" data-src="{{ $image.RelPermalink }}"
-        class="lazyload">
+        class="lazyload" alt="{{ $image.Title }}">
     </figure>
 
   </div>
