@@ -561,6 +561,14 @@ footer {
   }
 }
 
+@media (max-width: 950px) {
+
+  .portrait-index {
+  margin-top: 0px!important;
+  }
+  
+} 
+
 @media (max-width: 850px) {
 
   .mobile-nav {
