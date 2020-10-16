@@ -10,7 +10,7 @@
 <div class="column is-8 is-offset-2 project-image portrait-landscape-image">
   <div class="columns is-multiline is-variable is-6">
 
-    <figure class="column is-half image landscape">
+    <figure class="column is-half image landscape landscape-index">
       <div>
         {{ with $projectLinkLandscape }}<a href="{{ .RelPermalink }}">{{ end }}
           <img src="data:image/jpeg;base64,{{ $smallImageRight.Content | base64Encode  }}"
@@ -24,7 +24,7 @@
       {{ end }}
     </figure>
 
-    <figure class="column is-half image portrait-padding-left">
+    <figure class="column is-half image portrait-index">
       {{ with $projectLinkPortrait }}<a href="{{ $projectLinkPortrait.RelPermalink }}">{{ end }}
         <img src="data:image/jpeg;base64,{{ $smallImageLeft.Content | base64Encode  }}"
           data-src="{{ $imageLeft.RelPermalink }}" class="lazyload" alt="{{ $imageLeft.Title }}">

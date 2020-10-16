@@ -188,11 +188,16 @@ div.home {
 }
 
 .portrait-padding {
-  padding-right: 140px!important;
+  padding-right: 100px!important;
 }
 
-.portrait-padding-left {
-  padding-left: 100px!important;
+.portrait-index {
+  padding-left: 140px!important;
+  margin-top: -90px!important;
+}
+
+.landscape-index {
+  padding-left: 100px;
 }
 
 /* story */
@@ -303,11 +308,6 @@ div.info-details {
   width: 14px;
   transform: rotate(135deg);
 }
-
-.arrow::after {
-
-}
-
 
 /* selected works */
 
@@ -536,8 +536,16 @@ footer {
   }
 
   blockquote {
-  padding: 0 50px 0 50px;
-}
+    padding: 0 50px 0 50px;
+  }
+
+  .portrait-padding {
+    padding-right: 140px!important;
+  }
+
+  .portrait-index {
+      padding-right: 140px!important;
+  }
 
 }
 
