@@ -544,7 +544,12 @@ footer {
   }
 
   .portrait-index {
-      padding-left: 140px!important;
+    padding-left: 140px!important;
+    padding-right: 140px!important;
+  }
+
+  .landscape-index {
+    padding-left: 140px!important;
   }
 
 }
