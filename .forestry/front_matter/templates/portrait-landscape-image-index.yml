@@ -1,0 +1,52 @@
+---
+label: Portrait Landscape Index Image
+hide_body: true
+fields:
+- name: image-portrait
+  label: Image Portrait
+  type: file
+  config:
+    maxSize: 64
+    required: true
+- name: caption-portrait
+  type: text
+  config:
+    required: false
+  label: Caption Portrait
+- name: project-link-portrait
+  type: select
+  default: []
+  config:
+    required: false
+    options: []
+    source:
+      type: pages
+      section: selected-works
+      file: 
+      path: 
+  label: Project Link Portrait
+  description: "* Note : Only required for index page."
+- name: image-landscape
+  label: Image Landscape
+  type: file
+  config:
+    maxSize: 64
+    required: true
+- name: caption-landscape
+  type: text
+  config:
+    required: false
+  label: Caption Landscape
+- name: project-link-landscape
+  type: select
+  default: []
+  config:
+    required: false
+    options: []
+    source:
+      type: pages
+      section: selected-works
+      file: 
+      path: 
+  label: Project Link Landscape
+  description: "* Note : Only required for index page."

@@ -1,7 +1,7 @@
 ---
 title: Index
 gallery:
-- template: portrait-landscape-image
+- template: portrait-landscape-image-index
   project-link-portrait: []
   project-link-landscape: selected-works/rathmines-street-hawthorn.md
   image-portrait: "/images/uploads/index-01.jpg"
@@ -28,13 +28,13 @@ gallery:
   project-link: selected-works/earl-street-kew.md
   image: "/images/uploads/index-08.jpg"
   caption: Earl Street, Kew
-- template: portrait-landscape-image
-  project-link-portrait: []
+- template: landscape-portrait-image-index
   project-link-landscape: selected-works/st-kilda-street-elwood.md
-  image-portrait: "/images/uploads/index-10.jpg"
+  project-link-portrait: []
   image-landscape: "/images/uploads/index-09.jpg"
-  caption-portrait: ''
+  image-portrait: "/images/uploads/index-10.jpg"
   caption-landscape: St Kilda Street, Elwood
+  caption-portrait: ''
 - template: portrait-image
   project-link: selected-works/lygon-street-east-brunswick.md
   image: "/images/uploads/index-11.jpg"

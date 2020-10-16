@@ -1,0 +1,40 @@
+{{ $imageLeft := resources.Get (index .item "image-portrait") }}
+{{ $smallImageLeft := $imageLeft.Resize "20x Center" }}
+{{ $projectLinkPortrait := .context.Site.GetPage (print "/content/" (index .item "project-link-portrait")) }}
+
+{{ $imageRight := resources.Get (index .item "image-landscape") }}
+{{ $smallImageRight := $imageRight.Resize "20x Center" }}
+{{ $projectLinkLandscape := .context.Site.GetPage (print "/content/" (index .item "project-link-landscape")) }}
+
+
+<div class="column is-8 is-offset-2 project-image portrait-landscape-image">
+  <div class="columns is-multiline is-variable is-6">
+
+    <figure class="column is-half image landscape">
+      <div>
+        {{ with $projectLinkLandscape }}<a href="{{ .RelPermalink }}">{{ end }}
+          <img src="data:image/jpeg;base64,{{ $smallImageRight.Content | base64Encode  }}"
+            data-src="{{ $imageRight.RelPermalink }}" class="lazyload mobile-padding" alt="{{ $imageRight.Title }}">
+          {{ with $projectLinkLandscape }}</a>{{ end }}
+      </div>
+      {{ with (index .item "caption-landscape") }}
+      <div class="caption">
+        {{ . }}
+      </div>
+      {{ end }}
+    </figure>
+
+    <figure class="column is-half image portrait-padding-left">
+      {{ with $projectLinkPortrait }}<a href="{{ $projectLinkPortrait.RelPermalink }}">{{ end }}
+        <img src="data:image/jpeg;base64,{{ $smallImageLeft.Content | base64Encode  }}"
+          data-src="{{ $imageLeft.RelPermalink }}" class="lazyload" alt="{{ $imageLeft.Title }}">
+        {{ with $projectLinkPortrait }}</a>{{ end }}
+      {{ with (index .item "caption-portrait") }}
+      <div class="caption">
+        {{ . }}
+      </div>
+      {{ end }}
+    </figure>
+
+  </div>
+</div>
