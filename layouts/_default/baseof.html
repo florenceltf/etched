@@ -12,6 +12,7 @@
   {{ $style := resources.Get "scss/main.scss" | resources.ToCSS (dict "outputStyle" "compressed") | fingerprint }}
   <link rel="stylesheet" href="{{ $style.RelPermalink }}">
   <link rel="stylesheet" href="{{ "css/styles.css" | relURL }}">
+  <link rel="icon" href="/static/images/favicon.png" type="image/png" sizes="16x16">
 </head>
 
 <body class="{{ block "body-class" . }}{{ end }}">
