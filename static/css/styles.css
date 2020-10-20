@@ -163,7 +163,7 @@ div.home {
 
 .container {
   margin: 150px auto 0 auto;
-  max-width: 750px;
+  max-width: 780px;
   padding: 0 40px 0 40px;
   -webkit-animation: fadein 2.5s .5s forwards;
   animation: fadein 2.5s .5s forwards;
