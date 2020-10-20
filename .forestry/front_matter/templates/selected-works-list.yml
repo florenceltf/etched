@@ -17,7 +17,7 @@ fields:
   - selected-works-category
   config:
     min: 1
-    max:
+    max: 
   description: Categories of projects.
 pages:
 - content/selected-works/_index.md
