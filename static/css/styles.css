@@ -346,7 +346,7 @@ section.selected li {
 }
 
 section.selected li:last-child {
-  margin-bottom: 70px;
+  margin-bottom: 80px;
 }
 
 section.selected a{
