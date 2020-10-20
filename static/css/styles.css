@@ -500,7 +500,7 @@ footer {
   display: flex;
   justify-content: space-between;
   margin: 100px auto 40px auto;
-  max-width: 750px;
+  max-width: 780px;
   padding: 0 40px 0 40px;
   -webkit-animation: fadein 2.5s .5s forwards;
   animation: fadein 2.5s .5s forwards;
