@@ -10,7 +10,7 @@
     {{ end }}
   </title>
   {{ $style := resources.Get "scss/main.scss" | resources.ToCSS (dict "outputStyle" "compressed") | fingerprint }}
-  <link rel="icon" href="/static/images/favicon.png" type="image/png" sizes="16x16">
+  <link rel="icon" href="{{ "images/favicon.png" | relURL }}" type="image/png" sizes="16x16">
   <link rel="stylesheet" href="{{ $style.RelPermalink }}">
   <link rel="stylesheet" href="{{ "css/styles.css" | relURL }}">
 </head>
