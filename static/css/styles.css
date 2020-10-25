@@ -189,23 +189,6 @@ div.home {
   color: black;
 }
 
-.index-padding{
-  padding: 0 20px 0 20px;
-}
-
-.portrait-padding {
-  padding-right: 100px!important;
-}
-
-.portrait-index {
-  padding-left: 140px!important;
-  margin-top: -90px!important;
-}
-
-.landscape-index {
-  padding-left: 100px;
-}
-
 .bg {
   min-height: 100vh;
   position: relative;
@@ -487,7 +470,6 @@ blockquote {
   padding-right: 110px!important;
 }
 
-
 .cursor {
   display: none;
   position: absolute;
@@ -568,14 +550,6 @@ div.footer-content {
   .nav-item:first-child {
     margin-right: 40px;
   }
-}
-
-@media (max-width: 950px) {
-
-  .portrait-index {
-  margin-top: 0px!important;
-  }
-
 }
 
 @media (max-width: 850px) {
