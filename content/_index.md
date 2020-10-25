@@ -30,7 +30,7 @@ gallery:
   caption: Earl Street, Kew
 - template: landscape-full-image-index
   project-link: selected-works/st-kilda-street-elwood.md
-  image: "/images/uploads/index-update-01-1.png"
+  image: "/images/uploads/index-update.png"
   caption: St Kilda, Elwood
 - template: portrait-image
   project-link: selected-works/lygon-street-east-brunswick.md
