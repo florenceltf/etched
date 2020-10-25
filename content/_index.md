@@ -39,9 +39,9 @@ gallery:
 - template: landscape-portrait-image-index
   project-link-landscape: selected-works/industrial-10-30-000m2.md
   project-link-portrait: selected-works/industrial-30-000m2.md
-  image-landscape: "/images/uploads/industrial-04.jpg"
+  image-landscape: "/images/uploads/index-13.jpg"
   caption-landscape: Industrial Works — Small Scale
-  image-portrait: "/images/uploads/industrial-06.jpg"
+  image-portrait: "/images/uploads/index-12.jpg"
   caption-portrait: Industrial Works — Medium Scale
 - template: landscape-full-image
   project-link: selected-works/industrial-30-000m2.md
