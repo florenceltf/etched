@@ -1,0 +1,28 @@
+---
+label: Landscape Full Image Index
+hide_body: true
+fields:
+- name: image
+  type: file
+  config:
+    maxSize: 64
+    required: true
+  label: Image
+- name: caption
+  type: text
+  config:
+    required: false
+  label: Caption
+- name: project-link
+  type: select
+  default: []
+  config:
+    required: false
+    options: []
+    source:
+      type: pages
+      section: selected-works
+      file: 
+      path: 
+  label: Project Link
+  description: "* Note : Only required for index page."

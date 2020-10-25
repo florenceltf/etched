@@ -478,6 +478,10 @@ blockquote {
   padding-top: 120px;
 }
 
+.landscape-full-image-index {
+    margin-left: 50px;
+}
+
 .cursor {
   display: none;
   position: absolute;
@@ -768,6 +772,10 @@ div.footer-content {
   .landscape-portrait-image-index .portrait {
     padding-top: 30px;
     margin-left: 30%;
+  }
+
+  .landscape-full-image-index {
+
   }
 
   .column {
