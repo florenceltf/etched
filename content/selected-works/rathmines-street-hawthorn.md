@@ -38,5 +38,6 @@ gallery:
   image: "/images/uploads/rathmines-06.jpg"
   alt: rathmine-06
   caption: ''
+description: Description here.
 
 ---
