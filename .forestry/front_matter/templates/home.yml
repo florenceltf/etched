@@ -21,6 +21,7 @@ fields:
   - portrait-landscape-image
   - portrait-landscape-image-index
   - landscape-portrait-image-index
+  - landscape-full-image-index
   config:
     min: 1
     max: 
