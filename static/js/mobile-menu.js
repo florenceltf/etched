@@ -32,7 +32,7 @@ menuTag.addEventListener("click", function () {
 
 if (scrollTag) {
   window.onscroll = function (ev) {
-    if ((window.innerHeight + window.pageYOffset) >= document.body.offsetHeight) {
+    if ((window.innerHeight + window.pageYOffset + 100) >= document.body.offsetHeight) {
       scrollTag.style.display = "none";
       scrollTag.classList.add("fadeout");
     } else {
