@@ -1,0 +1,16 @@
+{{ $image := resources.Get .item.image }}
+{{ $smallImage := $image.Resize "20x" }}
+{{ $projectLink := .context.Site.GetPage (print "/content/" (index .item "project-link")) }}
+
+<figure class="column is-8 is-offset-2 image project-image landscape-full-image-index">
+  {{ with $projectLink }}<a href="{{ $projectLink.RelPermalink }}">{{ end }}
+    <img src="data:image/jpeg;base64,{{ $smallImage.Content | base64Encode  }}" data-src="{{ $image.RelPermalink }}"
+      alt="{{ $image.Title }}" class="lazyload">
+    {{ with $projectLink }}</a>{{ end }}
+
+  {{ with .item.caption }}
+  <div class="caption">
+    {{ . }}
+  </div>
+  {{ end }}
+</figure>
