@@ -479,7 +479,7 @@ blockquote {
 }
 
 .landscape-full-image-index {
-    margin-left: 50px;
+    padding-left: 80px!important;
 }
 
 .cursor {
@@ -775,8 +775,8 @@ div.footer-content {
   }
 
   .landscape-full-image-index {
-
-  }
+    padding-left: 0px!important;
+}
 
   .column {
     padding: 0;
