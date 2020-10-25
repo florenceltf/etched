@@ -2,5 +2,6 @@
 
 
 ## Tasks
-- [ ] favicon
-- [ ] footer bottom of story page
+- [ ] Favicon
+- [ ] Footer bottom of story page
+- [ ] New gallery modules for index page
