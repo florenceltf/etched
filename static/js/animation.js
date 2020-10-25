@@ -1,6 +1,6 @@
 const animatedTags = document.querySelectorAll("figure");
-
 const gallery = document.querySelector(".gallery").cloneNode(true);
+const indexGallery = document.querySelector("section.index-gallery");
 
 animatedTags.forEach(function (tag) {
   tag.style.opacity = 0;
@@ -27,6 +27,6 @@ window.addEventListener('scroll', (x) => {
     (window.innerHeight + window.pageYOffset)
       >= document.body.offsetHeight
   ) {
-    document.body.appendChild(gallery.cloneNode(true));
+    indexGallery.appendChild(gallery.cloneNode(true));
   }
 });
