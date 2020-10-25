@@ -4,7 +4,7 @@ html {
 
 @font-face {
   font-family: "Untitled Sans";
-  src: url(/fonts/untitled-sans-web-regular.woff2) format("woff2"), 
+  src: url(/fonts/untitled-sans-web-regular.woff2) format("woff2"),
     url(/fonts/untitled-sans-web-regular.woff) format("woff");
 }
 
@@ -162,9 +162,9 @@ div.home {
 }
 
 .container {
-  margin: 150px auto 0 auto;
+  margin: 0 auto 0 auto;
   max-width: 780px;
-  padding: 0 40px 0 40px;
+  padding: 150px 40px 0 40px;
   -webkit-animation: fadein 2.5s .5s forwards;
   animation: fadein 2.5s .5s forwards;
   opacity: 0;
@@ -200,7 +200,16 @@ div.home {
   padding-left: 100px;
 }
 
+.bg {
+  min-height: 100vh;
+  position: relative;
+}
+
 /* story */
+
+.story-main {
+  padding-bottom: 150px;
+}
 
 .story-bg {
   background: #a0986a;
@@ -221,6 +230,10 @@ div.home {
 }
 
 /* info */
+
+.info-main {
+  padding-bottom: 150px;
+}
 
 .info-bg {
   background: rgb(206, 163, 136);
@@ -391,6 +404,7 @@ h2 {
 }
 
 .project-container {
+  padding-top: 0;
   margin-top: 80px;
   font-size: 18px;
 }
@@ -495,8 +509,13 @@ blockquote {
 }
 
 footer {
-  font-size: 16px;
+  position: absolute;
   bottom: 0;
+  width: 100%;
+}
+
+div.footer-content {
+  font-size: 16px;
   display: flex;
   justify-content: space-between;
   margin: 100px auto 40px auto;
@@ -533,6 +552,7 @@ footer {
   .container-full {
     max-width: 1750px;
     margin: 150px auto 0 auto;
+    padding-top: 150px;
   }
 
   blockquote {
@@ -566,8 +586,8 @@ footer {
   .portrait-index {
   margin-top: 0px!important;
   }
-  
-} 
+
+}
 
 @media (max-width: 850px) {
 

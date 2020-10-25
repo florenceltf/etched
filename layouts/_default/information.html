@@ -1,11 +1,11 @@
-{{ define "body-class" }}info-bg{{ end  }}
+{{ define "body-class" }}bg info-bg{{ end  }}
 
 {{ define "header" }}
 {{ partial "header" (dict "context" . ) }}
 {{ end }}
 
 {{ define "main" }}
-<main>
+<main class="info-main">
   <div class="line-container">
     <div
       style="background: {{ index .Params "line-colour" }}"
@@ -43,5 +43,7 @@
 {{ end }}
 
 {{ define "footer" }}
-{{ partial "footer" . }}
+<footer>
+  {{ partial "footer" . }}
+</footer>
 {{ end }}
