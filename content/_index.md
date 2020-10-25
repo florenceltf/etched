@@ -36,13 +36,13 @@ gallery:
   project-link: selected-works/lygon-street-east-brunswick.md
   image: "/images/uploads/index-11.jpg"
   caption: Lygon Street, East Brunswick
-- template: portrait-landscape-image
-  project-link-portrait: selected-works/industrial-10-000m2.md
+- template: landscape-portrait-image-index
   project-link-landscape: selected-works/industrial-10-30-000m2.md
-  image-portrait: "/images/uploads/index-12.jpg"
-  caption-portrait: Industrial Works — Small Scale
+  project-link-portrait: selected-works/industrial-30-000m2.md
   image-landscape: "/images/uploads/index-13.jpg"
-  caption-landscape: Industrial Works — Medium Scale
+  caption-landscape: Industrial Works — Small Scale
+  image-portrait: "/images/uploads/index-12.jpg"
+  caption-portrait: Industrial Works — Medium Scale
 - template: landscape-full-image
   project-link: selected-works/industrial-30-000m2.md
   image: "/images/uploads/index-14.jpg"
