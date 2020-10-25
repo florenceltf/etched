@@ -26,5 +26,7 @@ for (let project of projectList) {
 }
 
 if (/Android|webOS|iPhone|iPad|iPod|BlackBerry|IEMobile|Opera Mini/i.test(navigator.userAgent)) {
-  descriptionList.style.display = "none";
+  for (let description of descriptionList) {
+    descriptionList.style.display = "none";
+  }
 };
