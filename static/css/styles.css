@@ -85,6 +85,12 @@ a:hover {
   border-bottom: 2px solid black;
 }
 
+sup {
+  vertical-align: baseline;
+  position: relative;
+  top: -0.4em;
+}
+
 header {
   position: fixed;
   top: 0;
