@@ -361,10 +361,11 @@ section.selected a:hover {
   display: flex;
   justify-content: center;
   display: none;
+  margin-bottom: 0px;
 }
 
 .description {
-  padding: 20px 20px 0 30px;
+  padding: 20px 20px 20px 30px;
 }
 
 /* projects */
