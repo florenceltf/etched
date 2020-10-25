@@ -6,7 +6,7 @@ services: "Porepuda quunt aut es mi, qui omni cuptatet quis cor mint volori aute
   & Idea Generation  \nConcept Design  \nTown Planning Endorsement  \nPlant Design
   \ \nTender Documentation  \nContract Administration"
 contact: "Evan Dimitropoulos, Director  \n\\+61 411 279 332  \n7/6 Bromham Place  \nRichmond,
-  VIC 3121  \n[info@etchedprojects.com](info@etchedprojects.com)[  \n](evan@etchedprojects.com)[@etched_projects](https://www.instagram.com/etched_projects/)"
+  VIC 3121  \n[info@etchedprojects.com](mailto:info@etchedprojects.com)[  \n](evan@etchedprojects.com)[@etched_projects](https://www.instagram.com/etched_projects/)"
 collaborators: "\nAbove Zero  \nAliro  \nAmazon Property Group  \nAngelo Property
   Group   \nArchitekton  \nArchsign  \nArmitage Jones  \nAscot Building Group  \nBB
   Design Group  \nBekl  \nBest Hooper  \nBill Jacobs Building Design   \nThe Block
