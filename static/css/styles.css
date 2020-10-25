@@ -482,6 +482,11 @@ blockquote {
   justify-content: flex-end;
 }
 
+.portrait-landscape-image-index .portrait{
+  margin-bottom: 80px;
+  padding-right: 110px!important;
+}
+
 
 .cursor {
   display: none;
@@ -554,19 +559,6 @@ div.footer-content {
 
   blockquote {
     padding: 0 50px 0 50px;
-  }
-
-  .portrait-padding {
-    padding-right: 140px!important;
-  }
-
-  .portrait-index {
-    padding-left: 140px!important;
-    padding-right: 140px!important;
-  }
-
-  .landscape-index {
-    padding-left: 140px!important;
   }
 
 }
