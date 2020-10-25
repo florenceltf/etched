@@ -459,7 +459,7 @@ blockquote {
   padding: 20px 0 0 0;
 }
 
-.landscape {
+.portrait-landscape-image-index .landscape {
   display: flex;
   flex-direction: column;
   justify-content: flex-end;
@@ -467,7 +467,15 @@ blockquote {
 
 .portrait-landscape-image-index .portrait{
   margin-bottom: 80px;
-  padding-right: 110px!important;
+  padding-right: 140px!important;
+}
+
+.landscape-portrait-image-index .landscape {
+  padding-right: 100px!important;
+}
+
+.landscape-portrait-image-index .portrait {
+  padding-top: 120px;
 }
 
 .cursor {
@@ -542,6 +550,11 @@ div.footer-content {
   blockquote {
     padding: 0 50px 0 50px;
   }
+
+  /* .portrait-landscape-image-index .portrait{
+    margin-bottom: 80px;
+    padding-right: 80px!important;
+  } */
 
 }
 
@@ -737,8 +750,24 @@ div.footer-content {
     margin-bottom: 55px;
   }
 
-  .project-gallery .portrait-landscape-image {
+  .portrait-landscape-image-index .portrait{
+    margin-bottom: 0px;
+    padding-right: 0px!important;
+    margin-right: 30%;
+  }
 
+  .portrait-landscape-image-index .landscape{
+    margin-left: 30%;
+  }
+
+  .landscape-portrait-image-index .landscape {
+    padding-right: 0px!important;
+    margin-right: 30%;
+  }
+  
+  .landscape-portrait-image-index .portrait {
+    padding-top: 30px;
+    margin-left: 30%;
   }
 
   .column {
