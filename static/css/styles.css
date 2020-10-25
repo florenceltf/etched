@@ -600,7 +600,7 @@ div.footer-content {
     width: 30px;
     margin-right: 15px;
     align-items: center;
-    border: 1px solid black;
+    border: 2px solid black;
     transition: transform 1s;
   }
 
@@ -680,7 +680,7 @@ div.footer-content {
 
   header {
     font-size: 14px;
-    padding: 20px 0 10px 20px;
+    padding: 20px 0 20px 20px;
     position: fixed;
     align-items: center;
   }
@@ -720,10 +720,10 @@ div.footer-content {
     color: black;
   }
 
-  .landscape-side-image figure:nth-child(even),
-  .portrait-side-full-image figure:nth-child(even),
-  .portrait-side-image figure:nth-child(even),
-  .portrait-landscape-image figure:nth-child(even) {
+  .index-gallery .landscape-side-image figure:nth-child(even),
+  .index-gallery .index-gallery .portrait-side-full-image figure:nth-child(even),
+  .index-gallery .portrait-side-image figure:nth-child(even),
+  .index-gallery .portrait-landscape-image figure:nth-child(even) {
     margin-left: 30%;
   }
 
@@ -739,8 +739,7 @@ div.footer-content {
     margin-bottom: 40px;
   }
 
-  .project-gallery .portrait-image,
-  .project-gallery .portrait-quote-image  {
+  .project-gallery .portrait-image {
       margin: 0 50px 35px 50px;
   }
 
@@ -754,6 +753,20 @@ div.footer-content {
 
   .mobile-padding {
     margin-top: 40px;
+    margin-left: 0px!important;
+  }
+
+  .project-gallery .portrait-side-image,
+  .project-gallery .portrait-quote-image {
+    margin: 50px 50px 55px 50px;
+  }
+
+  .portrait-quote-image {
+    margin-bottom: 55px;
+  }
+
+  .project-gallery .portrait-landscape-image {
+
   }
 
   .column {
@@ -815,7 +828,7 @@ div.footer-content {
   }
 
   .next-container {
-    padding: 30px 20px 0 20px;
+    padding: 12px 20px 0 20px;
   }
 
   blockquote p {
