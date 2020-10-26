@@ -30,3 +30,7 @@ window.addEventListener('scroll', (x) => {
     indexGallery.appendChild(gallery.cloneNode(true));
   }
 });
+
+window.onbeforeunload = function () {
+  window.scrollTo(0, 0);
+}
