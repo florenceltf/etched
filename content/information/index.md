@@ -5,7 +5,7 @@ services: "Porepuda quunt aut es mi, qui omni cuptatet quis cor mint volori aute
   etustectus mi, quis doloreperae oditatu rempossit, sequam quissunt.\n\n  \nSchematic
   & Idea Generation  \nConcept Design  \nTown Planning Endorsement  \nPlant Design
   \ \nTender Documentation  \nContract Administration"
-contact: "7/6 Bromham Place  \nRichmond, VIC 3068  \n[info@etchedprojects.com](mailto:info@etchedprojects.com)[
+contact: "Etched Projects  \n7/6 Bromham Place  \nRichmond, VIC 3068  \n[info@etchedprojects.com](mailto:info@etchedprojects.com)[
   \ \n](evan@etchedprojects.com)[@etched_projects](https://www.instagram.com/etched_projects/)"
 collaborators: "\nAbove Zero  \nAliro  \nAmazon Property Group  \nAngelo Property
   Group   \nArchitekton  \nArchsign  \nArmitage Jones  \nAscot Building Group  \nBB
