@@ -12,22 +12,23 @@ year: 2018 — 2020
 gallery:
 - template: landscape-full-image
   project-link: []
-  image: "/images/uploads/earl-01.jpg"
+  image: "/images/uploads/20074_101_lr.jpg"
   caption: ''
 - template: portrait-image
   project-link: []
-  image: "/images/uploads/earl-02.jpg"
+  image: "/images/uploads/20074_102_lr.jpg"
   caption: ''
 - template: landscape-image
   project-link: []
-  image: "/images/uploads/earl-03.jpg"
+  image: "/images/uploads/20074_205_lr.jpg"
   caption: ''
 - template: landscape-side-image
   project-link-left: []
   project-link-right: []
-  image-left: "/images/uploads/earl-04.jpg"
-  image-right: "/images/uploads/earl-05.jpg"
+  image-left: "/images/uploads/20074_103_lr.jpg"
+  image-right: "/images/uploads/20074_202_lr.jpg"
   caption-left: ''
   caption-right: ''
+description: ''
 
 ---
