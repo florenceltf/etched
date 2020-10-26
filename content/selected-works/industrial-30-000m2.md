@@ -14,7 +14,7 @@ gallery:
 - template: portrait-side-image
   project-link-left: []
   project-link-right: []
-  image-left: "/images/uploads/industrial-12.jpg"
+  image-left: "/images/uploads/industrial-12222.jpg"
   image-right: "/images/uploads/industrial-13.jpg"
   caption-left: ''
   caption-right: ''
