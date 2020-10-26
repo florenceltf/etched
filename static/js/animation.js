@@ -1,6 +1,11 @@
 const animatedTags = document.querySelectorAll("figure");
 const gallery = document.querySelector(".gallery").cloneNode(true);
 const indexGallery = document.querySelector("section.index-gallery");
+const clones = [];
+
+window.onbeforeunload = function () {
+  window.scrollTo(0, 0);
+};
 
 animatedTags.forEach(function (tag) {
   tag.style.opacity = 0;
@@ -27,10 +32,9 @@ window.addEventListener('scroll', (x) => {
     (window.innerHeight + window.pageYOffset)
       >= document.body.offsetHeight
   ) {
-    indexGallery.appendChild(gallery.cloneNode(true));
+    const clone = gallery.cloneNode(true);
+    clones.push(clone);
+    indexGallery.appendChild(clone);
   }
 });
 
-window.onbeforeunload = function () {
-  window.scrollTo(0, 0);
-}
