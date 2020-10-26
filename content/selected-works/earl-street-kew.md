@@ -16,7 +16,7 @@ gallery:
   caption: ''
 - template: portrait-image
   project-link: []
-  image: "/images/uploads/earl-02.jpg"
+  image: "/images/uploads/20074_102_lr.jpg"
   caption: ''
 - template: landscape-image
   project-link: []
