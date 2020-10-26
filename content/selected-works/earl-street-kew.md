@@ -20,7 +20,7 @@ gallery:
   caption: ''
 - template: landscape-image
   project-link: []
-  image: "/images/uploads/earl-03.jpg"
+  image: "/images/uploads/20074_205_lr.jpg"
   caption: ''
 - template: landscape-side-image
   project-link-left: []
