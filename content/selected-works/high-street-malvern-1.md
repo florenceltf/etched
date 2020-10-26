@@ -19,7 +19,7 @@ gallery:
   project-link-left: []
   project-link-right: []
   alt: high-02
-  image-left: "/images/uploads/content-pixie-spw2uugpqb4-unsplash.jpg"
+  image-left: "/images/uploads/high-03-1.jpg"
   image-right: "/images/uploads/high-03.jpg"
   caption-left: ''
   caption-right: ''
