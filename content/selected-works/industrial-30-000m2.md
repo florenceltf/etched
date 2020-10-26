@@ -1,6 +1,6 @@
 ---
 category: Commercial
-title: "Industrial 30,000 m<sup>2</sup> +"
+title: Industrial 30,000 m<sup>2</sup> +
 body: Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor
   incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud
   exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute
@@ -30,12 +30,9 @@ gallery:
   project-link: []
   image: "/images/uploads/industrial-16.jpg"
   caption: ''
-- template: portrait-landscape-image
-  project-link-portrait: []
-  project-link-landscape: []
-  image-portrait: "/images/uploads/industrial-13.jpg"
-  caption-portrait: ''
-  image-landscape: "/images/uploads/industrial-17.jpg"
-  caption-landscape: ''
+description: ''
+client: ''
+collaborators: ''
+year: ''
 
 ---
