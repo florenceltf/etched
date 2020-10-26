@@ -361,10 +361,11 @@ section.selected a:hover {
   display: flex;
   justify-content: center;
   display: none;
+  margin-bottom: 0px;
 }
 
 .description {
-  padding: 20px 20px 0 30px;
+  padding: 20px 20px 20px 30px;
 }
 
 /* projects */
@@ -467,11 +468,11 @@ blockquote {
 
 .portrait-landscape-image-index .portrait{
   margin-bottom: 80px;
-  padding-right: 140px!important;
+  padding-right: 110px!important;
 }
 
 .landscape-portrait-image-index .landscape {
-  padding-right: 100px!important;
+  padding-right: 95px!important;
 }
 
 .landscape-portrait-image-index .portrait {
@@ -479,7 +480,7 @@ blockquote {
 }
 
 .landscape-full-image-index {
-    margin-left: 50px;
+    padding-left: 60px!important;
 }
 
 .cursor {
@@ -775,8 +776,8 @@ div.footer-content {
   }
 
   .landscape-full-image-index {
-
-  }
+    padding-left: 0px!important;
+}
 
   .column {
     padding: 0;
