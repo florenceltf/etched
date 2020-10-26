@@ -1,6 +1,6 @@
 ---
 category: Commercial
-title: "Industrial 10–30,000 m<sup>2</sup>"
+title: Industrial 10–30,000 m<sup>2</sup>
 body: Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor
   incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud
   exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute
@@ -22,13 +22,13 @@ gallery:
 - template: landscape-side-image
   project-link-left: []
   project-link-right: []
-  image-left: "/images/uploads/industrial-08.jpg"
-  image-right: "/images/uploads/industrial-09.jpg"
+  image-left: "/images/uploads/industrial-0888-1.jpg"
+  image-right: "/images/uploads/wyndham_cam1_20191219a.jpg"
   caption-left: ''
   caption-right: ''
-- template: landscape-full-image
-  project-link: []
-  image: "/images/uploads/industrial-10.jpg"
-  caption: ''
+description: ''
+client: ''
+collaborators: ''
+year: ''
 
 ---
