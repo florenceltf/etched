@@ -3,7 +3,7 @@ category: Multi-Residential
 title: Shaftesbury Street, Thornbury
 year: " 2017 — 2019"
 client: Neometro
-collaborators: Common Ground
+collaborators: Common Ground, Main Projects
 body: |-
   On a quiet street in Thornbury, four dwellings appear from the streetscape as one home—subverting the vernacular of a multi-residential development.
 
