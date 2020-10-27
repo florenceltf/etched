@@ -17,9 +17,6 @@ gallery:
   project-link: []
   image: "/images/uploads/stkilda-02.jpg"
   caption: ''
-- template: portrait-quote-image
-  quote: ''
-  image: "/images/uploads/stkilda-0333.jpg"
 - template: portrait-side-image
   project-link-left: []
   project-link-right: []
