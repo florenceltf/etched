@@ -4,12 +4,12 @@ title: Rathmines Street, Hawthorn
 year: 2018 — 2020
 client: Deluca Property Group
 collaborators: NTF Architecture
-body: "The heritage façade immediately sets the tone for the landscape throughout
-  these five dwellings.  \n  \nWhile all residences share access to a common courtyard,
-  each home has its own sense of escape through a private walled garden.  \n  \nThe
-  landscape was fundamental to delineating the entrance point with the introduction
-  of a central canopy tree—connecting the established architecture of the site, with
-  its new built form."
+body: |-
+  The heritage façade immediately set the tone for the landscape throughout these five dwellings.
+
+  While all residences share access to a common courtyard, each home has its own sense of escape through a private walled garden.
+
+  The landscape was fundamental to delineating the entrance point with the introduction of a central canopy tree—connecting the established architecture of the site, with its new built form.
 gallery:
 - template: landscape-image
   project-link: []
