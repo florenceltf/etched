@@ -1,11 +1,7 @@
 ---
 category: Commercial
 title: Industrial 10–30,000 m<sup>2</sup>
-body: Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor
-  incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud
-  exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute
-  irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla
-  pariatur. Excepteur mollit anim id est laborum.
+body: " "
 gallery:
 - template: landscape-image
   project-link: []
@@ -27,8 +23,8 @@ gallery:
   caption-left: ''
   caption-right: ''
 description: ''
-client: ''
-collaborators: ''
-year: ''
+client: Various
+collaborators: Various
+year: '2011 — '
 
 ---
