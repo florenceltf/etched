@@ -1,9 +1,9 @@
 ---
 category: Commercial
 title: Industrial 10–30,000 m<sup>2</sup>
-body: A range of Industrial focused projects. Our landscape work spans all categories
-  of design in this sector, including Warehouses, Factories, Offices, Mixed-use and
-  Multi-units, Master Plan, Business Parks and Estate Subdivisions.
+body: A range of commercial and industrial focused projects. Our landscape work spans
+  all categories of design in this sector, including warehouses, factories, offices,
+  mixed-use and multi-units, master plans, business parks and estate subdivisions.
 gallery:
 - template: landscape-image
   project-link: []
