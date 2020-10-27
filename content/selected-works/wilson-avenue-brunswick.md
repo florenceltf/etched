@@ -1,11 +1,12 @@
 ---
 category: Multi-Residential Large
 title: Wilson Avenue, Brunswick
-body: Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor
-  incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud
-  exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute
-  irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla
-  pariatur. Excepteur mollit anim id est laborum.
+body: |-
+  For Wilson Avenue Brunswick, Neometro and Milieu are creating a precinct within a suburb.
+
+  Intentionally blurring the lines between the public realm and traditional property boundaries, the landscape at the entrance feels like both a civic gesture, and a private access point to the building.
+
+  Layers and groupings of plants have been incorporated across two raised planter zones to create a distinct entrance moment.
 client: Neometro, Milieu
 collaborators: Fieldwork Architects, DesignOffice
 year: 2016 — 2020
@@ -30,5 +31,6 @@ gallery:
   project-link: []
   image: "/images/uploads/wilson-05.jpg"
   caption: ''
+description: ''
 
 ---

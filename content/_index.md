@@ -14,7 +14,7 @@ gallery:
   caption: High Street, Malvern
 - template: landscape-full-image
   project-link: selected-works/shaftesbury-townhouses.md
-  image: "/images/uploads/index-05.jpg"
+  image: "/images/uploads/home-screen-1.jpg"
   caption: Shaftesbury Street, Thornbury
 - template: portrait-image
   project-link: selected-works/high-street-malvern.md
@@ -26,7 +26,7 @@ gallery:
   caption: Wilson Avenue, Brunswick
 - template: landscape-full-image
   project-link: selected-works/earl-street-kew.md
-  image: "/images/uploads/index-08.jpg"
+  image: "/images/uploads/home-screen-2.jpg"
   caption: Earl Street, Kew
 - template: landscape-full-image-index
   project-link: selected-works/st-kilda-street-elwood.md
@@ -45,7 +45,7 @@ gallery:
   caption-portrait: Industrial Works — Medium Scale
 - template: landscape-full-image
   project-link: selected-works/industrial-30-000m2.md
-  image: "/images/uploads/index-14.jpg"
+  image: "/images/uploads/home-screen-3.jpg"
   caption: Industrial — Large Scale
 
 ---
