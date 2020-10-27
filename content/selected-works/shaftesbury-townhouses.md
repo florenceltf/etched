@@ -23,7 +23,9 @@ gallery:
   alt: Alt text
   image: "/images/uploads/example08.jpg"
   caption: Optional caption
-  quote: Insert quote here about the project, process etc.
+  quote: Designed to create meaningful connections between residents and the local
+    community, through considered architecture, abundant green space and thoughtful
+    amenities.
 - template: landscape-full-image
   project-link: []
   alt: shaftesbury-6
