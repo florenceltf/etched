@@ -9,7 +9,7 @@ body: |-
 
   The front garden becomes a key focus—as though it’s playing the role the backyard usually would, with its generous sense of space.
 
-  Maximising individual gardens, landscape design draws on verticality—with _Parthonicissus_ combining with the high timber pergolas, to create a composition with new and existing trees.
+  Maximising individual gardens, landscape design draws on verticality—with _Parthenocissus_ combining with the high timber pergolas, to create a composition with new and existing trees.
 gallery:
 - template: portrait-image
   alt: Alt text
