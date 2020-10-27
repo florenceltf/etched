@@ -11,7 +11,7 @@ gallery:
   project-link-left: []
   project-link-right: []
   image-left: "/images/uploads/industrial-12222.jpg"
-  image-right: "/images/uploads/industrial-13.jpg"
+  image-right: "/images/uploads/industrial-30-image.jpg"
   caption-left: ''
   caption-right: ''
 - template: landscape-full-image
