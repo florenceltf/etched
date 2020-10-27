@@ -20,11 +20,12 @@ gallery:
   caption: ''
 - template: landscape-image
   project-link: []
-  image: "/images/uploads/lygon-03.jpg"
+  image: "/images/uploads/png-lygon.png"
   caption: ''
 - template: landscape-full-image
   project-link: []
   image: "/images/uploads/lygon-04.jpg"
   caption: ''
+description: ''
 
 ---
