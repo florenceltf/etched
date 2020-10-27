@@ -19,6 +19,11 @@ gallery:
   alt: Alt text
   image: "/images/uploads/example07.jpg"
   caption: ''
+- template: portrait-side-image
+  project-link-left: []
+  project-link-right: []
+  image-left: "/images/uploads/example088888.jpg"
+  image-right: "/images/uploads/example08-1.jpg"
 - template: portrait-quote-image
   alt: Alt text
   image: "/images/uploads/example08.jpg"
