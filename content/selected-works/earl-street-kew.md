@@ -1,11 +1,12 @@
 ---
 category: Multi-Residential Large
 title: Earl Street, Kew
-body: Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor
-  incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud
-  exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute
-  irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla
-  pariatur. Excepteur mollit anim id est laborum.
+body: |-
+  The core landscape feature of Earl Street Kew is a pedestrian laneway that runs through the central vein of the properties.
+
+  Extending the vernacular of a streetscape, we introduced multi-layered planting within a continuous series of planter boxes, centrally through the site. A pergola signals the more personal private entry point—with climbing plants delineating this threshold.
+
+  For individual courtyards, we maximised the feeling of space within each, through the use of curved walls, terraced planting and textures.
 client: Hub Property Group
 collaborators: Cera Stribley Architecture
 year: 2018 — 2020
