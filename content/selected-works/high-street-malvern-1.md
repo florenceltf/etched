@@ -4,11 +4,10 @@ title: High Street, Malvern
 year: 2018 — 2019
 client: Founding Office
 collaborators: NTF Architecture
-body: Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor
-  incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud
-  exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute
-  irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla
-  pariatur. Excepteur mollit anim id est laborum.
+body: |-
+  For our client Founding Office, we developed this landscape concept for ten individual townhouses.
+
+  With half of the planting receiving full sunlight, and the other entirely shaded, the landscaping features two very different tonal palettes, both of which complement and contrast against the bold built forms by NTF Architecture.
 gallery:
 - template: landscape-image
   project-link: []
