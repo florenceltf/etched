@@ -19,7 +19,7 @@ gallery:
   project-link-left: []
   project-link-right: []
   image-left: "/images/uploads/industrial-0888-1.jpg"
-  image-right: "/images/uploads/wyndham_cam1_20191219a.jpg"
+  image-right: "/images/uploads/industrial-088899999-1.jpg"
   caption-left: ''
   caption-right: ''
 description: ''
