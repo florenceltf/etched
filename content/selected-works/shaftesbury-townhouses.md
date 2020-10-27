@@ -24,13 +24,6 @@ gallery:
   project-link-right: []
   image-left: "/images/uploads/example088888.jpg"
   image-right: "/images/uploads/example08-1.jpg"
-- template: portrait-quote-image
-  alt: Alt text
-  image: "/images/uploads/example08.jpg"
-  caption: Optional caption
-  quote: Designed to create meaningful connections between residents and the local
-    community, through considered architecture, abundant green space and thoughtful
-    amenities.
 - template: landscape-full-image
   project-link: []
   alt: shaftesbury-6
