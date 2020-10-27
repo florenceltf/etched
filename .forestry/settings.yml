@@ -27,6 +27,10 @@ sections:
 - type: document
   path: data/footer.yaml
   label: Footer
+- type: document
+  path: data/seo.yaml
+  label: SEO
+  match: "**/*"
 upload_dir: assets/images/uploads
 public_path: "/images/uploads"
 front_matter_path: ''
