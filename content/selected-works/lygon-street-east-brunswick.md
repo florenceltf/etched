@@ -1,11 +1,10 @@
 ---
 category: Multi-Residential Large
 title: Lygon Street, East Brunswick
-body: Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor
-  incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud
-  exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute
-  irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla
-  pariatur. Excepteur mollit anim id est laborum.
+body: |-
+  A rooftop garden at Lygon Street East Brunswick elevates the experience of communal living, with a shared space for all residents to take in the district views.
+
+  At the front entry, a landscaped forecourt creates a point of interest, while being empathetic to the old bluestone façade of the neighbouring property.
 client: Milieu
 collaborators: Fieldwork Architects, Foolscap Studio
 year: 2018 — 2019
