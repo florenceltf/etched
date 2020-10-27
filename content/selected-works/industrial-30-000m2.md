@@ -20,7 +20,7 @@ gallery:
   caption: ''
 - template: portrait-image
   project-link: []
-  image: "/images/uploads/industrial30.jpg"
+  image: "/images/uploads/industrial303333333.jpg"
   caption: ''
 - template: landscape-full-image
   project-link: []
