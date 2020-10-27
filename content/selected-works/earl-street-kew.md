@@ -29,7 +29,7 @@ gallery:
   image-left: "/images/uploads/20074_103_lr.jpg"
   image-right: "/images/uploads/20074_202_lr-1.jpg"
   caption-left: ''
-  caption-right: " "
+  caption-right: ''
 description: ''
 
 ---
