@@ -17,16 +17,16 @@ collaborators: "Above Zero  \nAliro  \nAmazon Property Group  \nAngelo Property 
   Property Group  \nHuman Habitats  \nJDZ Building Design  \nKoul Property  \nLandscape
   Dept  \nLogos Property  \nLS Town Planning  \nMaison Co  \nManors Gate Group  \nMelbourne
   Planning  \nMilieu  \nMills Oakley  \nMJC Horticulture  \nNeometro  \nNickas Legal
-  \ \nNTF Architecture  \nODO  \nOz Property Group  \nParallel Workshop Architects
-  \ \nPelligra  \nPentaco Oil  \nPlanform Building Design  \nPlus Architecture  \nPreer
-  Property Group  \nPro Urban Town Planning  \nProject Facilitator  \nProtilt Constructions
-  \ \nQuality First Design  \nRatio  \nRefine Town Planning  \nRigby Cooke  \nRossiter
-  Constructions  \nS.H.A. Premier Constructions  \nSgourakis Architects  \nSJB Interiors
-  \ \nSong Bowden Planning  \nStavrias Architects  \nSync Design  \nTango Projects
-  \ \nTerrain Consulting  \nTM Insight  \nTP Legal  \nTreespace Solutions  \nUnited
-  Petroleum  \nUrban Edge Consultants  \nVaughan  \nVIA Architects  \nWatson Young
-  \ \nWhite Fox Marketing  \nWhite Fox Real Estate  \nWhiteman Property & Accounting
-  \ \nZap Property Group"
+  \ \nNTF Architecture  \nODO  \nOz Property Group  \nPaulmarc Developments  \nParallel
+  Workshop Architects  \nPelligra  \nPentaco Oil  \nPlanform Building Design  \nPlus
+  Architecture  \nPreer Property Group  \nPro Urban Town Planning  \nProject Facilitator
+  \ \nProtilt Constructions  \nQuality First Design  \nRatio  \nRefine Town Planning
+  \ \nRigby Cooke  \nRossiter Constructions  \nS.H.A. Premier Constructions  \nSgourakis
+  Architects  \nSJB Interiors  \nSong Bowden Planning  \nStavrias Architects  \nSync
+  Design  \nTango Projects  \nTerrain Consulting  \nTM Insight  \nTP Legal  \nTreespace
+  Solutions  \nUnited Petroleum  \nUrban Edge Consultants  \nVaughan Constructions
+  \ \nVIA Architects  \nWatson Young  \nWhite Fox Marketing  \nWhite Fox Real Estate
+  \ \nWhiteman Property & Accounting  \nZap Property Group"
 story: ''
 line-colour: "#FFC525"
 menu:
