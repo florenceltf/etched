@@ -4,11 +4,12 @@ title: St Georges Road, Northcote
 year: 2018 — 2019
 client: Pacasa
 collaborators: Cera Stribley Architecture
-body: Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor
-  incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud
-  exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute
-  irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla
-  pariatur. Excepteur mollit anim id est laborum.
+body: |-
+  On a tightly held block on busy St Georges Road, the challenge was to do more, with less.
+
+  This called for plants with characteristics that can be integrated with the architecture—landscaping that frames outdoor zones rather than dominating the spaces.
+
+  While reorientating the site off the bustling street front, we considered what it would contribute to both the public realm, and its private residences.
 gallery:
 - template: portrait-image
   project-link: []
@@ -25,5 +26,6 @@ gallery:
   image-right: "/images/uploads/stgeorges-04.jpg"
   caption-left: ''
   caption-right: ''
+description: ''
 
 ---
