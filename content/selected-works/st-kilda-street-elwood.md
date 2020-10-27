@@ -2,7 +2,7 @@
 category: Multi-Residential Large
 title: St Kilda Street, Elwood
 body: |-
-  For St Kilda Street Elwood, we worked closely with the DKO Architecture to consider how plants can integrate with the exterior of the building, and how the landscape can be read as part of the architecture.
+  For St Kilda Street Elwood, we worked closely with DKO Architecture to consider how plants can integrate with the exterior of the building and how the landscape can be read as part of the architecture.
 
   While a shared rooftop garden becomes a key focal point of the development, each apartment also features wide balcony zones for planted elements, while lower apartments house private gardens.
 client: Armitage Jones
