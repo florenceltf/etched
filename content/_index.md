@@ -14,7 +14,7 @@ gallery:
   caption: High Street, Malvern
 - template: landscape-full-image
   project-link: selected-works/shaftesbury-townhouses.md
-  image: "/images/uploads/index-05.jpg"
+  image: "/images/uploads/home-screen-1.jpg"
   caption: Shaftesbury Street, Thornbury
 - template: portrait-image
   project-link: selected-works/high-street-malvern.md
