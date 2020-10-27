@@ -13,7 +13,7 @@ gallery:
   caption: ''
 - template: landscape-image
   project-link: []
-  image: "/images/uploads/industrial-07.jpg"
+  image: "/images/uploads/industrial-077777.jpg"
   caption: ''
 - template: landscape-side-image
   project-link-left: []
