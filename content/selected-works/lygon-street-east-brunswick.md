@@ -19,7 +19,7 @@ gallery:
   caption: ''
 - template: landscape-image
   project-link: []
-  image: "/images/uploads/png-lygon.png"
+  image: "/images/uploads/lygon-entry-no-sky-png.jpg"
   caption: ''
 - template: landscape-full-image
   project-link: []

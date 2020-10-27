@@ -20,6 +20,13 @@ gallery:
 - template: portrait-quote-image
   quote: ''
   image: "/images/uploads/stkilda-0333.jpg"
+- template: portrait-side-image
+  project-link-left: []
+  project-link-right: []
+  image-left: "/images/uploads/stkilda-03334444.jpg"
+  image-right: "/images/uploads/stkilda-0333-1.jpg"
+  caption-left: ''
+  caption-right: ''
 - template: landscape-full-image
   project-link: []
   image: "/images/uploads/stkilda-04.jpg"
