@@ -16,7 +16,7 @@ gallery:
   caption-right: ''
 - template: landscape-full-image
   project-link: []
-  image: "/images/uploads/industrial-14.jpg"
+  image: "/images/uploads/enscape_coversheet-image.png"
   caption: ''
 - template: portrait-image
   project-link: []
