@@ -25,6 +25,6 @@ gallery:
 description: ''
 client: Various
 collaborators: Various
-year: '2011 — '
+year: '2011 —  '
 
 ---
