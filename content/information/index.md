@@ -3,7 +3,7 @@ title: Information
 layout: information
 services: "Schematic & Idea Generation  \nConcept Design  \nPlant Design  \nTown Planning
   Endorsement  \nTender Documentation  \nContract Administration"
-contact: "Etched Projects  \n7/6 Bromham Place  \nRichmond, VIC 3068  \n[info@etchedprojects.com](mailto:info@etchedprojects.com)[
+contact: "Etched Projects  \n7/6 Bromham Place  \nRichmond, VIC 3121  \n[info@etchedprojects.com](mailto:info@etchedprojects.com)[
   \ \n](evan@etchedprojects.com)[@etched_projects](https://www.instagram.com/etched_projects/)"
 collaborators: "Above Zero  \nAliro  \nAmazon Property Group  \nAngelo Property Group
   \ \nArchitekton  \nArchsign  \nArmitage Jones  \nAscot Building Group  \nBB Design
