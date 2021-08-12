@@ -27,8 +27,8 @@ collaborators: "Above Zero  \nAliro  \nAmazon Property Group  \nAngelo Property 
   \ \nSJB Interiors  \nSMA Projects  \nSong Bowden Planning  \nStavrias Architects
   \ \nStockland  \nSync Design  \nTango Projects  \nTerrain Consulting  \nTM Insight
   \ \nTP Legal  \nTreespace Solutions  \nUnited Petroleum  \nUrban Edge Consultants
-  \ \nVaughan Constructions  \nVIA Architects  \nWatson Young  \nWhite Fox Marketing
-  \ \nWhite Fox Real Estate  \nWhiteman Property & Accounting  \nZap Property Group"
+  \ \nVaughan Constructions  \nVIA Architects  \nWatson Young  \nWhitefox  \nWhiteman
+  Property & Accounting  \nZap Property Group"
 story: ''
 line-colour: "#FFC525"
 menu:
